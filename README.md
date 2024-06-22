@@ -1,3 +1,10 @@
+<div align="center">
+  <h1>  WORK IN PROGRESS 🚧  </h1>
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/f2592c1b-2e3e-4199-aff4-033ef1ca187e">
+  <br>
+</div>
+
+
 <h1> Rodrigo Molter </h1>
 
 <p>
