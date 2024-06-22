@@ -1,12 +1,26 @@
- # Amigos Entregadores
+ # 🏍️ Amigos Entregadores
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/409a97f5-d925-4008-adb8-0ded79bf1a5f" width="30%">
 </div>
-
+ 
 O Case da <strong>ONG Amigos Entregadores</strong> foi proposto e realizado durante o curso **Bugou? QA TA ON** do [Instituto Joga Junto](https://www.jogajuntoinstituto.org/). Este desafio permitiu que nosso SQUAD aplicasse práticas de gerenciamento de projetos e metodologias ágeis aprendidas, além de promover a colaboração e comunicação entre os participantes. <br>
 O projeto visa resolver o problema da ONG Amigos Entregadores, que necessita de pontos de apoio para entregadores de aplicativos, onde possam ter acesso a banho, água filtrada, protetor solar, capas de chuva e outros itens essenciais para trabalharem com segurança.
 
 O projeto foi desenvolvido em diversas etapas, incluindo o entendimento do público-alvo, criação de personas, identificação de requisitos e proposição de soluções para atender às demandas, culminando na entrega de um MVP (Produto Mínimo Viável) e sua prototipação.
+
+### SUMÁRIO
+1. [SQUADS](/#squads)<br>
+ 1.1 [Guardiões da Qualidade](/#guardiões-da-qualidade)<br>
+2. [PERSONAS](/#personas)<br>
+2. [REQUISITOS](/#requisitos)<br>
+ 2.1 [Backlog](/#backlog)<br>
+3. [SCRUM](/#scrum)<br>
+ 3.1 [Planning](/#planning)<br>
+ 3.2 [Daily Meetings](/#daily-meetings)<br>
+4. [PROTÓTIPO](/#protótipo)<br>
+5. [PESQUISA DE USABILIDADE](/#pesquisa-de-usabilidade)<br>
+6. [ENTREGAS](/#entregas)<br>
+7. [APRENDIZADOS](/#aprendizados)<br>
 
 ## SQUADS
 A divisão de equipes dentro do [Instituto Joga Junto](https://www.jogajuntoinstituto.org/) foi através de Squads. Esse conceito foi popularizado pela Spotify, embora muitas outras empresas também tenham adotado e adaptado esse modelo.
@@ -21,9 +35,6 @@ Com isso, surgiu os **Guardiões da Qualidade**, que representam um marco crucia
     <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/90e427e8-3aae-4a2a-b2e8-422967ef0dfc" alt="Logo Guardiões da Qualidade" width="30%">
   </picture>
   <br><i>Logo Guardiões da Qualidade</i>
-  <!-- <br>
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/0158702f-a50c-4019-9982-b0ca5e507639" width="40%">
-  <p><i>Annielle Crispim - Matheus Vinicius - Rodrigo Molter - Julia Robaina</i></p> -->
 </div>
 
 ## PERSONAS
@@ -114,7 +125,7 @@ Com base no protótipo, uma pesquisa de usabilidade foi conduzida para analisar 
   - Sistema de Gestão de Pontos de Apoio, para adicionar, editar e remover pontos de apoio.
   - Testes de Usabilidade
 
-Pontos Críticos
+**Pontos Críticos**
   -	Parceria com empresas de delivery
   -	Parceria com órgãos públicos 
 
@@ -128,7 +139,6 @@ No entanto, enfrentamos alguns desafios, como a falta de interação regular com
 
 [^1]: Por questões de regras do Instituto Joga Junto, alguns materiais não podem ser disponibilizados publicamente.
 ___
-<br>
 <div align="center">
   Feito com ❤️ pelos <strong>Guardiões da Qualidade</strong><br>
   <picture>
