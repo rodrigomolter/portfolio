@@ -9,18 +9,18 @@ O projeto visa resolver o problema da ONG Amigos Entregadores, que necessita de 
 O projeto foi desenvolvido em diversas etapas, incluindo o entendimento do público-alvo, criação de personas, identificação de requisitos e proposição de soluções para atender às demandas, culminando na entrega de um MVP (Produto Mínimo Viável) e sua prototipação.
 
 ### SUMÁRIO
-1. [SQUADS](/#squads)<br>
- 1.1 [Guardiões da Qualidade](/#guardiões-da-qualidade)<br>
-2. [PERSONAS](/#personas)<br>
-2. [REQUISITOS](/#requisitos)<br>
- 2.1 [Backlog](/#backlog)<br>
-3. [SCRUM](/#scrum)<br>
- 3.1 [Planning](/#planning)<br>
- 3.2 [Daily Meetings](/#daily-meetings)<br>
-4. [PROTÓTIPO](/#protótipo)<br>
-5. [PESQUISA DE USABILIDADE](/#pesquisa-de-usabilidade)<br>
-6. [ENTREGAS](/#entregas)<br>
-7. [APRENDIZADOS](/#aprendizados)<br>
+1. [SQUADS](/projetos/Amigos_Entregadores.md#squads)<br>
+ 1.1 [Guardiões da Qualidade](/projetos/Amigos_Entregadores.md#guardiões-da-qualidade)<br>
+2. [PERSONAS](/projetos/Amigos_Entregadores.md#personas)<br>
+2. [REQUISITOS](/projetos/Amigos_Entregadores.md#requisitos)<br>
+ 2.1 [Backlog](/projetos/Amigos_Entregadores.md#backlog)<br>
+3. [SCRUM](/projetos/Amigos_Entregadores.md#scrum)<br>
+ 3.1 [Planning](/projetos/Amigos_Entregadores.md#planning)<br>
+ 3.2 [Daily Meetings](/projetos/Amigos_Entregadores.md#daily-meetings)<br>
+4. [PROTÓTIPO](/projetos/Amigos_Entregadores.md#protótipo)<br>
+5. [PESQUISA DE USABILIDADE](/projetos/Amigos_Entregadores.md#pesquisa-de-usabilidade)<br>
+6. [ENTREGAS](/projetos/Amigos_Entregadores.md#entregas)<br>
+7. [APRENDIZADOS](/projetos/Amigos_Entregadores.md#aprendizados)<br>
 
 ## SQUADS
 A divisão de equipes dentro do [Instituto Joga Junto](https://www.jogajuntoinstituto.org/) foi através de Squads. Esse conceito foi popularizado pela Spotify, embora muitas outras empresas também tenham adotado e adaptado esse modelo.
