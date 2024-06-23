@@ -13,18 +13,18 @@ Tanto os cenários/casos de teste, quanto o bug report foram escritos em Gherkin
 ### SUMÁRIO
 
 1. [SQUADS](/projetos/LojaDoQA.md#squads)<br>
-  1.1 [GUARDIÕES DA QUALIDADE](/projetos/LojaDoQA.md#guardiões-da-qualidade)<br>
+   1.1 [GUARDIÕES DA QUALIDADE](/projetos/LojaDoQA.md#guardiões-da-qualidade)<br>
 2. [FLUXUOGRAMA](/projetos/LojaDoQA.md#fluxuograma)<br>
 3. [CENÁRIOS DE TESTES](/projetos/LojaDoQA.md#cenários-de-testes)<br>
-  3.1 [NAVEGAÇÃO DO USUÁRIO](/projetos/LojaDoQA.md#navegação-do-usuário)<br>
-  3.2 [CRIAÇÃO DE CONTA](/projetos/LojaDoQA.md#criação-de-conta)<br>
-  3.3 [COMPRAS](/projetos/LojaDoQA.md#compras)<br>
-  3.4 [PAGAMENTO](/projetos/LojaDoQA.md#pagamento)<br>
+   3.1 [NAVEGAÇÃO DO USUÁRIO](/projetos/LojaDoQA.md#navegação-do-usuário)<br>
+   3.2 [CRIAÇÃO DE CONTA](/projetos/LojaDoQA.md#criação-de-conta)<br>
+   3.3 [COMPRAS](/projetos/LojaDoQA.md#compras)<br>
+   3.4 [PAGAMENTO](/projetos/LojaDoQA.md#pagamento)<br>
 4. [BUG REPORT](/projetos/LojaDoQA.md#bug-report)<br>
-  4.1 [NAVEGAÇÃO DO USUÁRIO](/projetos/LojaDoQA.md#navegação-do-usuário-1)<br>
-  4.2 [CRIAÇÃO DE CONTA](/projetos/LojaDoQA.md#criação-de-conta-1)<br>
-  4.3 [COMPRAS](/projetos/LojaDoQA.md#compras-1)<br>
-  4.4 [PAGAMENTO](/projetos/LojaDoQA.md#pagamento-1)<br>
+   4.1 [NAVEGAÇÃO DO USUÁRIO](/projetos/LojaDoQA.md#navegação-do-usuário)<br>
+   4.2 [CRIAÇÃO DE CONTA](/projetos/LojaDoQA.md#criação-de-conta)<br>
+   4.3 [COMPRAS](/projetos/LojaDoQA.md#compras)<br>
+   4.4 [PAGAMENTO](/projetos/LojaDoQA.md#pagamento)<br>
 5. [APRENDIZADO](/projetos/LojaDoQA.md#aprendizado)<br>
 
 
