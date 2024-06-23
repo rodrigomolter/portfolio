@@ -27,7 +27,7 @@
 <main>
   <section id="amigosEntregadores">
     <header>
-      <h2>🏍️ ONG Amigos Entregadores - Instituto Joga Junto</h2>
+      <h2><a href="/projetos/Amigos_Entregadores.md">🏍️ ONG Amigos Entregadores - Instituto Joga Junto</a></h2>
     </header>
     <article>
       <div align="center">
@@ -53,7 +53,7 @@
 
   <section id="lojaDoQA">
     <header>
-      <h2>🛒 Loja do QA - Instituto Joga Junto </h2>
+      <h2><a href="/projetos/LojaDoQA.md">🛒 Loja do QA - Instituto Joga Junto </a></h2>
     </header>
     <article>
       <div align="center">
@@ -76,7 +76,7 @@
 
   <section id="bugBank">
     <header>
-      <h2>🐞 Bug Bank </h2>
+      <h2><a href="https://github.com/rodrigomolter/bugbank-selenium">🐞 Bug Bank </a></h2>
     </header>
     <article>
       <div align="center">
@@ -99,7 +99,7 @@
 
   <section id="motionHUB">
     <header>
-      <h2>🎬 Motion HUB API </h2>
+      <h2><a href="/projetos/MotionHubAPI.md">🎬 Motion HUB API </a></h2>
     </header>
     <article>
       <div align="center">
@@ -122,7 +122,7 @@
 
   <section id="TodoMVC">
     <header>
-      <h2>✍ TODO MVC </h2>
+      <h2><a href="https://github.com/rodrigomolter/TodoMVC">✍ TODO MVC </a></h2>
     </header>
     <article>
       <div align="center">
