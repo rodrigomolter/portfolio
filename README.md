@@ -76,7 +76,7 @@
 
   <section id="bugBank">
     <header>
-      <h2><a href="https://github.com/rodrigomolter/bugbank-selenium">🐞 Bug Bank </a></h2>
+      <h2><a href="/projetos/BugBank.md">🐞 Bug Bank </a></h2>
     </header>
     <article>
       <div align="center">
@@ -122,7 +122,7 @@
 
   <section id="TodoMVC">
     <header>
-      <h2><a href="https://github.com/rodrigomolter/TodoMVC">✍ TODO MVC </a></h2>
+      <h2><a href="/projetos/TodoMVC.md">✍ TODO MVC </a></h2>
     </header>
     <article>
       <div align="center">
