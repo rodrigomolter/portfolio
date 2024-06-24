@@ -46,7 +46,7 @@ Além disso, implementei integração contínua (CI) com Github Actions, garanti
 
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/6afeac9a-f4ef-43d5-9400-c40c476ba05d" width="50%">
-  <br><i>Pipeline no Github Actions</i></a>
+  <br><i>Pipeline no Github Actions</i>
 </div><br>
 
 Para gerar dados aleatórios de forma dinâmica em cada execução dos testes, utilizei a biblioteca FakerJS, o que permitiu uma maior variedade de cenários de teste e uma cobertura mais ampla.
@@ -54,7 +54,7 @@ Para gerar dados aleatórios de forma dinâmica em cada execução dos testes, u
 Para melhorar a usabilidade e a clareza do código, criei comandos customizáveis no Cypress. Cada comando foi devidamente documentado, incluindo exemplos claros de como usá-los efetivamente. Essa abordagem não apenas facilitou a manutenção dos testes, mas também promoveu uma colaboração mais eficiente dentro da equipe.
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/0e565402-c697-491b-86ae-a10e80d7653c" width="60%">
-  <br><i>Documentação do comando customizável <samp>cy.createNewTaskbyGUI()</samp> no IntelliSense </i></a>
+  <br><i>Documentação do comando customizável <samp>cy.createNewTaskbyGUI()</samp> no IntelliSense </i>
 </div><br>
 
 Caso queira visualizar o projeto, você pode visualizar o [repositório da minha suíte de testes](https://github.com/rodrigomolter/TodoMVC). Lá além do código, você também encontra detalhadamente como executar os testes na sua própria máquina. 
