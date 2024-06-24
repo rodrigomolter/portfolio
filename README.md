@@ -83,7 +83,9 @@
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/8789f6df-6469-4a61-a737-1268caee58fa" width="400px">
       </div>
       <p>
-        Lorem Ipsulum
+        Descrição do projeto ainda em construção...🏗
+        <br>
+        Caso queira saber mais, acesse o repositório do projeto.
       </p>
       <div align="center">
         <a href="/projetos/BugBank.md">🐞 SAIBA MAIS</a>
@@ -106,7 +108,9 @@
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/e19372d1-5caf-4ad4-ac48-6f19d92dbe47" width="400px">
       </div>
       <p>
-        Lorem Ipsulum
+        A Motion HUB API é uma API desenvolvida em JavaScript utilizando o framework Fastify. Ela foi criada com o objetivo de praticar a construção de uma API de forma simples e eficiente. A API utiliza um banco de dados em memória (in-memory database) para armazenar informações de filmes, como nome, descrição e duração. O projeto enfatiza boas práticas de desenvolvimento, incluindo padrões de código mantidos com ESLint e documentação clara gerada com Swagger.
+        <br>
+        Desenvolvi um plano abrangente com testes manuais e automatizados utilizando Postman e Cypress, com integração ao GitHub Actions para execução contínua dos testes. Esta experiência me ensinou sobre a importância de documentação eficiente e a utilização de testes automatizados para garantir a qualidade do software.
       </p>
       <div align="center">
         <a href="/projetos/MotionHubAPI.md">🎬 SAIBA MAIS</a>
