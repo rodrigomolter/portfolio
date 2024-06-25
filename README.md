@@ -46,7 +46,12 @@
           <img alt="TESTE DE ACESSIBILIDADE" src="https://img.shields.io/badge/TESTE_DE_%20ACESSIBILIDADE-black?style=flat">
           <br><br>
           <!-- <p><strong>GHERKIN | PLANO DE TESTES | TESTE DE ACESSIBILIDADE | BUG REPORT </strong></p> -->
-          <a href="/projetos/LojaDoQA.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%9B%92_SAIBA_MAIS-%23181717?style=for-the-badge"></a>
+          <a href="/projetos/LojaDoQA.md">
+            <picture>
+              <source srcset="https://img.shields.io/badge/%F0%9F%9B%92_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
+              <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%9B%92_SAIBA_MAIS-white?style=for-the-badge">
+            </picture>
+          </a>
         </div>
       </footer>
     </article>
@@ -69,8 +74,18 @@
       <footer>
         <div align="center">
           <p><strong>SCRUM | GERÊNCIAMENTO DE PROJETOS | FIGMA</strong></p>
-          <a href="/projetos/Amigos_Entregadores.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%8F%8D%EF%B8%8F_SAIBA_MAIS-%23181717?style=for-the-badge&logoColor=white"></a>
-          <a href="https://www.figma.com/proto/pRhTYhcJViSd0ytTJGcZVg/Amigos-Entregadores---Guardi%C3%B5es-da-Qualidade?type=design&node-id=803-122&t=HB8FGDxAtteOiOcV-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=803%3A122"><img alt="PROTÓTIPO NO FIGMA" src="https://img.shields.io/badge/PROT%C3%93TIPO-%23181717?style=for-the-badge&logo=Figma&logoColor=%23F24E1E"></a>
+          <a href="/projetos/Amigos_Entregadores.md">
+            <picture>
+              <source srcset="https://img.shields.io/badge/%F0%9F%8F%8D%EF%B8%8F_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
+              <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%8F%8D%EF%B8%8F_SAIBA_MAIS-white?style=for-the-badge">
+            </picture>
+          </a>
+          <a href="https://www.figma.com/proto/pRhTYhcJViSd0ytTJGcZVg/Amigos-Entregadores---Guardi%C3%B5es-da-Qualidade?type=design&node-id=803-122&t=HB8FGDxAtteOiOcV-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=803%3A122">
+            <picture>
+              <source srcset="https://img.shields.io/badge/PROT%C3%93TIPO-%23181717?style=for-the-badge&logo=Figma" media="(prefers-color-scheme: light)">
+              <img alt="PROTÓTIPO NO FIGMA" src="https://img.shields.io/badge/PROT%C3%93TIPO-white?style=for-the-badge&logo=Figma">
+            </picture>
+          </a>
         </div>
       </footer>
     </article>
@@ -90,8 +105,18 @@
       <footer>
         <div align="center">
           <p><strong>PYTHON | SELENIUM | GHERKIN | BEHAVE | PAGE OBJECTS </strong></p>
-          <a href="/projetos/BugBank.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%90%9E_SAIBA_MAIS-%23181717?style=for-the-badge&logoColor=white"></a>
-          <a href="https://github.com/rodrigomolter/bugbank-selenium"><img alt="GITHUB REPO" src="https://img.shields.io/badge/Github_Repo-%23181717?style=for-the-badge&logo=github&logoColor=white"></a>
+          <a href="/projetos/BugBank.md">
+            <picture>
+              <source srcset="https://img.shields.io/badge/%F0%9F%90%9E_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
+              <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%90%9E_SAIBA_MAIS-white?style=for-the-badge">
+            </picture>
+          </a>
+          <a href="https://github.com/rodrigomolter/bugbank-selenium">
+            <picture>
+              <source srcset="https://img.shields.io/badge/Github_Repo-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
+              <img alt="GITHUB REPO" src="https://img.shields.io/badge/Github_Repo-white?style=for-the-badge&logo=github&logoColor=black">
+            </picture>
+          </a>
         </div>
       </footer>
     </article>
@@ -113,8 +138,18 @@
       <footer>
         <div align="center">
           <p><strong>JAVASCRIPT | NODEJS | FASTIFY | ESLINT | FAKERJS | SWAGGER |  CYPRESS | POSTMAN | GITHUB ACTIONS </strong></p>
-          <a href="/projetos/MotionHubAPI.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%8E%AC_SAIBA_MAIS-%23181717?style=for-the-badge"></a>
-          <a href="https://github.com/rodrigomolter/MotionHub-API"><img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github"></a>
+          <a href="/projetos/MotionHubAPI.md">
+            <picture>
+              <source srcset="https://img.shields.io/badge/%F0%9F%8E%AC_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
+              <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%8E%AC_SAIBA_MAIS-white?style=for-the-badge">
+            </picture>
+          </a>
+          <a href="https://github.com/rodrigomolter/MotionHub-API">
+            <picture>
+              <source srcset="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
+              <img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-white?style=for-the-badge&logo=github&logoColor=black">
+            </picture>
+          </a>
         </div>
       </footer>
     </article>
@@ -134,8 +169,18 @@
       <footer>
         <div align="center">
           <p><strong>JAVASCRIPT | NODEJS | ESLINT | FAKERJS | CYPRESS | GITHUB ACTIONS | PLANO DE TESTES </strong></p>
-          <a href="/projetos/TodoMVC.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-%23181717?style=for-the-badge"></a>
-          <a href="https://github.com/rodrigomolter/TodoMVC"><img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github"></a>
+          <a href="/projetos/TodoMVC.md">
+            <picture>
+              <source srcset="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
+              <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-white?style=for-the-badge">
+            </picture>
+          </a>
+          <a href="https://github.com/rodrigomolter/TodoMVC">
+            <picture>
+              <source srcset="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
+              <img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-white?style=for-the-badge&logo=github&logoColor=black">
+            </picture>
+          </a>
         </div>
       </footer>
     </article>

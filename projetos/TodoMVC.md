@@ -1,7 +1,12 @@
 # ✍ Todo MVC
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/d45b13ce-2fa7-40b8-b10b-a66636b1d834" width="600">
+  <a href="https://github.com/rodrigomolter/TodoMVC">
+    <picture>
+      <source srcset="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
+      <img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-white?style=for-the-badge&logo=github&logoColor=black">
+    </picture>
+  </a>
 </div><br>
 
 O projeto consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio, um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando Cypress, com integração contínua via Github Actions para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.

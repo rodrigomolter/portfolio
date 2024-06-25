@@ -9,7 +9,12 @@ O projeto visa resolver o problema da ONG Amigos Entregadores, que necessita de 
 O projeto foi desenvolvido em diversas etapas, incluindo o entendimento do público-alvo, criação de personas, identificação de requisitos e proposição de soluções para atender às demandas, culminando na entrega de um MVP (Produto Mínimo Viável) e sua prototipação.
 
 <div align="center">
-  <a href="https://www.figma.com/proto/pRhTYhcJViSd0ytTJGcZVg/Amigos-Entregadores---Guardi%C3%B5es-da-Qualidade?type=design&node-id=803-122&t=HB8FGDxAtteOiOcV-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=803%3A122"><img alt="PROTÓTIPO NO FIGMA" src="https://img.shields.io/badge/PROT%C3%93TIPO-%23181717?style=for-the-badge&logo=Figma&logoColor=%23F24E1E"></a>
+  <a href="https://www.figma.com/proto/pRhTYhcJViSd0ytTJGcZVg/Amigos-Entregadores---Guardi%C3%B5es-da-Qualidade?type=design&node-id=803-122&t=HB8FGDxAtteOiOcV-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=803%3A122">
+    <picture>
+      <source srcset="https://img.shields.io/badge/PROT%C3%93TIPO-%23181717?style=for-the-badge&logo=Figma" media="(prefers-color-scheme: light)">
+      <img alt="PROTÓTIPO NO FIGMA" src="https://img.shields.io/badge/PROT%C3%93TIPO-white?style=for-the-badge&logo=Figma">
+    </picture>
+  </a>
 </div>
 
 ### SUMÁRIO
