@@ -1,8 +1,7 @@
 # 🎬 Motion HUB API
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/e19372d1-5caf-4ad4-ac48-6f19d92dbe47"
-  style="width: 80vw; max-width: 600px;">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/e19372d1-5caf-4ad4-ac48-6f19d92dbe47" width="500">
 </div><br>
 
 A Motion HUB API é uma API desenvolvida em JavaScript utilizando o framework [Fastify](https://fastify.dev/). Ela foi criada com o objetivo de praticar a construção de uma API de forma simples e eficiente. A API utiliza um banco de dados em memória (in-memory database) para armazenar informações de filmes, como nome, descrição e duração. O projeto enfatiza boas práticas de desenvolvimento, incluindo padrões de código mantidos com ESLint e documentação clara gerada com Swagger

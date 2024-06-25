@@ -1,6 +1,6 @@
  # 🏍️ Amigos Entregadores
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/409a97f5-d925-4008-adb8-0ded79bf1a5f" style="width: 60vw; max-width: 400px;">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/409a97f5-d925-4008-adb8-0ded79bf1a5f" width="300">
 </div>
  
 O Case da <strong>ONG Amigos Entregadores</strong> foi proposto e realizado durante o curso **Bugou? QA TA ON** do [Instituto Joga Junto](https://www.jogajuntoinstituto.org/). Este desafio permitiu que nosso SQUAD aplicasse práticas de gerenciamento de projetos e metodologias ágeis aprendidas, além de promover a colaboração e comunicação entre os participantes. <br>

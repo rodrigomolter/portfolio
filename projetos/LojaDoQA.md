@@ -1,8 +1,7 @@
 # 🛒 Loja do QA
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/1b3d6071-001f-4962-8b95-6d33bb8ec720" style="width: 80vw; max-width: 700px;">
-</div>
-
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/1b3d6071-001f-4962-8b95-6d33bb8ec720" width="700">
+</div><br>
 
 A [Loja do QA](http://lojaqa.jogajuntoinstituto.com/) é o **projeto final** do módulo básico do curso **Bugou? QA TA ON** oferecido pelo [Instituto Joga Junto](https://www.jogajuntoinstituto.org/). Este case envolve uma jornada que abrange entender, compreender, planejar e executar. Trata-se de um e-commerce que segue o padrão de grandes plataformas como Amazon e Casas Bahia.
 
