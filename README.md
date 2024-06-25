@@ -32,7 +32,7 @@
     <article>
       <div align="center">
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/45738f8d-bb5c-4ef5-a74c-ff2be7c47ec3" width="400px">
-      </div>
+      </div><br>
       <p>
         O Case da <strong>ONG Amigos Entregadores</strong> foi proposto e realizado durante o curso <strong>Bugou? QA TA ON</strong> do <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a>. Este desafio permitiu que nosso SQUAD aplicasse práticas de gerenciamento de projetos e metodologias ágeis aprendidas, além de promover a colaboração e comunicação entre os participantes. <br>
         O projeto visa resolver o problema da ONG Amigos Entregadores, que necessita de pontos de apoio para entregadores de aplicativos, onde possam ter acesso a banho, água filtrada, protetor solar, capas de chuva e outros itens essenciais para trabalharem com segurança.
@@ -58,7 +58,7 @@
     <article>
       <div align="center">
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/1b3d6071-001f-4962-8b95-6d33bb8ec720" width="400px">
-      </div>
+      </div><br>
       <p>
         A Loja do QA é o <strong>projeto final</strong> do módulo básico do curso <strong>Bugou? QA TA ON</strong> oferecido pelo <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a> Este case envolve uma jornada que abrange entender, compreender, planejar e executar. Trata-se de um e-commerce que segue o padrão de grandes plataformas como Amazon e Casas Bahia.
         <br><br>
@@ -81,11 +81,9 @@
     <article>
       <div align="center">
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/8789f6df-6469-4a61-a737-1268caee58fa" width="400px">
-      </div>
+      </div><br>
       <p>
-        Descrição do projeto ainda em construção...🏗
-        <br>
-        Caso queira saber mais, acesse o repositório do projeto.
+        O projeto BugBank foca na análise, escrita e automação de testes para a aplicação <a href="https://bugbank.netlify.app/">BugBank</a>, uma plataforma que simula um banco online. Inicialmente, os requisitos foram analisados e os casos de teste foram escritos em Gherkin. Testes manuais foram realizados para verificar funcionalidades básicas e identificar problemas. A automação dos testes foi desenvolvida em Python utilizando Selenium e Behave. A aplicação do padrão de design Page Objects organizou o código dos testes, facilitando a manutenção e a escalabilidade. A manipulação do local storage foi essencial para simular interações com uma API e economizar tempo nos testes. O projeto envolveu também a utilização de ambientes virtuais para isolar dependências, uso de type hints para melhorar a clareza do código, e planejei melhorias futuras na documentação e a utilização de CI.
       </p>
       <div align="center">
         <a href="/projetos/BugBank.md">🐞 SAIBA MAIS</a>
@@ -106,7 +104,7 @@
     <article>
       <div align="center">
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/e19372d1-5caf-4ad4-ac48-6f19d92dbe47" width="400px">
-      </div>
+      </div><br>
       <p>
         A Motion HUB API é uma API desenvolvida em JavaScript utilizando o framework Fastify. Ela foi criada com o objetivo de praticar a construção de uma API de forma simples e eficiente. A API utiliza um banco de dados em memória (in-memory database) para armazenar informações de filmes, como nome, descrição e duração. O projeto enfatiza boas práticas de desenvolvimento, incluindo padrões de código mantidos com ESLint e documentação clara gerada com Swagger.
         <br>
@@ -131,7 +129,7 @@
     <article>
       <div align="center">
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/d45b13ce-2fa7-40b8-b10b-a66636b1d834" width="400px">
-      </div>
+      </div><br>
       <p>
          O projeto consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio, um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando Cypress, com integração contínua via Github Actions para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
       </p>
