@@ -15,8 +15,8 @@
   <h1> Projetos </h1>
   <nav>
     <ul>
-      <li><a href="#amigosEntregadores">🏍️ ONG Amigos Entregadores</a></li>
       <li><a href="#lojaDoQA">🛒Loja do QA</a></li>
+      <li><a href="#amigosEntregadores">🏍️ ONG Amigos Entregadores</a></li>
       <li><a href="#bugBank">🐞BugBank</a></li>
       <li><a href="#motionHUB">🎬 Motion HUB API</a></li>
       <li><a href="#TodoMVC">✍ TODO MVC</a></li>
@@ -25,6 +25,33 @@
 </header>
 
 <main>
+  <section id="lojaDoQA">
+    <header>
+      <h2><a href="/projetos/LojaDoQA.md">🛒 Loja do QA - Instituto Joga Junto </a></h2>
+    </header>
+    <article>
+      <div align="center">
+        <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/2fe5531a-53fa-4515-8841-5bbeff0d4299" width="600">
+      </div><br>
+      <p>
+        A <strong>Loja do QA</strong> é o projeto final do módulo básico do curso <strong>Bugou? QA TA ON</strong> oferecido pelo <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a> Este case envolve uma jornada que abrange entender, compreender, planejar e executar. Trata-se de um e-commerce que segue o padrão de grandes plataformas como Amazon e Casas Bahia.
+        <br><br>
+        Durante o projeto, começamos com o planejamento inicial, onde compreendemos o problema, analisamos os fluxos e requisitos do cliente, exploramos o funcionamento do sistema e mapeamos suas principais funcionalidades. Em seguida, direcionamos nossa atenção para a execução prática, envolvendo o detalhamento de cenários e casos de teste, a condução dos testes propriamente ditos, a elaboração do bug report e, por fim, a análise dos problemas 
+      </p>
+      <footer>
+        <div align="center">
+          <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-black?style=flat">
+          <img alt="BUG REPORT" src="https://img.shields.io/badge/BUG_REPORT-black?style=flat">
+          <img alt="GHERKIN" src="https://img.shields.io/badge/GHERKIN-black?style=flat">
+          <img alt="TESTE DE ACESSIBILIDADE" src="https://img.shields.io/badge/TESTE_DE_%20ACESSIBILIDADE-black?style=flat">
+          <br><br>
+          <!-- <p><strong>GHERKIN | PLANO DE TESTES | TESTE DE ACESSIBILIDADE | BUG REPORT </strong></p> -->
+          <a href="/projetos/LojaDoQA.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%9B%92_SAIBA_MAIS-%23181717?style=for-the-badge"></a>
+        </div>
+      </footer>
+    </article>
+  </section>
+
   <section id="amigosEntregadores">
     <header>
       <h2><a href="/projetos/Amigos_Entregadores.md">🏍️ ONG Amigos Entregadores - Instituto Joga Junto</a></h2>
@@ -39,36 +66,12 @@
         O projeto foi desenvolvido em diversas etapas, incluindo o entendimento do público-alvo, criação de personas, identificação de requisitos e proposição de soluções para atender às demandas, culminando na entrega de um MVP (Produto Mínimo Viável) e sua prototipação.
         <br>
       </p>
-      <div align="center">
-        <a href="/projetos/Amigos_Entregadores.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%8F%8D%EF%B8%8F_SAIBA_MAIS-%23181717?style=for-the-badge&logoColor=white"></a>
-        <a href="https://www.figma.com/proto/pRhTYhcJViSd0ytTJGcZVg/Amigos-Entregadores---Guardi%C3%B5es-da-Qualidade?type=design&node-id=803-122&t=HB8FGDxAtteOiOcV-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=803%3A122"><img alt="PROTÓTIPO NO FIGMA" src="https://img.shields.io/badge/PROT%C3%93TIPO-%23181717?style=for-the-badge&logo=Figma&logoColor=%23F24E1E"></a>
-        <br><br>
-      </div>
       <footer>
-        <p>TAGS: SCRUM; GERÊNCIAMENTO DE PROJETOS; FIGMA.</p>
-      </footer>
-    </article>
-  </section>
-
-  <section id="lojaDoQA">
-    <header>
-      <h2><a href="/projetos/LojaDoQA.md">🛒 Loja do QA - Instituto Joga Junto </a></h2>
-    </header>
-    <article>
-      <div align="center">
-        <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/2fe5531a-53fa-4515-8841-5bbeff0d4299" width="600">
-      </div><br>
-      <p>
-        A <strong>Loja do QA</strong> é o projeto final do módulo básico do curso <strong>Bugou? QA TA ON</strong> oferecido pelo <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a> Este case envolve uma jornada que abrange entender, compreender, planejar e executar. Trata-se de um e-commerce que segue o padrão de grandes plataformas como Amazon e Casas Bahia.
-        <br><br>
-        Durante o projeto, começamos com o planejamento inicial, onde compreendemos o problema, analisamos os fluxos e requisitos do cliente, exploramos o funcionamento do sistema e mapeamos suas principais funcionalidades. Em seguida, direcionamos nossa atenção para a execução prática, envolvendo o detalhamento de cenários e casos de teste, a condução dos testes propriamente ditos, a elaboração do bug report e, por fim, a análise dos problemas 
-      </p>
-      <div align="center">
-        <a href="/projetos/LojaDoQA.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%9B%92_SAIBA_MAIS-%23181717?style=for-the-badge"></a>
-        <br><br>
-      </div>
-      <footer>
-        <p>TAGS: </p>
+        <div align="center">
+          <p><strong>SCRUM | GERÊNCIAMENTO DE PROJETOS | FIGMA</strong></p>
+          <a href="/projetos/Amigos_Entregadores.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%8F%8D%EF%B8%8F_SAIBA_MAIS-%23181717?style=for-the-badge&logoColor=white"></a>
+          <a href="https://www.figma.com/proto/pRhTYhcJViSd0ytTJGcZVg/Amigos-Entregadores---Guardi%C3%B5es-da-Qualidade?type=design&node-id=803-122&t=HB8FGDxAtteOiOcV-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=803%3A122"><img alt="PROTÓTIPO NO FIGMA" src="https://img.shields.io/badge/PROT%C3%93TIPO-%23181717?style=for-the-badge&logo=Figma&logoColor=%23F24E1E"></a>
+        </div>
       </footer>
     </article>
   </section>
@@ -84,13 +87,12 @@
       <p>
         O projeto <strong>BugBank</strong> foca na análise, escrita e automação de testes para a aplicação <a href="https://bugbank.netlify.app/">BugBank</a>, uma plataforma que simula um banco online. Inicialmente, os requisitos foram analisados e os casos de teste foram escritos em Gherkin. Testes manuais foram realizados para verificar funcionalidades básicas e identificar problemas. A automação dos testes foi desenvolvida em Python utilizando Selenium e Behave. A aplicação do padrão de design Page Objects organizou o código dos testes, facilitando a manutenção e a escalabilidade. A manipulação do local storage foi essencial para simular interações com uma API e economizar tempo nos testes. O projeto envolveu também a utilização de ambientes virtuais para isolar dependências, uso de type hints para melhorar a clareza do código, e planejei melhorias futuras na documentação e a utilização de CI.
       </p>
-      <div align="center">
-        <a href="/projetos/BugBank.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%90%9E_SAIBA_MAIS-%23181717?style=for-the-badge&logoColor=white"></a>
-        <a href="https://github.com/rodrigomolter/bugbank-selenium"><img alt="GITHUB REPO" src="https://img.shields.io/badge/Github_Repo-%23181717?style=for-the-badge&logo=github&logoColor=white"></a>
-        <br><br>
-      </div>
       <footer>
-        <p>TAGS: </p>
+        <div align="center">
+          <p><strong>PYTHON | SELENIUM | GHERKIN | BEHAVE | PAGE OBJECTS </strong></p>
+          <a href="/projetos/BugBank.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%90%9E_SAIBA_MAIS-%23181717?style=for-the-badge&logoColor=white"></a>
+          <a href="https://github.com/rodrigomolter/bugbank-selenium"><img alt="GITHUB REPO" src="https://img.shields.io/badge/Github_Repo-%23181717?style=for-the-badge&logo=github&logoColor=white"></a>
+        </div>
       </footer>
     </article>
   </section>
@@ -108,13 +110,12 @@
         <br>
         Desenvolvi um plano abrangente com testes manuais e automatizados utilizando Postman e Cypress, com integração ao GitHub Actions para execução contínua dos testes. Esta experiência me ensinou sobre a importância de documentação eficiente e a utilização de testes automatizados para garantir a qualidade do software.
       </p>
-      <div align="center">
-        <a href="/projetos/MotionHubAPI.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%8E%AC_SAIBA_MAIS-%23181717?style=for-the-badge"></a>
-        <a href="https://github.com/rodrigomolter/MotionHub-API"><img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github"></a>
-        <br><br>
-      </div>
       <footer>
-        <p>TAGS: </p>
+        <div align="center">
+          <p><strong>JAVASCRIPT | NODEJS | FASTIFY | ESLINT | FAKERJS | SWAGGER |  CYPRESS | POSTMAN | GITHUB ACTIONS </strong></p>
+          <a href="/projetos/MotionHubAPI.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%8E%AC_SAIBA_MAIS-%23181717?style=for-the-badge"></a>
+          <a href="https://github.com/rodrigomolter/MotionHub-API"><img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github"></a>
+        </div>
       </footer>
     </article>
   </section>
@@ -130,13 +131,12 @@
       <p>
          O projeto <strong>TodoMVC</strong> consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio, um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando Cypress, com integração contínua via Github Actions para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
       </p>
-      <div align="center">
-        <a href="/projetos/TodoMVC.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-%23181717?style=for-the-badge"></a>
-        <a href="https://github.com/rodrigomolter/TodoMVC"><img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github"></a>
-        <br><br>
-      </div>
       <footer>
-        <p>TAGS: </p>
+        <div align="center">
+          <p><strong>JAVASCRIPT | NODEJS | ESLINT | FAKERJS | CYPRESS | GITHUB ACTIONS | PLANO DE TESTES </strong></p>
+          <a href="/projetos/TodoMVC.md"><img alt="SAIBA MAIS" src="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-%23181717?style=for-the-badge"></a>
+          <a href="https://github.com/rodrigomolter/TodoMVC"><img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github"></a>
+        </div>
       </footer>
     </article>
 </main>
