@@ -8,17 +8,9 @@ A Motion HUB API é uma API desenvolvida em JavaScript utilizando o framework [F
 
 Desenvolvi um plano abrangente com testes manuais e automatizados utilizando Postman e Cypress, com integração ao GitHub Actions para execução contínua dos testes. Esta experiência me ensinou sobre a importância de documentação eficiente e a utilização de testes automatizados para garantir a qualidade do software.
 
-Exemplo de requisição
-```javascript
-POST http://localhost:3333/videos
-Content-Type: application/json
-
-{
-    "title": "How to Bake a Cake",
-    "description": "Learn the step-by-step process of baking a delicious cake",
-    "duration": 240
-}
-```
+<div align="center">
+  <a href="https://github.com/rodrigomolter/MotionHub-API"><img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github"></a>
+</div>
 
 ## SUMÁRIO
 1. [BANCO DE DADOS EM MEMÓRIA](/projetos/MotionHubAPI.md#banco-de-dados-em-memória)

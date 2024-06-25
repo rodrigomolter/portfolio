@@ -6,6 +6,10 @@
 
 O projeto BugBank foca na análise, escrita e automação de testes para a aplicação BugBank, uma plataforma que simula um banco online. Inicialmente, os requisitos foram analisados e os casos de teste foram escritos em Gherkin. Testes manuais foram realizados para verificar funcionalidades básicas e identificar problemas. A automação dos testes foi desenvolvida em Python utilizando Selenium e Behave. A aplicação do padrão de design Page Objects organizou o código dos testes, facilitando a manutenção e a escalabilidade. A manipulação do local storage foi essencial para simular interações com uma API e economizar tempo nos testes. O projeto envolveu também a utilização de ambientes virtuais para isolar dependências, uso de type hints para melhorar a clareza do código, e planejei melhorias futuras na documentação e a utilização de CI.
 
+<div align="center">
+  <a href="https://github.com/rodrigomolter/bugbank-selenium"><img alt="GITHUB REPO" src="https://img.shields.io/badge/Github_Repo-%23181717?style=for-the-badge&logo=github&logoColor=white"></a>
+</div>
+
 ## SUMÁRIO
 1. [BUG BANK UI](/projetos/BugBank.md#bug-bank-ui)
 2. [FEATURES](/projetos/BugBank.md#features)
