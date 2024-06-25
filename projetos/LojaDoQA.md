@@ -1,6 +1,6 @@
 # 🛒 Loja do QA
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/1b3d6071-001f-4962-8b95-6d33bb8ec720" width="40%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/1b3d6071-001f-4962-8b95-6d33bb8ec720" style="width: 80vw; max-width: 700px;">
 </div>
 
 
@@ -36,7 +36,7 @@ Com isso, surgiu os **Guardiões da Qualidade**, que representam um marco crucia
 <div align="center">
   <picture>
     <source srcset="https://github.com/rodrigomolter/portfolio/assets/57466763/8203fec7-931b-4392-b695-73bfbf2d3197" media="(prefers-color-scheme: light)">
-    <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/90e427e8-3aae-4a2a-b2e8-422967ef0dfc" alt="Logo Guardiões da Qualidade" width="30%">
+    <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/90e427e8-3aae-4a2a-b2e8-422967ef0dfc" alt="Logo Guardiões da Qualidade" width="300">
   </picture>
   <br><i>Logo Guardiões da Qualidade</i>
 </div>
@@ -47,7 +47,7 @@ Este trabalho foi desenvolvido em conjunto com os <strong>Guardiões da Qualidad
 Antes da criação dos cenários de testes, foi elaborado um fluxuograma detalhado para mapear todos os possíveis caminhos e interações do usuário na Loja do QA. Esse processo foi fundamental para compreender o funcionamento completo do sistema e identificar os fluxos que precisavam ser validados durante os testes.
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/133a091d-30dd-4f64-b758-38947591e6fe" width="70%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/133a091d-30dd-4f64-b758-38947591e6fe" width="700">
   <br><a href="https://miro.com/app/board/uXjVKJtKCY8=/?share_link_id=6514805450"><i>Fluxuograma - Loja do QA</i></a>
 </div>
 
@@ -69,7 +69,7 @@ Os cenários de testes[^1] foram desenvolvidos com base no fluxuograma inicial d
 
 Foram desenvolvidos um total de **67 casos de testes** divididos entre os principais fluxos junto com os testes de acessibilidade.
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/91956159-d86e-4761-93ed-718f851d9168" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/91956159-d86e-4761-93ed-718f851d9168" width="500">
   <br><i>Casos de Testes por Cenário de Teste</i>
 </div>
 
@@ -78,7 +78,7 @@ Após a execução dos testes, o bug report[^1] da Loja do QA categoriza e prior
 
 Foram reportados um total de **98 bugs**, distribuídos por todo o sistema, cada um com diferentes níveis de criticidade. A maior parte dos bugs **bloqueantes** foi encontrada dentro do **fluxo de compras**, que é o principal fluxo da aplicação.
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/473609a4-dad8-46be-a788-591e1b24a1bb" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/473609a4-dad8-46be-a788-591e1b24a1bb" width="500">
   <br><i>Quantidades de Bugs por Cenário de Teste</i>
 </div>
 
@@ -99,7 +99,7 @@ A criticidade dos bugs foi categorizada em quatro níveis, cada um refletindo a 
   Bugs críticos que interrompem completamente o funcionamento do sistema, impedindo a realização de ações essenciais e tornando o sistema inutilizável até serem corrigidos.
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/2355adb5-d302-4d67-ac93-b4fdf38cf569" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/2355adb5-d302-4d67-ac93-b4fdf38cf569" width="500">
   <br><i>Contagem de Criticidade de Bugs</i>
 </div>
 
@@ -107,35 +107,35 @@ A criticidade dos bugs foi categorizada em quatro níveis, cada um refletindo a 
 Dentro do fluxo de navegação do usuário foram encontrados **21 bugs**, dos quais **nenhum** é considerado bloqueante para a aplicação.
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/a5fe5287-5a77-4b45-a59f-23d89d3a5dbd" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/a5fe5287-5a77-4b45-a59f-23d89d3a5dbd" width="500">
   <br><i>Bugs por criticidade no fluxo de Navegação do Usuário</i>
 </div>
 
 ### CRIAÇÃO DE CONTA
 Dentro do fluxo de criação de conta foram encontrados **06 bugs**, dos quais **nenhum** é considerado bloqueante para a aplicação.
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/c532d1f3-945a-43f1-b809-080e633e2575" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/c532d1f3-945a-43f1-b809-080e633e2575" width="500">
   <br><i>Bugs por criticidade no fluxo de Criação de Conta</i>
 </div>
 
 ### COMPRAS
 Dentro do fluxo de compras foram encontrados **25 bugs**, dos quais **08** são considerados **bloqueantes** para a aplicação.
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/f173c01d-c87c-49a3-b7ff-a506a0f74482" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/f173c01d-c87c-49a3-b7ff-a506a0f74482" width="500">
   <br><i>Bugs por criticidade no fluxo de Compras</i>
 </div>
 
 ### PAGAMENTO
 Dentro do fluxo de pagamento foram encontrados **06 bugs**, dos quais **01** é considerado **bloqueante** para a aplicação.
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/c800c917-3e4c-45cc-86ec-70493b0f82c8" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/c800c917-3e4c-45cc-86ec-70493b0f82c8" width="500">
   <br><i>Bugs por criticidade no fluxo de Pagamento</i>
 </div>
 
 ### ACESSIBILIDADE
 Ja na parte de acessibilidade foram encontrados **30 bugs**, dos quais **nenhum** é considerado bloqueante para a aplicação.
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/c890d4d8-8762-4395-86b3-ad1bb055b5ae" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/c890d4d8-8762-4395-86b3-ad1bb055b5ae" width="500">
   <br><i>Bugs por criticidade em acessibilidade</i>
 </div>
 
@@ -153,10 +153,10 @@ ___
   Feito com ❤️ pelos <strong>Guardiões da Qualidade</strong><br>
   <picture>
     <source srcset="https://github.com/rodrigomolter/portfolio/assets/57466763/8203fec7-931b-4392-b695-73bfbf2d3197" media="(prefers-color-scheme: light)">
-    <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/90e427e8-3aae-4a2a-b2e8-422967ef0dfc" alt="Logo Guardiões da Qualidade" title="Logo Guardiões da Qualidade" width="20%">
+    <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/90e427e8-3aae-4a2a-b2e8-422967ef0dfc" alt="Logo Guardiões da Qualidade" title="Logo Guardiões da Qualidade" width="250">
   </picture>
   <br>
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/0158702f-a50c-4019-9982-b0ca5e507639" alt="Annielle Crispim, Matheus Vinicius, Rodrigo Molter e Julia Robaina" title="Annielle Crispim, Matheus Vinicius, Rodrigo Molter e Julia Robaina" width="20%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/0158702f-a50c-4019-9982-b0ca5e507639" alt="Annielle Crispim, Matheus Vinicius, Rodrigo Molter e Julia Robaina" title="Annielle Crispim, Matheus Vinicius, Rodrigo Molter e Julia Robaina" width="250">
   <p><i>
     <a href="https://www.linkedin.com/in/annielle-crispim/">Annielle Crispim</a>
      - 

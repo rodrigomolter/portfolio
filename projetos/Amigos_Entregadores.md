@@ -1,6 +1,6 @@
  # 🏍️ Amigos Entregadores
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/409a97f5-d925-4008-adb8-0ded79bf1a5f" width="30%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/409a97f5-d925-4008-adb8-0ded79bf1a5f" style="width: 60vw; max-width: 400px;">
 </div>
  
 O Case da <strong>ONG Amigos Entregadores</strong> foi proposto e realizado durante o curso **Bugou? QA TA ON** do [Instituto Joga Junto](https://www.jogajuntoinstituto.org/). Este desafio permitiu que nosso SQUAD aplicasse práticas de gerenciamento de projetos e metodologias ágeis aprendidas, além de promover a colaboração e comunicação entre os participantes. <br>
@@ -32,7 +32,7 @@ Com isso, surgiu os **Guardiões da Qualidade**, que representam um marco crucia
 <div align="center">
   <picture>
     <source srcset="https://github.com/rodrigomolter/portfolio/assets/57466763/8203fec7-931b-4392-b695-73bfbf2d3197" media="(prefers-color-scheme: light)">
-    <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/90e427e8-3aae-4a2a-b2e8-422967ef0dfc" alt="Logo Guardiões da Qualidade" width="30%">
+    <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/90e427e8-3aae-4a2a-b2e8-422967ef0dfc" alt="Logo Guardiões da Qualidade" width="300">
   </picture>
   <br><i>Logo Guardiões da Qualidade</i>
 </div>
@@ -74,7 +74,7 @@ O projeto conta com o desenvolvimento apenas da primeira sprint, ou seja, apenas
 Como requisito dos facilitadores do Instituto Joga Junto, o gerenciamento das sprints, backlog e quadro Kanban foram realizados utilizando a ferramenta [Bitrix24](https://www.bitrix24.com.br/) [^1].
 
 <div align="center">
-<img src="https://github.com/rodrigomolter/portfolio/assets/57466763/069dc8b6-0c9b-49a5-b665-065a64efd5c9" width="40%">
+<img src="https://github.com/rodrigomolter/portfolio/assets/57466763/069dc8b6-0c9b-49a5-b665-065a64efd5c9" width="500">
 <br><i>Interface do Bitrix24</i>
 </div>
 
@@ -93,10 +93,10 @@ O processo de prototipagem de alta fidelidade no Figma desempenha um papel essen
 <a href="https://www.figma.com/proto/pRhTYhcJViSd0ytTJGcZVg/Amigos-Entregadores---Guardi%C3%B5es-da-Qualidade?type=design&node-id=803-122&t=HB8FGDxAtteOiOcV-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=803%3A122"><strong>📱 APRESENTAÇÃO DO PROTÓTIPO</strong></a>
 <br><br>
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/86a17a5b-53c6-4d26-ba58-814e616eca53" width="40%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/86a17a5b-53c6-4d26-ba58-814e616eca53" width="500">
   <br><a href="https://www.figma.com/design/pRhTYhcJViSd0ytTJGcZVg/Amigos-Entregadores---Guardi%C3%B5es-da-Qualidade"><i>Projeto no Figma</i></a>
   <br><br>
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/45738f8d-bb5c-4ef5-a74c-ff2be7c47ec3" width="40%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/45738f8d-bb5c-4ef5-a74c-ff2be7c47ec3" width="500">
   <br><i>Um dos fluxos da aplicação</i></a>
 </div>
 
@@ -143,10 +143,10 @@ ___
   Feito com ❤️ pelos <strong>Guardiões da Qualidade</strong><br>
   <picture>
     <source srcset="https://github.com/rodrigomolter/portfolio/assets/57466763/8203fec7-931b-4392-b695-73bfbf2d3197" media="(prefers-color-scheme: light)">
-    <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/90e427e8-3aae-4a2a-b2e8-422967ef0dfc" alt="Logo Guardiões da Qualidade" title="Logo Guardiões da Qualidade" width="20%">
+    <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/90e427e8-3aae-4a2a-b2e8-422967ef0dfc" alt="Logo Guardiões da Qualidade" title="Logo Guardiões da Qualidade" width="200">
   </picture>
   <br>
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/0158702f-a50c-4019-9982-b0ca5e507639" alt="Annielle Crispim, Matheus Vinicius, Rodrigo Molter e Julia Robaina" title="Annielle Crispim, Matheus Vinicius, Rodrigo Molter e Julia Robaina" width="20%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/0158702f-a50c-4019-9982-b0ca5e507639" alt="Annielle Crispim, Matheus Vinicius, Rodrigo Molter e Julia Robaina" title="Annielle Crispim, Matheus Vinicius, Rodrigo Molter e Julia Robaina" width="200">
   <p><i>
     <a href="https://www.linkedin.com/in/annielle-crispim/">Annielle Crispim</a>
      - 

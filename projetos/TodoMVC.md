@@ -1,7 +1,7 @@
 # ✍ Todo MVC
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/d45b13ce-2fa7-40b8-b10b-a66636b1d834" width="400px">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/d45b13ce-2fa7-40b8-b10b-a66636b1d834" style="width: 80vw; max-width: 700px;">
 </div><br>
 
 O projeto consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio, um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando Cypress, com integração contínua via Github Actions para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
@@ -26,7 +26,7 @@ Confira a página com todas as [**User Stories**](https://www.notion.so/dynamic-
 
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/2a036d7a-78e3-4691-ba33-3160d7c0d34f" width="40%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/2a036d7a-78e3-4691-ba33-3160d7c0d34f" width="250">
   <br><i>Escopo das <a href="https://www.notion.so/dynamic-keeper-66c/User-Stories-491da01d74b94342acdf5a1166315f24">User Stories</i></a>
 </div>
 
@@ -35,7 +35,7 @@ Com as user stories definidas como nosso guia, passei para a elaboração do pla
 
 Confira a página com o [**Plano de Testes**](https://www.notion.so/dynamic-keeper-66c/TodoMVC-32d7b72188dd445180511f338a19462c) [^1]
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/bf48a83c-3e56-43a7-aa47-ac69cd62cca5" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/bf48a83c-3e56-43a7-aa47-ac69cd62cca5" width="800">
   <br><i>Escopo do <a href="https://www.notion.so/dynamic-keeper-66c/TodoMVC-32d7b72188dd445180511f338a19462c">Plano de Testes</i></a>
 </div>
 
@@ -50,7 +50,7 @@ Por fim implementei a automação dos cenários de teste utilizando o framework 
 Além disso, implementei integração contínua (CI) com Github Actions, garantindo que os testes fossem executados automaticamente sempre que houvesse uma alteração no código. Integrei ESLint ao projeto para manter a qualidade e consistência do código, assegurando conformidade com as melhores práticas de desenvolvimento.
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/6afeac9a-f4ef-43d5-9400-c40c476ba05d" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/6afeac9a-f4ef-43d5-9400-c40c476ba05d" width="500">
   <br><i>Pipeline no Github Actions</i>
 </div><br>
 
@@ -58,7 +58,7 @@ Para gerar dados aleatórios de forma dinâmica em cada execução dos testes, u
 
 Para melhorar a usabilidade e a clareza do código, criei comandos customizáveis no Cypress. Cada comando foi devidamente documentado, incluindo exemplos claros de como usá-los efetivamente. Essa abordagem não apenas facilitou a manutenção dos testes, mas também promoveu uma colaboração mais eficiente dentro da equipe.
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/0e565402-c697-491b-86ae-a10e80d7653c" width="60%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/0e565402-c697-491b-86ae-a10e80d7653c" width="650">
   <br><i>Documentação do comando customizável <samp>cy.createNewTaskbyGUI()</samp> no IntelliSense </i>
 </div><br>
 

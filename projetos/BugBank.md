@@ -1,7 +1,7 @@
 # 🐞 BugBank
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/8789f6df-6469-4a61-a737-1268caee58fa" heigh="400px">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/8789f6df-6469-4a61-a737-1268caee58fa" style="width: 80vw; max-width: 700px;">
 </div><br>
 
 O projeto BugBank foca na análise, escrita e automação de testes para a aplicação BugBank, uma plataforma que simula um banco online. Inicialmente, os requisitos foram analisados e os casos de teste foram escritos em Gherkin. Testes manuais foram realizados para verificar funcionalidades básicas e identificar problemas. A automação dos testes foi desenvolvida em Python utilizando Selenium e Behave. A aplicação do padrão de design Page Objects organizou o código dos testes, facilitando a manutenção e a escalabilidade. A manipulação do local storage foi essencial para simular interações com uma API e economizar tempo nos testes. O projeto envolveu também a utilização de ambientes virtuais para isolar dependências, uso de type hints para melhorar a clareza do código, e planejei melhorias futuras na documentação e a utilização de CI.
@@ -83,7 +83,7 @@ Para a automação dos testes, utilizei duas principais ferramentas:
 - **Behave**: Uma biblioteca que suporta a metodologia de Desenvolvimento Orientado por Comportamento (BDD). Com o Behave, os testes são escritos em Gherkin, o que facilita a leitura e a escrita de cenários de teste claros e compreensíveis.
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/f0e96ae4-f8c9-400d-8f26-108f3efcfcce" width="500px">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/f0e96ae4-f8c9-400d-8f26-108f3efcfcce" width="700px">
   <br><i>Step da <a href="https://github.com/rodrigomolter/bugbank-selenium/blob/main/features/steps/transferencia_steps.py">feature de Transferência</a></i>
 </div><br>
 

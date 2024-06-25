@@ -1,7 +1,8 @@
 # 🎬 Motion HUB API
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/e19372d1-5caf-4ad4-ac48-6f19d92dbe47" width="400px">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/e19372d1-5caf-4ad4-ac48-6f19d92dbe47"
+  style="width: 80vw; max-width: 600px;">
 </div><br>
 
 A Motion HUB API é uma API desenvolvida em JavaScript utilizando o framework [Fastify](https://fastify.dev/). Ela foi criada com o objetivo de praticar a construção de uma API de forma simples e eficiente. A API utiliza um banco de dados em memória (in-memory database) para armazenar informações de filmes, como nome, descrição e duração. O projeto enfatiza boas práticas de desenvolvimento, incluindo padrões de código mantidos com ESLint e documentação clara gerada com Swagger
@@ -35,7 +36,7 @@ A Motion HUB API utiliza um banco de dados em memória, o que significa que não
 A documentação da API foi gerada utilizando o Swagger. Isso permite que qualquer desenvolvedor visualize e teste os endpoints da API de forma interativa. A documentação inclui descrições detalhadas dos parâmetros de entrada e saída, facilitando o entendimento do projeto a novas pessoas.
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/fe3e8976-da5d-41c4-b139-417aaf959e3e" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/fe3e8976-da5d-41c4-b139-417aaf959e3e" width="700">
   <br><i>SwaggerUI do MotionHUB API</i>
 </div><br>
 
@@ -50,7 +51,7 @@ Os testes manuais foram planejados e executados para validar os principais fluxo
 - Severidade: Grau de impacto sobre outras tarefas.
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/6625fbb9-f569-45d1-bb07-6dfd7613f97a" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/6625fbb9-f569-45d1-bb07-6dfd7613f97a" width="700">
   <br><i>Escopo do <a href="https://dynamic-keeper-66c.notion.site/Motion-Hub-fe69d08e0e23419baf06ceeb23e669c9">Plano de Testes</a></i>
 </div><br>
 
@@ -60,14 +61,14 @@ Os testes automatizados foram implementados para garantir uma cobertura contínu
 A fim de estudos, desenvolvi os testes automatizados utilizando tanto Postman quanto Cypress. Em ambas as automações de testes, utilizei a biblioteca FakerJS para gerar massas de dados de forma dinâmica. Isso permite criar cenários variados e realistas, aumentando a robustez e abrangência dos testes.
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/f0a53fd5-73f3-4491-ad3f-65b54663257e" width="30%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/f0a53fd5-73f3-4491-ad3f-65b54663257e" width="500">
   <br><i>Execução dos testes no Cypress</i>
 </div><br>
 
 Para garantir a qualidade contínua do projeto, integrei a suíte de testes automatizados do Cypress com o GitHub Actions. Toda vez que um push é feito no repositório, os testes são executados automaticamente, fornecendo feedback imediato sobre a saúde do projeto.
 
 <div align="center">
-  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/8bc18843-1f4a-4c39-8f1d-71c84b03a5fe" width="50%">
+  <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/8bc18843-1f4a-4c39-8f1d-71c84b03a5fe" width="500">
   <br><i>Pipeline do Github Actions</i>
 </div><br>
 
