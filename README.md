@@ -19,8 +19,10 @@
       Oi, eu sou o <strong>Rodrigo</strong>, um profissional apaixonado pela jornada da qualidade de software! Com experiência em desenvolvimento de software, eu iniciei minha transição para a área de qualidade de software.<br>
       Possuo conhecimento nas principais ferramentas de automação de testes como <strong><code>Postman</code></strong>, <strong><code>Cypress</code></strong>e <strong><code>Selenium</code></strong>, além de experiência em linguagens de programação como <code><strong>Javascript</code> e <code>Python</strong></code>. Também possuo conhecimento na escrita de casos de testes em <code><strong>Gherkin</strong></code>.<br>
     <p align="right"><i>
+      Rodrigo Molter
+      <br>
       rodrigo.molter@gmail.com 
-      - 
+      <br> 
       <a href="https://www.linkedin.com/in/rodrigo-molter/">In/rodrigo-molter</a>
     </i></p>
   </article>
@@ -95,7 +97,7 @@
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/2fe5531a-53fa-4515-8841-5bbeff0d4299" width="600">
       </div><br>
       <p>
-        A <strong>Loja do QA</strong> é o projeto final do módulo básico do curso <strong>Bugou? QA TA ON</strong> oferecido pelo <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a> Este case envolve uma jornada que abrange entender, compreender, planejar e executar. Trata-se de um e-commerce que segue o padrão de grandes plataformas como Amazon e Casas Bahia.
+        A <strong>Loja do QA</strong> é o projeto final do módulo básico do curso <strong>Bugou? QA TA ON</strong> oferecido pelo <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a>. Este case envolve uma jornada que abrange entender, compreender, planejar e executar. Trata-se de um e-commerce que segue o padrão de grandes plataformas como Amazon e Casas Bahia.
         <br><br>
         Durante o projeto, começamos com o planejamento inicial, onde compreendemos o problema, analisamos os fluxos e requisitos do cliente, exploramos o funcionamento do sistema e mapeamos suas principais funcionalidades. Em seguida, direcionamos nossa atenção para a execução prática, envolvendo o detalhamento de cenários e casos de teste, a condução dos testes propriamente ditos, a elaboração do bug report e, por fim, a análise dos problemas 
       </p>
