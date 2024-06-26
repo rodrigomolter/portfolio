@@ -13,11 +13,12 @@
   </nav>
   <br>
   <article>
-    <img align="left" src="https://github.com/rodrigomolter/portfolio/assets/57466763/7af82310-4f7f-49d2-b400-857c42bab29e" width="200" height="200" >
+    <img align="left" src="https://github.com/rodrigomolter/portfolio/assets/57466763/7af82310-4f7f-49d2-b400-857c42bab29e" width="200" height="200">
     <br><br>
     <p>
       Oi, eu sou o <strong>Rodrigo</strong>, um profissional apaixonado pela jornada da qualidade de software! Com experiência em desenvolvimento de software, eu iniciei minha transição para a área de qualidade de software.<br>
-      Possuo conhecimento nas principais ferramentas de automação de testes como <strong><code>Postman</code></strong>, <strong><code>Cypress</code></strong>e <strong><code>Selenium</code></strong>, além de experiência em linguagens de programação como <code><strong>Javascript</code> e <code>Python</strong></code>. Também possuo conhecimento na escrita de casos de testes em <code><strong>Gherkin</strong></code>.<br>
+      Possuo conhecimento nas principais ferramentas de automação de testes como <strong><code>Postman</code></strong>, <strong><code>Cypress</code></strong> e <strong><code>Selenium</code></strong>, além de experiência em linguagens de programação como <code><strong>Javascript</code></strong> e <strong><code>Python</strong></code>. Também possuo conhecimento na escrita de casos de testes em <code><strong>Gherkin</strong></code>.
+    <br>
     <p align="right"><i>
       Rodrigo Molter
       <br>
@@ -70,7 +71,7 @@
   <header>
     <h1> Projetos </h1>
     <p>
-      Abaixo, destaco alguns dos principais projetos que desenvolvi para colocar em prática as habilidades mencionadas anteriormente, além de outras.
+      Abaixo, destaco alguns dos principais projetos que desenvolvi para colocar em prática as habilidades mencionadas anteriormente - além de outras.
       É possível obter mais informações sobre cada projeto clicando no botão <code>Saiba mais</code> ou visitando o seu repositório.
     </p>
     <h2> Sumário </h2>
@@ -78,9 +79,9 @@
       <ul>
         <li><a href="#lojaDoQA">🛒Loja do QA</a></li>
         <li><a href="#amigosEntregadores">🏍️ ONG Amigos Entregadores</a></li>
-        <li><a href="#bugBank">🐞BugBank</a></li>
+        <li><a href="#bugBank">🐞Bug Bank</a></li>
         <li><a href="#motionHUB">🎬 Motion HUB API</a></li>
-        <li><a href="#TodoMVC">✍ TODO MVC</a></li>
+        <li><a href="#TodoMVC">✍ Todo MVC</a></li>
       </ul>
     </nav>
   </header>
@@ -99,7 +100,7 @@
       <p>
         A <strong>Loja do QA</strong> é o projeto final do módulo básico do curso <strong>Bugou? QA TA ON</strong> oferecido pelo <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a>. Este case envolve uma jornada que abrange entender, compreender, planejar e executar. Trata-se de um e-commerce que segue o padrão de grandes plataformas como Amazon e Casas Bahia.
         <br><br>
-        Durante o projeto, começamos com o planejamento inicial, onde compreendemos o problema, analisamos os fluxos e requisitos do cliente, exploramos o funcionamento do sistema e mapeamos suas principais funcionalidades. Em seguida, direcionamos nossa atenção para a execução prática, envolvendo o detalhamento de cenários e casos de teste, a condução dos testes propriamente ditos, a elaboração do bug report e, por fim, a análise dos problemas 
+        Durante o projeto, começamos com o planejamento inicial, onde compreendemos o problema, analisamos os fluxos e requisitos do cliente, exploramos o funcionamento do sistema e mapeamos suas principais funcionalidades. Em seguida, direcionamos nossa atenção para a execução prática, envolvendo o detalhamento de cenários e casos de teste, a condução dos testes propriamente ditos, a elaboração do bug report e, por fim, a análise dos problemas.
       </p>
       <footer>
         <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
@@ -128,7 +129,7 @@
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/45738f8d-bb5c-4ef5-a74c-ff2be7c47ec3" width="600">
       </div><br>
       <p>
-        O Case da <strong>ONG Amigos Entregadores</strong> foi proposto e realizado durante o curso <strong>Bugou? QA TA ON</strong> do <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a>. Este desafio permitiu que nosso SQUAD aplicasse práticas de gerenciamento de projetos e metodologias ágeis aprendidas, além de promover a colaboração e comunicação entre os participantes. <br>
+        O case da <strong>ONG Amigos Entregadores</strong> foi proposto e realizado durante o curso <strong>Bugou? QA TA ON</strong> do <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a>. Este desafio permitiu que nosso SQUAD aplicasse as práticas de gerenciamento de projetos e metodologias ágeis aprendidas, além de promover a colaboração e comunicação entre os participantes. <br>
         O projeto visa resolver o problema da ONG Amigos Entregadores, que necessita de pontos de apoio para entregadores de aplicativos, onde possam ter acesso a banho, água filtrada, protetor solar, capas de chuva e outros itens essenciais para trabalharem com segurança.
         O projeto foi desenvolvido em diversas etapas, incluindo o entendimento do público-alvo, criação de personas, identificação de requisitos e proposição de soluções para atender às demandas, culminando na entrega de um MVP (Produto Mínimo Viável) e sua prototipação.
         <br>
@@ -201,9 +202,9 @@
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/e19372d1-5caf-4ad4-ac48-6f19d92dbe47" width="600">
       </div><br>
       <p>
-        A <strong>Motion HUB API</strong> é uma API desenvolvida em JavaScript utilizando o framework Fastify. Ela foi criada com o objetivo de praticar a construção de uma API de forma simples e eficiente. A API utiliza um banco de dados em memória (in-memory database) para armazenar informações de filmes, como nome, descrição e duração. O projeto enfatiza boas práticas de desenvolvimento, incluindo padrões de código mantidos com ESLint e documentação clara gerada com Swagger.
+        A <strong>Motion HUB API</strong> é uma API desenvolvida em JavaScript utilizando o framework Fastify. Ela foi criada com o objetivo de praticar a construção de uma API de forma simples e eficiente. A API utiliza de um banco de dados em memória (in-memory database) para armazenar informações de filmes, como nome, descrição e duração. O projeto enfatiza boas práticas de desenvolvimento, incluindo padrões mantidos com ESLint e documentação gerada com Swagger.
         <br>
-        Desenvolvi um plano abrangente com testes manuais e automatizados utilizando Postman e Cypress, com integração ao GitHub Actions para execução contínua dos testes. Esta experiência me ensinou sobre a importância de documentação eficiente e a utilização de testes automatizados para garantir a qualidade do software.
+        Foi desenvolvido um plano abrangente com testes manuais e automatizados utilizando Postman e Cypress junto com uma integração ao GitHub Actions para execução contínua dos testes. Esta experiência me ensinou sobre a importância de documentação eficiente e a utilização de testes automatizados para garantir a qualidade do software.
       </p>
       <footer>
         <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JAVASCRIPT-white?style=flat">
@@ -235,14 +236,14 @@
 
   <section id="TodoMVC">
     <header>
-      <h2><a href="/projetos/TodoMVC.md">✍ TODO MVC </a></h2>
+      <h2><a href="/projetos/TodoMVC.md">✍ Todo MVC </a></h2>
     </header>
     <article>
       <div align="center">
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/80154d08-dbb6-4981-961c-ab2b67883371" width="600">
       </div><br>
     <p>
-       O projeto <strong>TodoMVC</strong> consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio, um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando Cypress, com integração contínua via Github Actions para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
+       O projeto <strong>TodoMVC</strong> consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio; um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando Cypress junto com uma integração contínua via Github Actions para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para gerar dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
     </p>
     <footer>
       <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JAVASCRIPT-white?style=flat">
