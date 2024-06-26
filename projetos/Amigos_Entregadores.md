@@ -4,18 +4,9 @@
 </div>
  
 O Case da <strong>ONG Amigos Entregadores</strong> foi proposto e realizado durante o curso **Bugou? QA TA ON** do [Instituto Joga Junto](https://www.jogajuntoinstituto.org/). Este desafio permitiu que nosso SQUAD aplicasse práticas de gerenciamento de projetos e metodologias ágeis aprendidas, além de promover a colaboração e comunicação entre os participantes. <br>
-O projeto visa resolver o problema da ONG Amigos Entregadores, que necessita de pontos de apoio para entregadores de aplicativos, onde possam ter acesso a banho, água filtrada, protetor solar, capas de chuva e outros itens essenciais para trabalharem com segurança.
+O projeto visa resolver o problema da ONG Amigos Entregadores, que necessita de pontos de apoio para seus entregadores de aplicativos parceiros. Estes pontos de apoio precisam ter algumas funcionalidades para fornecer conforto e segurança para os entregadores, como acesso a água filtrada, protetor solar, capas de chuva, local para banho, etc.
 
 O projeto foi desenvolvido em diversas etapas, incluindo o entendimento do público-alvo, criação de personas, identificação de requisitos e proposição de soluções para atender às demandas, culminando na entrega de um MVP (Produto Mínimo Viável) e sua prototipação.
-
-<div align="center">
-  <a href="https://www.figma.com/proto/pRhTYhcJViSd0ytTJGcZVg/Amigos-Entregadores---Guardi%C3%B5es-da-Qualidade?type=design&node-id=803-122&t=HB8FGDxAtteOiOcV-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=803%3A122">
-    <picture>
-      <source srcset="https://img.shields.io/badge/PROT%C3%93TIPO-%23181717?style=for-the-badge&logo=Figma" media="(prefers-color-scheme: light)">
-      <img alt="PROTÓTIPO NO FIGMA" src="https://img.shields.io/badge/PROT%C3%93TIPO-white?style=for-the-badge&logo=Figma">
-    </picture>
-  </a>
-</div>
 
 ### SUMÁRIO
 1. [SQUADS](/projetos/Amigos_Entregadores.md#squads)<br>
@@ -37,7 +28,9 @@ A divisão de equipes dentro do [Instituto Joga Junto](https://www.jogajuntoinst
 > Uma Squad é semelhante a uma equipe Scrum e é projetada para parecer uma mini-startup. Eles trabalham juntos e têm todas as habilidades e ferramentas necessárias para projetar, desenvolver, testar e lançar na produção. São uma equipe auto-organizada e decidem sua própria forma de trabalhar – algumas usam sprints de Scrum, outras usam Kanban, e algumas usam uma combinação dessas abordagens. <br> - [Scaling Agile @ Spotify, por Henrik Kniberg & Anders Ivarsson](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf)
 
 ### Guardiões da Qualidade
-Com isso, surgiu os **Guardiões da Qualidade**, que representam um marco crucial no desenvolvimento e aprendizado durante o curso. A criação desta identidade não apenas fortaleceu o sentimento de participação, mas também fomentou um ambiente de trabalho mais colaborativo e engajado.
+Com isso, surgiu os **Guardiões da Qualidade**. Esse foi o nome escolhido ao nosso squad pelos participantes. A escolha de um nome foi o pontapé inicial de algo que representam um marco crucial no desenvolvimento e aprendizado durante o curso. A utilização do nome em apresentações e pequenos projetos, culminou, pouco a pouco, na criação de uma identidade visual para os Guardiões da Qualidade. A criação desta identidade não apenas fortaleceu o sentimento de participação, mas também fomentou um ambiente de trabalho mais colaborativo e engajado.
+A utilização quase que diaria da identidade do squad trazia um sentimento de equipe e colaboração que fico muito grato de ter a oportunidade de ter feito parte.
+
 <div align="center">
   <picture>
     <source srcset="https://github.com/rodrigomolter/portfolio/assets/57466763/8203fec7-931b-4392-b695-73bfbf2d3197" media="(prefers-color-scheme: light)">
@@ -45,9 +38,11 @@ Com isso, surgiu os **Guardiões da Qualidade**, que representam um marco crucia
   </picture>
   <br><i>Logo Guardiões da Qualidade</i>
 </div>
+<br>
+Este trabalho foi desenvolvido em conjunto com os <strong>Guardiões da Qualidade</strong>, e é devido a eles a grande qualidade que o projeto apresenta. Obrigado <a href="https://www.linkedin.com/in/annielle-crispim/">Annielle</a>, <a href="https://www.linkedin.com/in/juliarobaina/">Julia</a> e <a href="https://www.linkedin.com/in/matheusviniciusfp">Matheus</a>.
 
 ## PERSONAS
-A primeira etapa foi identificar as personas. Conhecer profundamente quem são esses entregadores é fundamental para oferecermos pontos de apoio que realmente façam a diferença em suas jornadas diárias de trabalho.
+A primeira etapa foi identificar as personas. Conhecer profundamente **quem são esses entregadores** é fundamental para oferecermos pontos de apoio que realmente façam a diferença em suas jornadas diárias de trabalho.
 
 1. **Carlos**:<br>
 28 anos, entregador dedicado, enfrenta longas horas de trabalho exposto ao sol. Um ponto de apoio seria fundamental para ele se proteger e recuperar suas energias durante as entregas.
@@ -63,24 +58,28 @@ Durante a fase inicial do projeto, realizamos um detalhado levantamento de requi
 
   - Funcionalidade para que os entregadores possam utilizar e gerenciar as informações de suas contas pessoais na plataforma da ONG.
   - Permitir que os entregadores localizem e utilizem os pontos de apoio conforme sua conveniência e necessidade durante as entregas.
+  - Um baixo consumo de internet, evitando o gasto desnecessário dos dados móveis dos entregadores.
   - Estabelecer integração com aplicativos de entrega para fornecer suporte e benefícios adicionais aos entregadores que utilizam essas plataformas.
   - Disponibilizar protetor solar nos pontos de apoio para proteger os entregadores durante suas jornadas de trabalho.
   - Estabelecer um sistema de pontos, como uma gamificação, oferecendo recompensas extras pela quantidade de entregas realizadas.
   - Facilitar o agendamento de banhos nos pontos de apoio para proporcionar conforto e higiene aos entregadores.
 
 ### BACKLOG
-Junto aos requisitos foi gerado um backlog[^1] com as tarefas que seriam necessárias serem realizadas, sua divisão por sprints, user stories, pontos de complexidade e sua prioridade. A equipe utilizou <i>planning poker</i> para a classificação da complexidade.
+Junto aos requisitos foi gerado um **backlog**[^1] com as tarefas que seriam necessárias serem realizadas; sua divisão por sprints; user stories; pontos de complexidade e sua prioridade. A equipe utilizou *planning poker* para a classificação da complexidade.
 | ID | Épico | Sprint | User Story | Complexidade | Prioridade |
 |----|-------|--------|------------|--------------|------------|
 AE009| Usar Serviço de Banho | 2 | Eu, como entregador cadastrado no app,<br> Desejo gerar token para ter acesso ao chuveiro,<br> Para que eu possa me refrescar e ficar bem arrumado ao ter contato com os clientes| 5 | Alta
+<div align="center">
+  <i>Exemplo  de uma User Storie</i>
+</div><br>
 
-O projeto terá uma duração de 07 sprints, sendo cada sprint em um intervalo de 02 semanas. As entregas serão realizadas de formas incrementais, sendo o primeiro MVP entregue após 04 semanas, com a conclusão das duas primeiras sprints.
+O projeto terá uma duração de **07 sprints**, sendo cada sprint em um intervalo de 02 semanas. As entregas serão realizadas de formas incrementais, sendo o **primeiro MVP** entregue após **04 semanas**, com a conclusão das duas primeiras sprints.
 
 ## SCRUM
-Durante a execução do projeto, utilizamos o framework SCRUM para gerenciar nossas atividades e garantir um desenvolvimento eficiente e colaborativo.
-O projeto conta com o desenvolvimento apenas da primeira sprint, ou seja, apenas da etapa de discovery e planejamento do projeto.
+Durante a execução do projeto, utilizamos o framework **SCRUM** para gerenciar nossas atividades e garantir um desenvolvimento eficiente e colaborativo.
+O projeto conta com o planejamento de toda escopo inteiro, mas o desenvolvimento de apenas a primeira sprint, ou seja, apenas da etapa de **discovery e planejamento do projeto**.
 
-Como requisito dos facilitadores do Instituto Joga Junto, o gerenciamento das sprints, backlog e quadro Kanban foram realizados utilizando a ferramenta [Bitrix24](https://www.bitrix24.com.br/) [^1].
+Como requisito dos facilitadores do Instituto Joga Junto, o gerenciamento das sprints[^1], backlog e quadro Kanban foram realizados utilizando a ferramenta [Bitrix24](https://www.bitrix24.com.br/).
 
 <div align="center">
 <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/069dc8b6-0c9b-49a5-b665-065a64efd5c9" width="500">
@@ -88,16 +87,14 @@ Como requisito dos facilitadores do Instituto Joga Junto, o gerenciamento das sp
 </div>
 
 ### Planning
-Durante a reunião de planejamento da sprint, nossa equipe revisou o backlog do produto e priorizou as tarefas que seriam executadas. Utilizamos a técnica de Planning Poker para estimar o esforço necessário para cada item do backlog, garantindo uma melhor compreensão coletiva das complexidades e prioridades das tarefas.
-
-### Daily Meetings
-Realizamos encontros diários, conhecidos como daily meetings ou stand-ups, onde todos os membros da equipe se reuniram para discutir o progresso do trabalho, identificar possíveis impedimentos. Essas reuniões foram fundamentais para alinhamento da equipe e evitar que bloqueios pudessem gerar atrasos.
-
+Durante a reunião de planejamento da sprint, nossa equipe revisou o backlog do produto e priorizou as tarefas que seriam executadas. Utilizamos a técnica de *planning poker* para estimar o esforço necessário para cada item do backlog, garantindo uma melhor compreensão coletiva das complexidades e prioridades das tarefas.
 
 ## PROTÓTIPO
 O processo de prototipagem de alta fidelidade no Figma desempenha um papel essencial na materialização e refinamento de conceitos de design, como transformar ideias abstratas em interfaces práticas e funcionais, destacando os principais aspectos do projeto.
 
-É possível acessar a apresentação do protótipo, onde é possível navegar entre as funcionalidades propostas.<br>
+No projeto da ONG Amigos Entregadores o desenvolvimento do protótipo foi de extrema importância para validarmos e identificar possíveis falhas e problemas no decorrer do andamento do projeto. A usabilidade intuitiva e fácil de usar junto com a proposta de um baixo consumo de internet nos fizeram repensar e buscar novas estratégias e tecnologias que pudessem solucionar os problemas do cliente sem adicionar muita complexidade na utilização do aplicativo pelo usuário final. Um dos exemplos é a liberção do sistema de banho e de produtos extras através de um código de uso único.
+
+É possível acessar a **apresentação** do **protótipo**, onde é possível navegar entre as funcionalidades propostas.<br>
 
 <a href="https://www.figma.com/proto/pRhTYhcJViSd0ytTJGcZVg/Amigos-Entregadores---Guardi%C3%B5es-da-Qualidade?type=design&node-id=803-122&t=HB8FGDxAtteOiOcV-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=803%3A122"><strong>📱 APRESENTAÇÃO DO PROTÓTIPO</strong></a>
 <br><br>
@@ -111,11 +108,13 @@ O processo de prototipagem de alta fidelidade no Figma desempenha um papel essen
 
 
 ## PESQUISA DE USABILIDADE
-Com base no protótipo, uma pesquisa de usabilidade foi conduzida para analisar a interface construída. Utilizando o método SUS (System Usability Scale), essa pesquisa visa avaliar a usabilidade do produto e identificar áreas de melhoria.
+Com base no protótipo, uma pesquisa de usabilidade foi conduzida para analisar facilidade de utilizar a interface construída, assim como sua curva de aprendizagem. Utilizando o método SUS (System Usability Scale), essa pesquisa visa avaliar a usabilidade do produto e identificar áreas de melhoria.
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScEx5y695M7cEV8_APd20kbqXvUn0wZtql4vRMwClMEAC2mBg/formResponse"><strong>🔎 CONFIRA A PESQUISA.</strong></a>
 
 ## ENTREGAS
+O projeto proposto seria feito em entregas de diversos MVPs, com o primeiro MVP após 04 semanas.
+As funcionalidades desenvolvidas foram priorizadas de acordo com a prioridade dos requisitos. O primeiro MVP conta com o mínimo necessário para que o entregador possa utilizar os pontos de apoio.
 
 **Primeiro MVP**<br>
   - Possibilidade do usuário se cadastrar na plataforma.
@@ -140,11 +139,13 @@ Com base no protótipo, uma pesquisa de usabilidade foi conduzida para analisar 
 
 ## APRENDIZADOS
 
-Participar do projeto da ONG Amigos Entregadores foi uma experiência extremamente positiva e enriquecedora para nossa equipe e para mim. Aplicamos práticas de gerenciamento de projetos e metodologias ágeis, o que me permitiu evoluir significativamente minhas soft skills, como comunicação, resolução de problemas e trabalho em equipe. Aprendi a ouvir ativamente, articular minhas ideias de forma clara e eficaz e colaborar de forma mais produtiva com os colegas.
+Participar do projeto da ONG Amigos Entregadores foi uma ótima experiência. Aplicamos práticas de gerenciamento de projetos e metodologias ágeis, o que me permitiu evoluir significativamente minhas soft skills, como comunicação, resolução de problemas e trabalho em equipe. Aprendi a ouvir ativamente, articular minhas ideias de forma clara e eficaz e colaborar de forma mais produtiva com os colegas.
 
-A diversidade de pontos de vista dentro da equipe enriqueceu nossas discussões, melhorando minha capacidade de argumentação e exposição de pensamentos. Essa diversidade de perspectivas, abrangendo áreas como negócios, tecnologia e usabilidade, trouxe uma riqueza de ideias e soluções criativas para o projeto.
+A diversidade de pontos de vista e diferentes areas de especializações dentro da squad gerou discussões fundamentais pro projeto. Essa diversidade de perspectivas, abrangendo áreas como negócios, tecnologia e usabilidade, trouxe uma riqueza de ideias e soluções criativas para o projeto e permitiu melhorar minha capacidade de argumentação e exposição de pensamentos.
 
-No entanto, enfrentamos alguns desafios, como a falta de interação regular com os stakeholders, o que levou a suposições sobre requisitos e prioridades, além de dificuldades iniciais com a plataforma de gerenciamento de projetos devido à falta de familiaridade. Esses desafios serviram como oportunidades de aprendizado, destacando áreas para melhorias futuras.
+No entanto, enfrentamos alguns desafios. A falta de interação regular com os stakeholders levou a suposições sobre alguns requisitos e principalmente suas prioridades, podendo ter impactado nas entregas. A utilização da plataforma de gerenciamento de projetos Bitrix foi um pouco dificil inicialmente, devido à falta de familiaridade. 
+
+No geral, participar do projeto foi uma experiência muito positiva, consolidando as habilidades e nos preparando melhor para futuros desafios.
 
 [^1]: Por questões de regras do Instituto Joga Junto, alguns materiais não podem ser disponibilizados publicamente.
 ___
