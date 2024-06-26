@@ -1,73 +1,90 @@
-<section>
+<section id="header">
   <header>
     <h1 align="center"> Olá, Mundo! 🌎</h1>
   </header>
   <article>
     <img align="left" src="https://github.com/rodrigomolter/portfolio/assets/57466763/7af82310-4f7f-49d2-b400-857c42bab29e" width="200" height="200" >
+    <br><br>
     <p>
-      <br><br>
       Oi, eu sou o <strong>Rodrigo</strong>, um profissional apaixonado pela jornada da qualidade de software! Com experiência em desenvolvimento de software, eu iniciei minha transição para a área de qualidade de software.<br>
       Possuo conhecimento nas principais ferramentas de automação de testes como <strong><code>Postman</code></strong>, <strong><code>Cypress</code></strong>e <strong><code>Selenium</code></strong>, além de experiência em linguagens de programação como <code><strong>Javascript</code> e <code>Python</strong></code>. Também possuo conhecimento na escrita de casos de testes em <code><strong>Gherkin</strong></code>.<br>
-    <br><br>
-    <footer>
+    <p align="right"><i>
+      rodrigo.molter@gmail.com 
+      - 
+      <a href="https://www.linkedin.com/in/rodrigo-molter/">In/rodrigo-molter</a>
+    </i></p>
+    <br>
+    <nav>
       <div align="center">
-  <p>Algumas das minhas principais skills:</p>
-  <table align="center">
-    <tr>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=js&theme=light" alt="Javascript" title="Javascript"><br>Javascript
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="NodeJS" title="NodeJS"><br>NodeJS
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=python&theme=light" alt="Python" title="Python"><br>Python
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=githubactions&theme=light" alt="Github Actions" title="Github Actions"><br>Github Actions
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=postman&theme=light" alt="Postman" title="Postman"><br>Postman
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=cypress&theme=light" alt="Cypress" title="Cypress"><br>Cypress
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=selenium&theme=light" alt="Selenium" title="Selenium"><br>Selenium
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=gherkin&theme=light" alt="Gherkin" title="Gherkin"><br>Gherkin
-      </td>
-    </tr>
-  </table>
-</div>
-<!--       <div align="center">
-        <p>Algumas das minhas principais skills:</p>
-        <img title="Javascript, NodeJS, Postman, Cypress, Python, Selenium, Gherkin e Github Actions" alt="Javascript, NodeJS, Postman, Cypress, Python, Selenium, Gherkin e Github Actions" src="https://skillicons.dev/icons?i=js,nodejs,postman,cypress,python,selenium,gherkin,githubactions&theme=light" />
-        <p><i>Javascript, NodeJS, Postman, Cypress, Python, Selenium, Gherkin e Github Actions</i></p>
-      </div> -->
-    </footer>
+        <a href="#skills">Habilidades</a>
+        •
+        <a href="#projetos">Projetos</a>
+        •
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
   </article>
 </section>
-<header>
-  <h1> Projetos </h1>
-  <p>
-    Abaixo, destaco alguns dos principais projetos que desenvolvi para colocar em prática as habilidades mencionadas anteriormente, além de outras.
-    É possível obter mais informações sobre cada projeto clicando no botão <code>Saiba mais</code> ou visitando o seu repositório.
-  </p>
-  <h2> Sumário </h2>
-  <nav>
-    <ul>
-      <li><a href="#lojaDoQA">🛒Loja do QA</a></li>
-      <li><a href="#amigosEntregadores">🏍️ ONG Amigos Entregadores</a></li>
-      <li><a href="#bugBank">🐞BugBank</a></li>
-      <li><a href="#motionHUB">🎬 Motion HUB API</a></li>
-      <li><a href="#TodoMVC">✍ TODO MVC</a></li>
-    </ul>
-  </nav>
-</header>
+        
+<br><br>
+
+<section id="skills">
+  <div align="center">
+    <p>Algumas das minhas principais habilidades:</p>
+    <table align="center">
+      <tr>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=js&theme=light" alt="Javascript" title="Javascript"><br>Javascript
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="NodeJS" title="NodeJS"><br>NodeJS
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=python&theme=light" alt="Python" title="Python"><br>Python
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=githubactions&theme=light" alt="Github Actions" title="Github Actions"><br>Github Actions
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=postman&theme=light" alt="Postman" title="Postman"><br>Postman
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=cypress&theme=light" alt="Cypress" title="Cypress"><br>Cypress
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=selenium&theme=light" alt="Selenium" title="Selenium"><br>Selenium
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=gherkin&theme=light" alt="Gherkin" title="Gherkin"><br>Gherkin
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+
+<section id="projetos">
+  <header>
+    <h1> Projetos </h1>
+    <p>
+      Abaixo, destaco alguns dos principais projetos que desenvolvi para colocar em prática as habilidades mencionadas anteriormente, além de outras.
+      É possível obter mais informações sobre cada projeto clicando no botão <code>Saiba mais</code> ou visitando o seu repositório.
+    </p>
+    <h2> Sumário </h2>
+    <nav>
+      <ul>
+        <li><a href="#lojaDoQA">🛒Loja do QA</a></li>
+        <li><a href="#amigosEntregadores">🏍️ ONG Amigos Entregadores</a></li>
+        <li><a href="#bugBank">🐞BugBank</a></li>
+        <li><a href="#motionHUB">🎬 Motion HUB API</a></li>
+        <li><a href="#TodoMVC">✍ TODO MVC</a></li>
+      </ul>
+    </nav>
+  </header>
+</section>
+
 <br>
 <main>
   <section id="lojaDoQA">
@@ -223,35 +240,57 @@
       <div align="center">
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/80154d08-dbb6-4981-961c-ab2b67883371" width="600">
       </div><br>
-      <p>
-         O projeto <strong>TodoMVC</strong> consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio, um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando Cypress, com integração contínua via Github Actions para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
-      </p>
-      <footer>
-        <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JAVASCRIPT-white?style=flat">
-        <img alt="NODEJS" src="https://img.shields.io/badge/NODEJS-white?style=flat">
-        <img alt="ESLINT" src="https://img.shields.io/badge/FASTIFY-white?style=flat">
-        <img alt="FAKERJS" src="https://img.shields.io/badge/FAKERJS-white?style=flat">
-        <img alt="CYPRESS" src="https://img.shields.io/badge/CYPRESS-white?style=flat">
-        <img alt="GITHUB ACTIONS" src="https://img.shields.io/badge/GITHUB_ACTIONS-white?style=flat">
-        <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
-        <br><br>
-        <div align="center">
-          <a href="/projetos/TodoMVC.md">
-            <picture>
-              <source srcset="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
-              <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-white?style=for-the-badge">
-            </picture>
-          </a>
-          <a href="https://github.com/rodrigomolter/TodoMVC">
-            <picture>
-              <source srcset="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
-              <img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-white?style=for-the-badge&logo=github&logoColor=black">
-            </picture>
-          </a>
-        </div>
-      </footer>
-    </article>
+    <p>
+       O projeto <strong>TodoMVC</strong> consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio, um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando Cypress, com integração contínua via Github Actions para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
+    </p>
+    <footer>
+      <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JAVASCRIPT-white?style=flat">
+      <img alt="NODEJS" src="https://img.shields.io/badge/NODEJS-white?style=flat">
+      <img alt="ESLINT" src="https://img.shields.io/badge/FASTIFY-white?style=flat">
+      <img alt="FAKERJS" src="https://img.shields.io/badge/FAKERJS-white?style=flat">
+      <img alt="CYPRESS" src="https://img.shields.io/badge/CYPRESS-white?style=flat">
+      <img alt="GITHUB ACTIONS" src="https://img.shields.io/badge/GITHUB_ACTIONS-white?style=flat">
+      <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
+      <br><br>
+      <div align="center">
+        <a href="/projetos/TodoMVC.md">
+          <picture>
+            <source srcset="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
+            <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-white?style=for-the-badge">
+          </picture>
+        </a>
+        <a href="https://github.com/rodrigomolter/TodoMVC">
+          <picture>
+            <source srcset="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
+            <img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-white?style=for-the-badge&logo=github&logoColor=black">
+          </picture>
+        </a>
+      </div>
+    </footer>
+  </article>
 </main>
+    
+<section id="contato">
+  <div align="center">
+    <h3>
+      Vamos conversar!
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Speech%20Balloon.png" alt="Speech Balloon" align="center" width="25" height="25" />
+    </h3>
+    <a href="https://www.linkedin.com/in/rodrigo-molter/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    </a>
+    <a href="https://wa.me/+5551998832787" target="_blank">
+      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    </a>
+    <a href="mailto:rodrigo.molter@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+    </a>
+    <footer>
+      <br><br>
+      <a href="#header"><strong>⬆️ VOLTAR AO TOPO</strong></a>
+    </footer>
+  </div>
+</section>
 
 <footer>
   ___
