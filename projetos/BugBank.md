@@ -4,7 +4,7 @@
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/8789f6df-6469-4a61-a737-1268caee58fa" width="800">
 </div><br>
 
-O projeto BugBank foca na análise, escrita e automação de testes para a aplicação BugBank, uma plataforma que simula um banco online. Inicialmente, os requisitos foram analisados e os casos de teste foram escritos em Gherkin. Testes manuais foram realizados para verificar funcionalidades básicas e identificar problemas. A automação dos testes foi desenvolvida em Python utilizando Selenium e Behave. A aplicação do padrão de design Page Objects organizou o código dos testes, facilitando a manutenção e a escalabilidade. A manipulação do local storage foi essencial para simular interações com uma API e economizar tempo nos testes. O projeto envolveu também a utilização de ambientes virtuais para isolar dependências, uso de type hints para melhorar a clareza do código, e planejei melhorias futuras na documentação e a utilização de CI.
+O projeto **BugBank** foca na análise, escrita e automação de testes para a aplicação de banco online [Bug Bank](https://bugbank.netlify.app/). Os casos de testes, escritos em `Gherkin`, são fortemente embasados em cima dos requisitos impostos pela aplicação. A automação dos testes é desenvolvida em `Python`, utilizando de `Selenium` com o padrão de design Page Objects para organização e encapsulamento das informações das páginas. Os casos de testes, utilizam do framework `Behave` para o suporte ao desenvolvimento orientado ao comportamento.
 
 ## SUMÁRIO
 1. [BUG BANK UI](/projetos/BugBank.md#bug-bank-ui)

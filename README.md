@@ -166,7 +166,7 @@
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/0794d8dc-e7c8-4682-a87e-869a4299f7c0" width="600">
       </div><br>
       <p>
-        O projeto <strong>BugBank</strong> foca na análise, escrita e automação de testes para a aplicação <a href="https://bugbank.netlify.app/">BugBank</a>, uma plataforma que simula um banco online. Inicialmente, os requisitos foram analisados e os casos de teste foram escritos em Gherkin. Testes manuais foram realizados para verificar funcionalidades básicas e identificar problemas. A automação dos testes foi desenvolvida em Python utilizando Selenium e Behave. A aplicação do padrão de design Page Objects organizou o código dos testes, facilitando a manutenção e a escalabilidade. A manipulação do local storage foi essencial para simular interações com uma API e economizar tempo nos testes. O projeto envolveu também a utilização de ambientes virtuais para isolar dependências, uso de type hints para melhorar a clareza do código, e planejei melhorias futuras na documentação e a utilização de CI.
+        O projeto <strong>BugBank</strong> foca na análise, escrita e automação de testes para a aplicação de banco online <a href="https://bugbank.netlify.app/">Bug Bank</a>. Os casos de testes, escritos em <code>Gherkin</code>, são fortemente embasados em cima dos requisitos impostos pela aplicação. A automação dos testes é desenvolvida em <code>Python</code>, utilizando de <code>Selenium</code> com o padrão de design Page Objects para organização e encapsulamento das informações das páginas. Os casos de testes, utilizam do framework <code>Behave</code> para o suporte ao desenvolvimento orientado ao comportamento.
       </p>
       <footer>
         <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-white?style=flat">
@@ -202,9 +202,9 @@
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/e19372d1-5caf-4ad4-ac48-6f19d92dbe47" width="600">
       </div><br>
       <p>
-        A <strong>Motion HUB API</strong> é uma API desenvolvida em JavaScript utilizando o framework Fastify. Ela foi criada com o objetivo de praticar a construção de uma API de forma simples e eficiente. A API utiliza de um banco de dados em memória (in-memory database) para armazenar informações de filmes, como nome, descrição e duração. O projeto enfatiza boas práticas de desenvolvimento, incluindo padrões mantidos com ESLint e documentação gerada com Swagger.
+        A <strong>Motion HUB API</strong> é uma API desenvolvida em <code>JavaScript</code> utilizando o framework Fastify. Ela foi criada com o objetivo de praticar a construção de uma API de forma simples e eficiente. A API utiliza de um banco de dados em memória (in-memory database) para armazenar informações de filmes, como nome, descrição e duração. O projeto enfatiza boas práticas de desenvolvimento, incluindo padrões mantidos com ESLint e documentação gerada com Swagger.
         <br>
-        Foi desenvolvido um plano abrangente com testes manuais e automatizados utilizando Postman e Cypress junto com uma integração ao GitHub Actions para execução contínua dos testes. Esta experiência me ensinou sobre a importância de documentação eficiente e a utilização de testes automatizados para garantir a qualidade do software.
+        Foi desenvolvido um plano abrangente com testes manuais e automatizados utilizando <code>Postman</code> e <code>Cypress</code> junto com uma integração ao <code>GitHub Actions</code> para execução contínua dos testes. Esta experiência me ensinou sobre a importância de documentação eficiente e a utilização de testes automatizados para garantir a qualidade do software.
       </p>
       <footer>
         <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JAVASCRIPT-white?style=flat">
@@ -243,7 +243,7 @@
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/80154d08-dbb6-4981-961c-ab2b67883371" width="600">
       </div><br>
     <p>
-       O projeto <strong>TodoMVC</strong> consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio; um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando Cypress junto com uma integração contínua via Github Actions para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para gerar dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
+       O projeto <strong>TodoMVC</strong> consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio; um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando <code>Cypress</code> junto com uma integração contínua via <code>Github Actions</code> para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para gerar dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
     </p>
     <footer>
       <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JAVASCRIPT-white?style=flat">
