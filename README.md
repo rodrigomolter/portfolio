@@ -2,6 +2,16 @@
   <header>
     <h1 align="center"> Olá, Mundo! 🌎</h1>
   </header>
+  <nav>
+    <div align="center">
+      <a href="#skills">Habilidades</a>
+      •
+      <a href="#projetos">Projetos</a>
+      •
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+  <br>
   <article>
     <img align="left" src="https://github.com/rodrigomolter/portfolio/assets/57466763/7af82310-4f7f-49d2-b400-857c42bab29e" width="200" height="200" >
     <br><br>
@@ -13,20 +23,9 @@
       - 
       <a href="https://www.linkedin.com/in/rodrigo-molter/">In/rodrigo-molter</a>
     </i></p>
-    <br>
-    <nav>
-      <div align="center">
-        <a href="#skills">Habilidades</a>
-        •
-        <a href="#projetos">Projetos</a>
-        •
-        <a href="#contato">Contato</a>
-      </div>
-    </nav>
   </article>
 </section>
-        
-<br><br>
+<br>
 
 <section id="skills">
   <div align="center">
@@ -269,8 +268,8 @@
     </footer>
   </article>
 </main>
-    
 <section id="contato">
+  <hr>
   <div align="center">
     <h3>
       Vamos conversar!
@@ -286,14 +285,14 @@
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
     </a>
     <footer>
-      <br><br>
+      <br><br><br><br>
       <a href="#header"><strong>⬆️ VOLTAR AO TOPO</strong></a>
     </footer>
   </div>
 </section>
 
 <footer>
-  ___
+  <hr>
   <p>
     Made with ❤️ by <a href="https://www.linkedin.com/in/rodrigo-molter/">Rodrigo Molter</a>.
   </p>
