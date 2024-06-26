@@ -92,7 +92,7 @@ Durante a reunião de planejamento da sprint, nossa equipe revisou o backlog do 
 ## PROTÓTIPO
 O processo de prototipagem de alta fidelidade no Figma desempenha um papel essencial na materialização e refinamento de conceitos de design, como transformar ideias abstratas em interfaces práticas e funcionais, destacando os principais aspectos do projeto.
 
-No projeto da ONG Amigos Entregadores o desenvolvimento do protótipo foi de extrema importância para validarmos e identificar possíveis falhas e problemas no decorrer do andamento do projeto. A usabilidade intuitiva e fácil de usar junto com a proposta de um baixo consumo de internet nos fizeram repensar e buscar novas estratégias e tecnologias que pudessem solucionar os problemas do cliente sem adicionar muita complexidade na utilização do aplicativo pelo usuário final. Um dos exemplos é a liberção do sistema de banho e de produtos extras através de um código de uso único.
+No projeto da ONG Amigos Entregadores o desenvolvimento do protótipo foi de extrema importância para validarmos e identificar possíveis falhas e problemas no decorrer do andamento do projeto. A usabilidade intuitiva e fácil de usar, junto com a proposta de um baixo consumo de internet, nos fizeram repensar e buscar novas estratégias e tecnologias que pudessem solucionar os problemas do cliente sem adicionar muita complexidade na utilização do aplicativo pelo usuário final. Um dos exemplos é a liberção do sistema de banho e de produtos extras através de um código de uso único.
 
 É possível acessar a **apresentação** do **protótipo**, onde é possível navegar entre as funcionalidades propostas.<br>
 
