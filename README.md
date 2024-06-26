@@ -1,18 +1,63 @@
 <section>
   <header>
-    <h1> Olá, Mundo! 🌎</h1>
+    <h1 align="center"> Olá, Mundo! 🌎</h1>
   </header>
   <article>
+    <img align="left" src="https://github.com/rodrigomolter/portfolio/assets/57466763/7af82310-4f7f-49d2-b400-857c42bab29e" width="200" height="200" >
     <p>
-      Oi, eu sou o <strong>Rodrigo</strong>, um profissional apaixonado pela jornada da qualidade de software! Com experiência em desenvolvimento de software, eu iniciei minha transição para a área de qualidade de software.
-      <br>
-      Com conhecimento em automação de testes e vivência com metodologias ágeis, estou pronto para enfrentar desafios e crescer junto com a equipe. Se você está buscando um profissional comprometido e apaixonado pelo aprendizado contínuo, pode contar comigo! 
-    </p>
+      <br><br>
+      Oi, eu sou o <strong>Rodrigo</strong>, um profissional apaixonado pela jornada da qualidade de software! Com experiência em desenvolvimento de software, eu iniciei minha transição para a área de qualidade de software.<br>
+      Possuo conhecimento nas principais ferramentas de automação de testes como <strong><code>Postman</code></strong>, <strong><code>Cypress</code></strong>e <strong><code>Selenium</code></strong>, além de experiência em linguagens de programação como <code><strong>Javascript</code> e <code>Python</strong></code>. Também possuo conhecimento na escrita de casos de testes em <code><strong>Gherkin</strong></code>.<br>
+    <br><br>
+    <footer>
+      <div align="center">
+  <p>Algumas das minhas principais skills:</p>
+  <table align="center">
+    <tr>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=js&theme=light" alt="Javascript" title="Javascript"><br>Javascript
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="NodeJS" title="NodeJS"><br>NodeJS
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=python&theme=light" alt="Python" title="Python"><br>Python
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=githubactions&theme=light" alt="Github Actions" title="Github Actions"><br>Github Actions
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=postman&theme=light" alt="Postman" title="Postman"><br>Postman
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=cypress&theme=light" alt="Cypress" title="Cypress"><br>Cypress
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=selenium&theme=light" alt="Selenium" title="Selenium"><br>Selenium
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=gherkin&theme=light" alt="Gherkin" title="Gherkin"><br>Gherkin
+      </td>
+    </tr>
+  </table>
+</div>
+<!--       <div align="center">
+        <p>Algumas das minhas principais skills:</p>
+        <img title="Javascript, NodeJS, Postman, Cypress, Python, Selenium, Gherkin e Github Actions" alt="Javascript, NodeJS, Postman, Cypress, Python, Selenium, Gherkin e Github Actions" src="https://skillicons.dev/icons?i=js,nodejs,postman,cypress,python,selenium,gherkin,githubactions&theme=light" />
+        <p><i>Javascript, NodeJS, Postman, Cypress, Python, Selenium, Gherkin e Github Actions</i></p>
+      </div> -->
+    </footer>
   </article>
 </section>
-
 <header>
   <h1> Projetos </h1>
+  <p>
+    Abaixo, destaco alguns dos principais projetos que desenvolvi para colocar em prática as habilidades mencionadas anteriormente, além de outras.
+    É possível obter mais informações sobre cada projeto clicando no botão <code>Saiba mais</code> ou visitando o seu repositório.
+  </p>
+  <h2> Sumário </h2>
   <nav>
     <ul>
       <li><a href="#lojaDoQA">🛒Loja do QA</a></li>
@@ -23,7 +68,7 @@
     </ul>
   </nav>
 </header>
-
+<br>
 <main>
   <section id="lojaDoQA">
     <header>
