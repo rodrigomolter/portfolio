@@ -6,18 +6,9 @@
 
 O projeto BugBank foca na análise, escrita e automação de testes para a aplicação BugBank, uma plataforma que simula um banco online. Inicialmente, os requisitos foram analisados e os casos de teste foram escritos em Gherkin. Testes manuais foram realizados para verificar funcionalidades básicas e identificar problemas. A automação dos testes foi desenvolvida em Python utilizando Selenium e Behave. A aplicação do padrão de design Page Objects organizou o código dos testes, facilitando a manutenção e a escalabilidade. A manipulação do local storage foi essencial para simular interações com uma API e economizar tempo nos testes. O projeto envolveu também a utilização de ambientes virtuais para isolar dependências, uso de type hints para melhorar a clareza do código, e planejei melhorias futuras na documentação e a utilização de CI.
 
-<div align="center">
-  <a href="https://github.com/rodrigomolter/bugbank-selenium">
-    <picture>
-      <source srcset="https://img.shields.io/badge/Github_Repo-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
-      <img alt="GITHUB REPO" src="https://img.shields.io/badge/Github_Repo-white?style=for-the-badge&logo=github&logoColor=black">
-    </picture>
-  </a>
-</div>
-
 ## SUMÁRIO
 1. [BUG BANK UI](/projetos/BugBank.md#bug-bank-ui)
-2. [FEATURES](/projetos/BugBank.md#features)
+2. [FEATURES FILES](/projetos/BugBank.md#features-files)
 3. [TESTES AUTOMATIZADOS](/projetos/BugBank.md#testes-automatizados)<br>
     3.1 [VIRTUAL ENVIRONMENT](/projetos/BugBank.md#virtual-environment)<br>
     3.2 [SELENIUM + BEHAVE](/projetos/BugBank.md#selenium--behave)
@@ -25,7 +16,7 @@ O projeto BugBank foca na análise, escrita e automação de testes para a aplic
 5. [RESULTADOS](/projetos/BugBank.md#resultados)
 
 # BUG BANK UI
-O BugBank é um site que simula um banco online, projetado para práticas de planejamento e execução de testes manuais e automatizados. Ele oferece funcionalidades similares a um banco real, como criação de contas, login, transferências de fundos e visualização de saldos e extratos. O objetivo deste projeto é proporcionar um ambiente similar a um ambiente real com bugs e falhas para serem detectadas.
+O BugBank é uma aplicação de um banco online, projetado para práticas de planejamento e execução de testes manuais e automatizados. Ele oferece funcionalidades similares a um banco real, como criação de contas, login, transferências e extratos. O objetivo deste projeto é proporcionar um ambiente similar a um ambiente real com bugs e falhas para serem detectadas.
 >Pensando em uma aplicação que seja semelhante a projetos reais, Bug Bank foi pensado para que você pratique planejamento de testes e automação de testes.<br>- [Bug Bank](https://github.com/jhonatasmatos/bugbank-ui/tree/main)
 
 <div align="center">
@@ -34,12 +25,7 @@ O BugBank é um site que simula um banco online, projetado para práticas de pla
 </div><br>
 
 # PLANEJAMENTO
-
-A aplicação já estava pronta e com os requisitos definidos. Meu trabalho focou na análise, escrita de casos de teste e automação desses testes. 
-
-Primeiramente, os requisitos da aplicação foram analisados para entender as funcionalidades e as expectativas do sistema. Baseado nos requisitos, os casos de teste foram escritos em Gherkin. Esta linguagem estruturada facilita a criação de testes compreensíveis e bem definidos. 
-
-Antes de automatizar, os testes manuais foram realizados para verificar se as funcionalidades básicas estavam operando corretamente e alguns problemas ja foram identificados. Com base nos casos de teste, desenvolvi a automação dos testes utilizando Selenium e Behave. Este processo garantiu que os testes fossem replicáveis e que qualquer regressão pudesse ser detectada rapidamente.
+Inicialmente, os requisitos da aplicação foram analisados para entender as funcionalidades e as expectativas do sistema. O planejamento do projeto se baseava no processo de entender, compreender, planejar e executar.
 
 Com base nos [requisitos](https://bugbank.netlify.app/requirements) estabelecidos pelo BugBank, as funcionalidades foram definidas:
 
@@ -48,8 +34,10 @@ Com base nos [requisitos](https://bugbank.netlify.app/requirements) estabelecido
 - Transferência entre contas: Realiza a transferência de dinheiro entre contas do BugBank.
 - Extratos: Exibe o histórico de transações do usuário.
 
+ A partir disso foram criados os casos de testes, escritos em Gherkin para que facilitassem a criação de testes automatizados posteriormente.
+
 # FEATURES FILES
-Os arquivos .feature são a base para a implementação dos testes no BugBank. Esses arquivos, escritos em Gherkin, descrevem os cenários de teste em uma linguagem próxima ao natural, facilitando a compreensão e a comunicação entre diferentes partes interessadas. Cada arquivo `.feature` contém um ou mais cenários que definem os passos necessários para validar uma funcionalidade específica da aplicação.
+Os arquivos `.feature` são a base para a implementação dos testes no BugBank. Esses arquivos, escritos em Gherkin, descrevem os cenários de teste em uma linguagem próxima ao natural, facilitando a compreensão e a comunicação entre diferentes partes interessadas. Cada arquivo `.feature` contém um ou mais cenários que definem os passos necessários para validar uma funcionalidade específica da aplicação.
 
 ```gherkin
 Funcionalidade: Transferência entre contas
@@ -71,60 +59,53 @@ Funcionalidade: Transferência entre contas
 ```
 <p align="center"><i>Parte do arquivo transferencia.feature</i></p>
 
-Essa abordagem permite que os testes sejam facilmente compreendidos por desenvolvedores, testadores e stakeholders, além de proporcionar uma base clara para a automação com o Behave.
+Essa abordagem permite que os testes sejam facilmente compreendidos por desenvolvedores, testadores e stakeholders.
 
 # TESTES AUTOMATIZADOS
 Os testes automatizados garantem que as funcionalidades do BugBank sejam verificadas de maneira consistente e eficiente. A automação de testes ajuda a identificar rapidamente problemas e regressões, mantendo a qualidade do software. Para atingir esse objetivo, utilizei uma combinação de ferramentas e padrões, que são detalhados a seguir.
 
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/9a06d09f-edbb-42f7-beeb-d3819e2293bf" width="500px">
-  <br><i>Execução da suite de testes do Bugbank</i>
+  <br><i>Execução da <a href="https://github.com/rodrigomolter/bugbank-selenium">suite de testes</a> do Bugbank</i>
 </div>
 
+Acesse o [repositório do Bug Bank](https://github.com/rodrigomolter/bugbank-selenium) para visualizar os testes e como executa-los.
+
 ## VIRTUAL ENVIRONMENT
-Para garantir que todas as dependências fossem isoladas e bem gerenciadas, utilizei um ambiente virtual. O uso de ambientes virtuais permite o isolamento de cada projeto, podendo ter suas próprias dependências, evitando conflitos entre bibliotecas e garante de que todos que utilizarem do projeto estarão utilizando as mesmas versões das ferramentas e bibliotecas.
+Para garantir que todas as dependências fossem isoladas e bem gerenciadas, utilizei um ambiente virtual. O uso de ambientes virtuais permite o isolamento de cada projeto, podendo ter suas próprias dependências, evitando conflitos entre bibliotecas e garantindo de que todos que utilizarem do projeto estarão utilizando as mesmas versões das ferramentas e bibliotecas.
 
 ## SELENIUM + BEHAVE
-Para a automação dos testes, utilizei duas principais ferramentas:
+O Selenium é uma ferramenta amplamente utilizada para automação de testes em aplicações web usando Python e outras linguagens. Ele permite que os desenvolvedores simulem interações humanas com um navegador web, como clicar em botões, preencher formulários e navegar por diferentes páginas. Isso é essencial para testar a funcionalidade de uma aplicação web de ponta a ponta de forma automatizada, garantindo que tudo funcione conforme esperado antes de ser lançado para os usuários.
 
-- **Selenium**: Uma ferramenta de automação de navegadores que permite interagir com elementos da interface do usuário, como cliques, entradas de texto e navegação entre páginas. O Selenium é amplamente utilizado devido à sua flexibilidade e suporte a múltiplos navegadores.
-
-- **Behave**: Uma biblioteca que suporta a metodologia de Desenvolvimento Orientado por Comportamento (BDD). Com o Behave, os testes são escritos em Gherkin, o que facilita a leitura e a escrita de cenários de teste claros e compreensíveis.
+Integrar o Selenium com o Behave melhora ainda mais a estrutura de automação de testes. O Behave é um framework de BDD (Behavior-Driven Development) que permite escrever testes em linguagem natural usando a sintaxe Gherkin. Com o Gherkin, é possível descrever o comportamento esperado da aplicação em termos de cenários de teste, utilizando palavras-chave como "Dado que", "Quando" e "Então". Isso facilita a comunicação entre desenvolvedores, testadores e stakeholders, garantindo que todos tenham uma compreensão clara dos requisitos e comportamentos esperados.
 
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/f0e96ae4-f8c9-400d-8f26-108f3efcfcce" width="700px">
-  <br><i>Step da <a href="https://github.com/rodrigomolter/bugbank-selenium/blob/main/features/steps/transferencia_steps.py">feature de Transferência</a></i>
+  <br><i>Step da <a href="https://github.com/rodrigomolter/bugbank-selenium/blob/main/features/steps/transferencia_steps.py">feature de Transferência</a>: função do Behave para transformar uma frase em Gherkin para código</i>
 </div><br>
 
-O uso de [type hints](https://docs.python.org/3/library/typing.html) no projeto ajudou a melhorar a clareza e a manutenção do código. Também utilizei o Faker.js para gerar dados fictícios, o que enriqueceu os testes e garantiu uma melhor simulação de um ambiente real.
+Uma prática recomendada ao usar Selenium é o padrão de design Page Objects. Page Objects é a representação de cada página web que esta sendo testada em sua respectiva classe. Elas encapsulam os elementos específicos da página (como botões, campos de texto) e os comportamentos esperados (como preencher um formulário, clicar em um botão de submissão). Ao adotar Page Objects, os testes se tornam mais modulares, reutilizáveis e fáceis de manter. Isso porque qualquer alteração na interface da aplicação só requer atualizações na Page Object correspondente, em vez de em todos os testes que interagem com essa página.
 
-Outro aspecto importante foi a manipulação do local storage da aplicação. Como o BugBank não possui um banco de dados tradicional e armazena dados no local storage do navegador, precisei manipular diretamente esses dados para simular interações com uma API. Isso economizou tempo ao evitar repetir ações na interface gráfica, como recriar uma conta ou fazer login para testar uma transferência.
+Cada página do BugBank é representada por uma classe que encapsula os elementos da interface e as ações que podem ser realizadas. Uma classe base chamada `BasePage` foi criada para conter métodos comuns a todas as páginas, como inicialização do WebDriver, navegação e localização de elementos na página. Isso evita a duplicação de código e facilita a manutenção.
 
-
-## PAGE OBJECTS MODEL
-
-O [Page Object Model](https://www.selenium.dev/pt-br/documentation/test_practices/encouraged/page_object_models/) (POM) é um padrão de design utilizado para criar uma camada de abstração sobre os elementos da interface do usuário. Cada página da aplicação é representada por uma classe em POM, encapsulando a estrutura e o comportamento da página.
-
-Implementei o padrão POM para organizar o código dos testes. Cada página do BugBank é representada por uma classe que encapsula os elementos da interface e as ações que podem ser realizadas. Esta abordagem facilita a manutenção e a reutilização do código. No entanto, enfrentei algumas dificuldades na estruturação inicial dos page objects, como garantir que o padrão de design estivesse sendo corretamente aplicado e as abstrações estivessem nas páginas correspondentes.
+Combinar Selenium, Page Objects, Behave e Gherkin não apenas melhora a eficiência na automação de testes, mas também promove uma colaboração mais eficaz entre equipes. Os testes se tornam mais centrados no comportamento do usuário, o que ajuda a validar não apenas a funcionalidade técnica, mas também os requisitos de negócio. Essa abordagem não só acelera o ciclo de desenvolvimento, mas também aumenta a confiança na qualidade do software entregue, resultando em uma experiência mais confiável e alinhada com as expectativas dos usuários finais.
 
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/0794d8dc-e7c8-4682-a87e-869a4299f7c0" width="500px">
   <br><i>Home do BugBank.</i>
 </div><br>
 
-Uma classe base chamada `BasePage` foi criada para conter métodos comuns a todas as páginas, como inicialização do WebDriver, navegação e localização de elementos na página. Isso evita a duplicação de código e facilita a manutenção.
+Como o BugBank não utiliza de um banco de dados tradicional, a aplicação armazena os dados do usuário no *local storage* do navegador. Para simular interações com uma API externa da aplicação, manipulei diretamente os dados no *local storage*. Isso garante que os testes não sejam dependentes e que apenas a função desejada esteje sendo testada. Esta ação reduziu consideravelmente o tempo total de execução da suite de testes, pois agora não é mais necessário realizar ações na interface para efetuar cadastro/login em cenários de testes que não estavam testando essas funcionalidades.
 
 
 # RESULTADOS
 
-Iniciei o projeto com o objetivo de aprender mais sobre automação de testes, principalmente utilizando python. O uso do padrão Page Objects facilitou a manutenção e a escalabilidade dos testes, embora tenha apresentado desafios iniciais na sua implementação. Manipulei o local storage do BugBank para simular interações com uma API, o que economizou drasticamente o tempo da execução dos testes E2E[^1].
+Iniciei o projeto com o objetivo de aprender mais sobre automação de testes, principalmente utilizando python. O uso do padrão Page Objects facilitou a manutenção e a escalabilidade dos testes, embora tenha apresentado desafios iniciais na sua implementação.
 
-Percebi também que poderia melhorar a documentação do código com [Docstrings](https://www.programiz.com/python-programming/docstrings) e aproveitar mais as fixtures para configurar e limpar estados necessários para os testes. Para a integração contínua (CI), pretendo futuramente utilizar o GitHub Actions e talvez o Jenkins para gerar relatórios. Outro ponto importante foi a necessidade de desenvolver melhor a parte de bug report e apresentação dos dados. 
+No quesito de melhorias, há espaços para adicionar uma documentação ao código com [Docstrings](https://www.programiz.com/python-programming/docstrings). Também seria interessante integrar a geração de relatórios e bug reports para análise e entendimento mais aprofundado dos problemas e utilizar o GitHub Actions para integrar uma pipeline de testes automatizados.
 
 Por fim, reconheço que este projeto está em constante evolução, aplicando novos conceitos à medida que os aprendo. Foi uma experiência muito interessante que me permitiu aplicar e evoluir muito minhas habilidades.
 
-
-[^1]: Testes end-to-end (E2E) são uma forma de garantir que uma aplicação funciona corretamente do início ao fim, simulando o comportamento real do usuário. Eles verificam a integração e a comunicação entre diferentes partes do sistema, assegurando que tudo está funcionando como esperado.
 ___
 
 Made with ❤️ by [Rodrigo Molter](https://www.linkedin.com/in/rodrigo-molter/).
