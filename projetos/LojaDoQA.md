@@ -15,6 +15,7 @@ Tanto os cenários/casos de teste, quanto o bug report foram escritos em Gherkin
    1.1 [GUARDIÕES DA QUALIDADE](/projetos/LojaDoQA.md#guardiões-da-qualidade)<br>
 2. [FLUXUOGRAMA](/projetos/LojaDoQA.md#fluxuograma)<br>
 3. [CENÁRIOS DE TESTES](/projetos/LojaDoQA.md#cenários-de-testes)<br>
+   3.1 [TESTES DE ACESSIBILIDADE](/projetos/LojaDoQA.md#testes-de-acessibilidade)<br> 
 4. [BUG REPORT](/projetos/LojaDoQA.md#bug-report)<br>
    4.1 [CRITICIDADE](/projetos/LojaDoQA.md#criticidade)<br>
    4.2 [NAVEGAÇÃO DO USUÁRIO](/projetos/LojaDoQA.md#navegação-do-usuário)<br>
@@ -30,7 +31,8 @@ A divisão de equipes dentro do [Instituto Joga Junto](https://www.jogajuntoinst
 > Uma Squad é semelhante a uma equipe Scrum e é projetada para parecer uma mini-startup. Eles trabalham juntos e têm todas as habilidades e ferramentas necessárias para projetar, desenvolver, testar e lançar na produção. São uma equipe auto-organizada e decidem sua própria forma de trabalhar – algumas usam sprints de Scrum, outras usam Kanban, e algumas usam uma combinação dessas abordagens. <br> - [Scaling Agile @ Spotify, por Henrik Kniberg & Anders Ivarsson](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf)
 
 ### Guardiões da Qualidade
-Com isso, surgiu os **Guardiões da Qualidade**, que representam um marco crucial no desenvolvimento e aprendizado durante o curso. A criação desta identidade não apenas fortaleceu o sentimento de participação, mas também fomentou um ambiente de trabalho mais colaborativo e engajado.
+Com isso, surgiu os **Guardiões da Qualidade**. Esse foi o nome escolhido ao nosso squad pelos participantes. A escolha de um nome foi o pontapé inicial de algo que representam um marco crucial no desenvolvimento e aprendizado durante o curso. A utilização do nome em apresentações e pequenos projetos, culminou, pouco a pouco, na criação de uma identidade visual para os Guardiões da Qualidade. A criação desta identidade não apenas fortaleceu o sentimento de participação, mas também fomentou um ambiente de trabalho mais colaborativo e engajado.
+A utilização quase que diaria da identidade do squad trazia um sentimento de equipe e colaboração que fico muito grato de ter a oportunidade de ter feito parte.
 
 <div align="center">
   <picture>
@@ -40,7 +42,7 @@ Com isso, surgiu os **Guardiões da Qualidade**, que representam um marco crucia
   <br><i>Logo Guardiões da Qualidade</i>
 </div>
 <br>
-Este trabalho foi desenvolvido em conjunto com os <strong>Guardiões da Qualidade</strong>, e é devido a eles a grande qualidade que o projeto apresenta. Obrigado <a href="https://www.linkedin.com/in/annielle-crispim/">Annielle</a>, <a href="https://www.linkedin.com/in/juliarobaina/">Julia</a> e <a href="https://www.linkedin.com/in/matheusviniciusfp">Matheus</a>
+Este trabalho foi desenvolvido em conjunto com os <strong>Guardiões da Qualidade</strong>, e é devido a eles a grande qualidade que o projeto apresenta. Obrigado <a href="https://www.linkedin.com/in/annielle-crispim/">Annielle</a>, <a href="https://www.linkedin.com/in/juliarobaina/">Julia</a> e <a href="https://www.linkedin.com/in/matheusviniciusfp">Matheus</a>.
 
 ## FLUXUOGRAMA
 Antes da criação dos cenários de testes, foi elaborado um fluxuograma detalhado para mapear todos os possíveis caminhos e interações do usuário na Loja do QA. Esse processo foi fundamental para compreender o funcionamento completo do sistema e identificar os fluxos que precisavam ser validados durante os testes.
@@ -49,13 +51,13 @@ Antes da criação dos cenários de testes, foi elaborado um fluxuograma detalha
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/133a091d-30dd-4f64-b758-38947591e6fe" width="700">
   <br><a href="https://miro.com/app/board/uXjVKJtKCY8=/?share_link_id=6514805450"><i>Fluxuograma - Loja do QA</i></a>
 </div>
-
+<br>
 As principais funcionalidades foram divididas **quatro** fluxos:
 1. **Navegação do Usuário**:<br>
     Este fluxo cobre como os usuários navegam pelo site da Loja do QA. Inclui a entrada inicial no site e a navegação entre páginas. O objetivo é garantir que a navegação seja intuitiva, os links funcionem corretamente e os usuários encontrem facilmente o que procuram.
 
 2. **Criação de Conta**:<br>
-    Este fluxo se concentra no processo que os usuários seguem para criar uma conta na Loja do QA e o processo de autenticação. Inclui desde o preenchimento do formulário de registro até a confirmação por e-mail, se aplicável. O objetivo é garantir que o registro seja fácil de completar, que os dados sejam validados corretamente e que o usuário receba confirmações necessárias para acessar sua conta.
+    Este fluxo se concentra no processo que os usuários seguem para criar uma conta na Loja do QA e o processo de autenticação. Inclui desde o preenchimento do formulário de registro até a confirmação por e-mail. O objetivo é garantir que o registro seja fácil de completar, que os dados sejam validados corretamente e que o usuário receba as confirmações necessárias para acessar a sua conta.
 
 3. **Compras**:<br>
     Este fluxo abrange todas as etapas que um usuário segue ao realizar uma compra na Loja do QA. Isso inclui a busca por produtos, visualização das informações do produto, adicionar itens ao carrinho, gerenciar o carrinho (como editar quantidades ou remover itens), visualizar detalhes do pedido e confirmar a compra. O objetivo é assegurar que todo o processo de compra seja claro, eficiente e sem problemas.
@@ -71,6 +73,16 @@ Foram desenvolvidos um total de **67 casos de testes** divididos entre os princi
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/91956159-d86e-4761-93ed-718f851d9168" width="500">
   <br><i>Casos de Testes por Cenário de Teste</i>
 </div>
+
+Os casos de teste, escritos em Gherkin, são elaborados a partir da perspectiva do usuário e seu comportamento. Essa abordagem garante que os testes reflitam as necessidades reais dos usuários e ajudem a alinhar as expectativas dos stakeholders com a funcionalidade do sistema.
+
+### TESTES DE ACESSIBILIDADE
+Para os testes de acessibilidade, utilizamos as [**diretrizes da WCAG**](https://www.w3c.br/traducoes/wcag/wcag21-pt-BR/) (Web Content Accessibility Guidelines) para validar a acessibilidade do e-commerce. A WCAG fornece um conjunto de recomendações para tornar o conteúdo web mais **acessível** a pessoas com deficiências, incluindo deficiências visuais, auditivas, motoras e cognitivas.
+
+Durante o processo de testes, verificamos se a Loja do QA atendia aos critérios da WCAG em vários níveis de conformidade. Isso incluiu a verificação de elementos como contraste de cores, navegação via teclado, descrição de imagens (atributos alt), e a estrutura semântica do HTML. Além disso, testamos a compatibilidade do site com leitores de tela para garantir que todos os usuários pudessem acessar e utilizar o e-commerce de maneira eficiente.
+
+>O poder da Web está em sua universalidade. O acesso de todos, independentemente da deficiência, é um aspecto essencial.
+<br>- Tim Berners-Lee, diretor da W3C.
 
 ## BUG REPORT
 Após a execução dos testes, o bug report[^1] da Loja do QA categoriza e prioriza os problemas identificados em cada cenário de teste. Os bugs são classificados por sua criticidade, proporcionando uma visão clara dos aspectos do sistema que requerem correção imediata para melhorar a experiência do usuário e a eficiência operacional do e-commerce.
@@ -140,11 +152,11 @@ Ja na parte de acessibilidade foram encontrados **30 bugs**, dos quais **nenhum*
 
 ## APRENDIZADO
 
-Participar do case foi uma experiência muito enriquecedora. Aprendemos não só habilidades técnicas, mas também desenvolvemos de trabalhar em equipe. No começo, enfrentamos desafios para entender os requisitos do cliente e mapear os fluxos do sistema, o que foi um processo inicialmente lento. Porém, esse período foi fundamental para entender completamente como cada parte da aplicação funcionava e se conectava.
+Participar do case foi uma experiência muito enriquecedora. Aprendi não só habilidades técnicas, mas também desenvolvemos habilidade de trabalhar em equipe. No começo nossa Squad enfrentou desafios para entender os requisitos do cliente e mapear os fluxos do sistema: um processo inicialmente lento, porém fundamental para entender completamente como cada parte da aplicação funcionava e se conectava.
 
-Durante o desenvolvimento, a comunicação eficaz e a colaboração entre a equipe criaram um ambiente de trabalho tranquilo e produtivo, onde ideias fluíam livremente e desafios eram superados em conjunto. A maturidade da equipe e as boas relações cultivadas durante o curso permitiram uma interação fluida e respeitosa entre todos os membros. A resolução de problemas se tornou uma atividade colaborativa, beneficiando-se da diversidade de perspectivas e experiências.
+Durante o desenvolvimento do projeto, a boa comunicação e colaboração entre a equipe criaram um ambiente de trabalho tranquilo e produtivo. Ideias fluíam livremente e desafios eram superados em conjunto. A maturidade da equipe e as boas relações cultivadas durante o curso permitiram uma interação fluida e respeitosa entre todos os membros. A resolução de problemas se tornou uma atividade colaborativa, beneficiando-se da diversidade de perspectivas e experiências.
 
-No geral, foi uma oportunidade valiosa para aplicar teoria na prática, consolidando habilidades técnicas e soft skills essenciais para o trabalho como QA. As lições aprendidas não só melhoraram nossa capacidade de trabalho em equipe e resolução de problemas complexos, mas também nos prepararam melhor para enfrentar desafios futuros no campo da qualidade de software.
+No geral, foi uma oportunidade valiosa para aplicar teoria na prática, consolidando hard e soft skills essenciais para o trabalho como QA. As lições aprendidas não só melhoraram nossa capacidade de trabalho em equipe e resolução de problemas, mas também nos prepararam melhor para enfrentar desafios futuros no campo da qualidade de software.
 
 [^1]: Por questões de regras do Instituto Joga Junto, alguns materiais não podem ser disponibilizados publicamente.
 ___
