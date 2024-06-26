@@ -17,7 +17,7 @@
     <br><br>
     <p>
       Oi, eu sou o <strong>Rodrigo</strong>, um profissional apaixonado pela jornada da qualidade de software! Com experiência em desenvolvimento de software, eu iniciei minha transição para a área de qualidade de software.<br>
-      Possuo conhecimento nas principais ferramentas de automação de testes como <strong><code>Postman</code></strong>, <strong><code>Cypress</code></strong> e <strong><code>Selenium</code></strong>, além de experiência em linguagens de programação como <code><strong>Javascript</code></strong> e <strong><code>Python</strong></code>. Também possuo conhecimento na escrita de casos de testes em <code><strong>Gherkin</strong></code>.
+      Possuo conhecimento nas principais ferramentas de automação de testes como <strong><code>Postman</code></strong>, <strong><code>Cypress</code></strong> e <strong><code>Selenium</code></strong>, além de experiência em linguagens de programação como <code><strong>Javascript</code></strong> e <strong><code>Python</strong></code>. Também possuo conhecimento na escrita de casos de testes em <code><strong>Gherkin</strong></code> e tipos de testes.
     <br>
     <p align="right"><i>
       Rodrigo Molter
