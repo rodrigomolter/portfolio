@@ -4,18 +4,9 @@
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/e19372d1-5caf-4ad4-ac48-6f19d92dbe47" width="500">
 </div><br>
 
-A Motion HUB API é uma API desenvolvida em JavaScript utilizando o framework [Fastify](https://fastify.dev/). Ela foi criada com o objetivo de praticar a construção de uma API de forma simples e eficiente. A API utiliza um banco de dados em memória (in-memory database) para armazenar informações de filmes, como nome, descrição e duração. O projeto enfatiza boas práticas de desenvolvimento, incluindo padrões de código mantidos com ESLint e documentação clara gerada com Swagger
+A Motion HUB API é uma API desenvolvida em JavaScript utilizando o framework [Fastify](https://fastify.dev/). Ela foi criada com o objetivo de praticar a construção de uma API de forma simples e eficiente. A API utiliza de um banco de dados em memória (in-memory database) para armazenar informações de filmes, como nome, descrição e duração. O projeto enfatiza boas práticas de desenvolvimento, incluindo padrões de código mantidos com ESLint e documentação clara gerada com Swagger
 
-Desenvolvi um plano abrangente com testes manuais e automatizados utilizando Postman e Cypress, com integração ao GitHub Actions para execução contínua dos testes. Esta experiência me ensinou sobre a importância de documentação eficiente e a utilização de testes automatizados para garantir a qualidade do software.
-
-<div align="center">
-  <a href="https://github.com/rodrigomolter/MotionHub-API">
-    <picture>
-      <source srcset="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
-      <img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-white?style=for-the-badge&logo=github&logoColor=black">
-    </picture>
-  </a>
-</div>
+Foi desenvolvido um plano abrangente com testes manuais e automatizados utilizando Postman e Cypress junto com uma integração ao GitHub Actions para execução contínua dos testes. Esta experiência me ensinou sobre a importância de documentação eficiente e a utilização de testes automatizados para garantir a qualidade do software.
 
 ## SUMÁRIO
 1. [BANCO DE DADOS EM MEMÓRIA](/projetos/MotionHubAPI.md#banco-de-dados-em-memória)
@@ -56,6 +47,8 @@ Os testes automatizados foram implementados para garantir uma cobertura contínu
 
 A fim de estudos, desenvolvi os testes automatizados utilizando tanto Postman quanto Cypress. Em ambas as automações de testes, utilizei a biblioteca FakerJS para gerar massas de dados de forma dinâmica. Isso permite criar cenários variados e realistas, aumentando a robustez e abrangência dos testes.
 
+Acesse o [repositório da Motion HUB API](https://github.com/rodrigomolter/MotionHub-API) para visualizar seu desenvolvimento e os testes.
+
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/f0a53fd5-73f3-4491-ad3f-65b54663257e" width="500">
   <br><i>Execução dos testes no Cypress</i>
@@ -70,16 +63,15 @@ Para garantir a qualidade contínua do projeto, integrei a suíte de testes auto
 
 # APRENDIZADOS
 
-Desenvolver a Motion HUB API foi uma experiência muito enriquecedora. Aprendi bastante sobre como estruturar e organizar uma API eficiente e funcional. A simplicidade e eficácia do Fastify tornaram o desenvolvimento da API mais fácil, permitindo criar endpoints de forma rápida e com excelente performance. A escolha do Fastify se mostrou acertada devido à sua simplicidade e eficiência.
+Desenvolver a Motion HUB API foi bastante divertido e surpreendentemente mais fácil do que eu imaginava. Aprendi bastante sobre como estruturar e organizar uma API eficiente e funcional. A escolha do Fastify se demonstrou uma boa escolha, tornando o seu projeto algo simples e eficaz.
 
-Trabalhar com o Swagger apresentou alguns desafios. A configuração inicial e a integração com o projeto foram mais complicadas do que eu esperava. No entanto, depois de configurado, o Swagger foi essencial para manter a documentação da API clara e acessível.
+No entanto, trabalhar com o Swagger apresentou alguns desafios. Optei por introduzir o swagger no projeto no final do desenvolvimento da aplicação, e a configuração inicial e a integração com o projeto foram mais complicadas do que eu esperava. No entanto, depois de configurado, o Swagger foi ajuda a manter a documentação da API clara e acessível.
 
-A implementação de testes foi um aspecto positivo. Desenvolver um plano de testes, incluindo testes manuais, ajudou a garantir a qualidade e confiabilidade da API. O uso do Postman e do Cypress facilitou a criação de testes automatizados, e a integração com o GitHub Actions automatizou os testes a cada push.
+A implementação de testes foi um aspecto positivo. Desenvolver um plano de testes ajudou a garantir a qualidade e confiabilidade dos meus testes automatizados. O uso do Postman e do Cypress acabaram criando uma certa duplicidade de testes, mas foram valiosos no quesito de aprendizagem.
 
-Um ponto de melhoria foi a ausência de testes unitários. Não ter implementado testes unitários durante o desenvolvimento foi um erro que percebi em projetos futuros. Testes unitários teriam me dado mais confiança ao realizar manutenções ou adicionar novas funcionalidades à API e reduziram a quantidade de tempo gasto em testes manuais.
+Um ponto de melhoria foi a ausência de testes unitários. Não ter implementado testes unitários durante o desenvolvimento foi um erro que percebi depois que os testes automatizados estavam integrados com o Github Actions em cada push. Testes unitários teriam me dado mais confiança ao realizar manutenções ou adicionar novas funcionalidades à API e reduziram a quantidade de tempo gasto em testes manuais.
 
-Em resumo, a experiência com a Motion HUB API me proporcionou aprendizados valiosos sobre desenvolvimento de APIs, uso de frameworks modernos, testes automatizados e documentação eficiente, além de reforçar a importância de testes unitários para garantir a robustez do projeto.
-
+Casos práticos como esse nos ajudam a aprender os valores de qualidade de software além da teoria e são importantissimos para entender e argumentar no dia-a-dia do mercado de trabalho.
 
 [^1]: A documentação do projeto se encontra atualmente em inglês. Foi realizada assim para aprimorar minhas habilidades na escrita.
 
