@@ -43,8 +43,8 @@
         <img alt="BUG REPORT" src="https://img.shields.io/badge/BUG_REPORT-white?style=flat">
         <img alt="GHERKIN" src="https://img.shields.io/badge/GHERKIN-white?style=flat">
         <img alt="TESTE DE ACESSIBILIDADE" src="https://img.shields.io/badge/TESTE_DE_%20ACESSIBILIDADE-white?style=flat">
+        <br><br>
         <div align="center">
-          <br><br>
           <a href="/projetos/LojaDoQA.md">
             <picture>
               <source srcset="https://img.shields.io/badge/%F0%9F%9B%92_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
@@ -74,6 +74,7 @@
         <img alt="SCRUM" src="https://img.shields.io/badge/SCRUM-white?style=flat">
         <img alt="GERÊNCIAMENTO DE PROJETOS" src="https://img.shields.io/badge/GERÊNCIAMENTO_DE_PROJETOS-white?style=flat">
         <img alt="FIGMA" src="https://img.shields.io/badge/FIGMA-white?style=flat">
+        <br><br>
         <div align="center">
           <a href="/projetos/Amigos_Entregadores.md">
             <picture>
@@ -109,6 +110,7 @@
         <img alt="GHERKIN" src="https://img.shields.io/badge/GHERKIN-white?style=flat">
         <img alt="BEHAVE" src="https://img.shields.io/badge/BEHAVE-white?style=flat">
         <img alt="PAGE OBJECTS" src="https://img.shields.io/badge/PAGE_OBJECTS-white?style=flat">
+        <br><br>
         <div align="center">
           <a href="/projetos/BugBank.md">
             <picture>
@@ -149,6 +151,7 @@
         <img alt="CYPRESS" src="https://img.shields.io/badge/CYPRESS-white?style=flat">
         <img alt="POSTMAN" src="https://img.shields.io/badge/POSTMAN-white?style=flat">
         <img alt="GITHUB ACTIONS" src="https://img.shields.io/badge/GITHUB_ACTIONS-white?style=flat">
+        <br><br>
         <div align="center">
           <a href="/projetos/MotionHubAPI.md">
             <picture>
@@ -186,6 +189,7 @@
         <img alt="CYPRESS" src="https://img.shields.io/badge/CYPRESS-white?style=flat">
         <img alt="GITHUB ACTIONS" src="https://img.shields.io/badge/GITHUB_ACTIONS-white?style=flat">
         <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
+        <br><br>
         <div align="center">
           <a href="/projetos/TodoMVC.md">
             <picture>
