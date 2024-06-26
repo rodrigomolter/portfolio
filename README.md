@@ -39,13 +39,12 @@
         Durante o projeto, começamos com o planejamento inicial, onde compreendemos o problema, analisamos os fluxos e requisitos do cliente, exploramos o funcionamento do sistema e mapeamos suas principais funcionalidades. Em seguida, direcionamos nossa atenção para a execução prática, envolvendo o detalhamento de cenários e casos de teste, a condução dos testes propriamente ditos, a elaboração do bug report e, por fim, a análise dos problemas 
       </p>
       <footer>
+        <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
+        <img alt="BUG REPORT" src="https://img.shields.io/badge/BUG_REPORT-white?style=flat">
+        <img alt="GHERKIN" src="https://img.shields.io/badge/GHERKIN-white?style=flat">
+        <img alt="TESTE DE ACESSIBILIDADE" src="https://img.shields.io/badge/TESTE_DE_%20ACESSIBILIDADE-white?style=flat">
         <div align="center">
-          <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-black?style=flat">
-          <img alt="BUG REPORT" src="https://img.shields.io/badge/BUG_REPORT-black?style=flat">
-          <img alt="GHERKIN" src="https://img.shields.io/badge/GHERKIN-black?style=flat">
-          <img alt="TESTE DE ACESSIBILIDADE" src="https://img.shields.io/badge/TESTE_DE_%20ACESSIBILIDADE-black?style=flat">
           <br><br>
-          <!-- <p><strong>GHERKIN | PLANO DE TESTES | TESTE DE ACESSIBILIDADE | BUG REPORT </strong></p> -->
           <a href="/projetos/LojaDoQA.md">
             <picture>
               <source srcset="https://img.shields.io/badge/%F0%9F%9B%92_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
@@ -72,8 +71,10 @@
         <br>
       </p>
       <footer>
+        <img alt="SCRUM" src="https://img.shields.io/badge/SCRUM-white?style=flat">
+        <img alt="GERÊNCIAMENTO DE PROJETOS" src="https://img.shields.io/badge/GERÊNCIAMENTO_DE_PROJETOS-white?style=flat">
+        <img alt="FIGMA" src="https://img.shields.io/badge/FIGMA-white?style=flat">
         <div align="center">
-          <p><strong>SCRUM | GERÊNCIAMENTO DE PROJETOS | FIGMA</strong></p>
           <a href="/projetos/Amigos_Entregadores.md">
             <picture>
               <source srcset="https://img.shields.io/badge/%F0%9F%8F%8D%EF%B8%8F_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
@@ -103,8 +104,12 @@
         O projeto <strong>BugBank</strong> foca na análise, escrita e automação de testes para a aplicação <a href="https://bugbank.netlify.app/">BugBank</a>, uma plataforma que simula um banco online. Inicialmente, os requisitos foram analisados e os casos de teste foram escritos em Gherkin. Testes manuais foram realizados para verificar funcionalidades básicas e identificar problemas. A automação dos testes foi desenvolvida em Python utilizando Selenium e Behave. A aplicação do padrão de design Page Objects organizou o código dos testes, facilitando a manutenção e a escalabilidade. A manipulação do local storage foi essencial para simular interações com uma API e economizar tempo nos testes. O projeto envolveu também a utilização de ambientes virtuais para isolar dependências, uso de type hints para melhorar a clareza do código, e planejei melhorias futuras na documentação e a utilização de CI.
       </p>
       <footer>
+        <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-white?style=flat">
+        <img alt="SELENIUM" src="https://img.shields.io/badge/SELENIUM-white?style=flat">
+        <img alt="GHERKIN" src="https://img.shields.io/badge/GHERKIN-white?style=flat">
+        <img alt="BEHAVE" src="https://img.shields.io/badge/BEHAVE-white?style=flat">
+        <img alt="PAGE OBJECTS" src="https://img.shields.io/badge/PAGE_OBJECTS-white?style=flat">
         <div align="center">
-          <p><strong>PYTHON | SELENIUM | GHERKIN | BEHAVE | PAGE OBJECTS </strong></p>
           <a href="/projetos/BugBank.md">
             <picture>
               <source srcset="https://img.shields.io/badge/%F0%9F%90%9E_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
@@ -136,8 +141,15 @@
         Desenvolvi um plano abrangente com testes manuais e automatizados utilizando Postman e Cypress, com integração ao GitHub Actions para execução contínua dos testes. Esta experiência me ensinou sobre a importância de documentação eficiente e a utilização de testes automatizados para garantir a qualidade do software.
       </p>
       <footer>
+        <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JAVASCRIPT-white?style=flat">
+        <img alt="NODEJS" src="https://img.shields.io/badge/NODEJS-white?style=flat">
+        <img alt="FASTIFY" src="https://img.shields.io/badge/FASTIFY-white?style=flat">
+        <img alt="FAKERJS" src="https://img.shields.io/badge/FAKERJS-white?style=flat">
+        <img alt="SWAGGER" src="https://img.shields.io/badge/SWAGGER-white?style=flat">
+        <img alt="CYPRESS" src="https://img.shields.io/badge/CYPRESS-white?style=flat">
+        <img alt="POSTMAN" src="https://img.shields.io/badge/POSTMAN-white?style=flat">
+        <img alt="GITHUB ACTIONS" src="https://img.shields.io/badge/GITHUB_ACTIONS-white?style=flat">
         <div align="center">
-          <p><strong>JAVASCRIPT | NODEJS | FASTIFY | ESLINT | FAKERJS | SWAGGER |  CYPRESS | POSTMAN | GITHUB ACTIONS </strong></p>
           <a href="/projetos/MotionHubAPI.md">
             <picture>
               <source srcset="https://img.shields.io/badge/%F0%9F%8E%AC_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
@@ -167,8 +179,14 @@
          O projeto <strong>TodoMVC</strong> consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio, um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando Cypress, com integração contínua via Github Actions para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
       </p>
       <footer>
+        <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JAVASCRIPT-white?style=flat">
+        <img alt="NODEJS" src="https://img.shields.io/badge/NODEJS-white?style=flat">
+        <img alt="ESLINT" src="https://img.shields.io/badge/FASTIFY-white?style=flat">
+        <img alt="FAKERJS" src="https://img.shields.io/badge/FAKERJS-white?style=flat">
+        <img alt="CYPRESS" src="https://img.shields.io/badge/CYPRESS-white?style=flat">
+        <img alt="GITHUB ACTIONS" src="https://img.shields.io/badge/GITHUB_ACTIONS-white?style=flat">
+        <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
         <div align="center">
-          <p><strong>JAVASCRIPT | NODEJS | ESLINT | FAKERJS | CYPRESS | GITHUB ACTIONS | PLANO DE TESTES </strong></p>
           <a href="/projetos/TodoMVC.md">
             <picture>
               <source srcset="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
