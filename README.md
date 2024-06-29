@@ -47,6 +47,9 @@
         <td align="center">
           <img src="https://skillicons.dev/icons?i=githubactions&theme=light" alt="Github Actions" title="Github Actions"><br>Github Actions
         </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=docker&theme=light" alt="Docker" title="Docker"><br>Docker
+        </td>
       </tr>
       <tr>
         <td align="center">
@@ -60,6 +63,9 @@
         </td>
         <td align="center">
           <img src="https://skillicons.dev/icons?i=gherkin&theme=light" alt="Gherkin" title="Gherkin"><br>Gherkin
+        </td>
+        <td align="center">
+          <img src="https://skillicons.dev/icons?i=figma&theme=light" alt="Figma" title="Figma"><br>Figma
         </td>
       </tr>
     </table>
@@ -77,6 +83,7 @@
     <h2> Sumário </h2>
     <nav>
       <ul>
+        <li><a href="#docunder">📘 Docunder</a></li>
         <li><a href="#lojaDoQA">🛒Loja do QA</a></li>
         <li><a href="#amigosEntregadores">🏍️ ONG Amigos Entregadores</a></li>
         <li><a href="#bugBank">🐞Bug Bank</a></li>
@@ -89,6 +96,47 @@
 
 <br>
 <main>
+  <section id="docunder">
+    <header>
+      <h2><a href="/projetos/docunder.md">📘 Docunder</a></h2>
+    </header>
+    <article>
+      <div align="center">
+        <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/cc8e46fc-f974-4367-a32a-0728f19281f2" width="600">
+      </div><br>
+      <p>
+        <strong><a href="">Docunder</a></strong> é uma plataforma de documentação técnica para desenvolvedores de software, hardware e IoT. 
+        <br><br>
+        O projeto tem objetivo a criação de uma plataforma de compartilhamento de documentos técnicos na área de desenvolvimento e compartilhamento de códigos para um grupo específico. Além disso, ser de fácil utilização sem que haja cursos externos para o uso da plataforma gerando oportunidades para iniciantes e empresas.
+        Este produto ajuda desenvolvedores de tecnologia que precisam documentar seu trabalho de forma colaborativa para obter um registro dos processos ao proporcionar uma navegação simples e intuitiva. Essa ideia se diferencia das soluções existentes porque é open source e tem uma interface simples.
+        <br><br>
+        Desenvolvida de forma voluntária, o projeto consiste de setores como agilistas, product menager, ux/ui designers e desenvolvedores front e back end.
+      </p>
+      <footer>
+        <img alt="DOCKER" src="https://img.shields.io/badge/DOCKER-white?style=flat">
+        <img alt="SCRUM" src="https://img.shields.io/badge/SCRUM-white?style=flat">
+        <img alt="FIGMA" src="https://img.shields.io/badge/FIGMA-white?style=flat">
+        <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
+        <img alt="BUG REPORT" src="https://img.shields.io/badge/BUG_REPORT-white?style=flat">
+        <br><br>
+        <div align="center">
+          <a href="/projetos/LojaDoQA.md">
+            <picture>
+              <source srcset="https://img.shields.io/badge/%F0%9F%93%98_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
+              <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%93%98_SAIBA_MAIS-white?style=for-the-badge">
+            </picture>
+          </a>
+          <a href="https://github.com/Organizacao-Docunder">
+            <picture>
+              <source srcset="https://img.shields.io/badge/Github_Repo-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
+              <img alt="GITHUB REPO" src="https://img.shields.io/badge/Github_Repo-white?style=for-the-badge&logo=github&logoColor=black">
+            </picture>
+          </a>
+        </div>
+      </footer>
+    </article>
+  </section>
+
   <section id="lojaDoQA">
     <header>
       <h2><a href="/projetos/LojaDoQA.md">🛒 Loja do QA - Instituto Joga Junto </a></h2>
