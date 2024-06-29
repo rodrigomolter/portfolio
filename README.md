@@ -39,9 +39,6 @@
           <img src="https://skillicons.dev/icons?i=js&theme=light" alt="Javascript" title="Javascript"><br>Javascript
         </td>
         <td align="center">
-          <img src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="NodeJS" title="NodeJS"><br>NodeJS
-        </td>
-        <td align="center">
           <img src="https://skillicons.dev/icons?i=python&theme=light" alt="Python" title="Python"><br>Python
         </td>
         <td align="center">
@@ -63,9 +60,6 @@
         </td>
         <td align="center">
           <img src="https://skillicons.dev/icons?i=gherkin&theme=light" alt="Gherkin" title="Gherkin"><br>Gherkin
-        </td>
-        <td align="center">
-          <img src="https://skillicons.dev/icons?i=figma&theme=light" alt="Figma" title="Figma"><br>Figma
         </td>
       </tr>
     </table>
