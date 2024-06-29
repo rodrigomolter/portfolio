@@ -105,12 +105,12 @@
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/cc8e46fc-f974-4367-a32a-0728f19281f2" width="600">
       </div><br>
       <p>
-        <strong><a href="">Docunder</a></strong> é uma plataforma de documentação técnica para desenvolvedores de software, hardware e IoT. 
+        <strong><a href="https://www.linkedin.com/company/docunder/">Docunder</a></strong> é uma plataforma de documentação técnica para desenvolvedores de software, hardware e IoT. 
         <br><br>
         O projeto tem objetivo a criação de uma plataforma de compartilhamento de documentos técnicos na área de desenvolvimento e compartilhamento de códigos para um grupo específico. Além disso, ser de fácil utilização sem que haja cursos externos para o uso da plataforma gerando oportunidades para iniciantes e empresas.
         Este produto ajuda desenvolvedores de tecnologia que precisam documentar seu trabalho de forma colaborativa para obter um registro dos processos ao proporcionar uma navegação simples e intuitiva. Essa ideia se diferencia das soluções existentes porque é open source e tem uma interface simples.
         <br><br>
-        Desenvolvida de forma voluntária, o projeto consiste de setores como agilistas, product menager, ux/ui designers e desenvolvedores front e back end.
+        Desenvolvida de forma voluntária, o projeto consiste de setores como agilistas, product menager, ux/ui designers, desenvolvedores e QAs.
       </p>
       <footer>
         <img alt="DOCKER" src="https://img.shields.io/badge/DOCKER-white?style=flat">
