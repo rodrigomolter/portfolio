@@ -1,5 +1,10 @@
 # ✍ Todo MVC
 
+<div align="left">
+  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <br><br>
+</div>
+
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/d45b13ce-2fa7-40b8-b10b-a66636b1d834" width="600">
 </div><br>
@@ -65,6 +70,17 @@ Para melhorar a usabilidade e a clareza do código, criei comandos customizávei
 </div><br>
 
 Caso queira visualizar o projeto, você pode visualizar o [repositório da minha suíte de testes](https://github.com/rodrigomolter/TodoMVC). Lá além do código, você também encontra detalhadamente como executar os testes na sua própria máquina. 
+
+<footer>
+  <br><br>
+  <div align="left">
+    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  </div>
+  <div align="center">
+    <a href="#-todo-mvc"><strong>⬆️ VOLTAR AO TOPO</strong></a>
+  </div>
+  <br>
+</footer>
 
 [^1]: A documentação do projeto se encontra atualmente em inglês. Foi realizada assim para aprimorar minhas habilidades na escrita.
 

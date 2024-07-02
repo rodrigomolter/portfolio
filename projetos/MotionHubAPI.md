@@ -1,5 +1,10 @@
 # 🎬 Motion HUB API
 
+<div align="left">
+  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <br><br>
+</div>
+
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/e19372d1-5caf-4ad4-ac48-6f19d92dbe47" width="500">
 </div><br>
@@ -72,6 +77,17 @@ A implementação de testes foi um aspecto positivo. Desenvolver um plano de tes
 Um ponto de melhoria foi a ausência de testes unitários. Não ter implementado testes unitários durante o desenvolvimento foi um erro que percebi depois que os testes automatizados estavam integrados com o Github Actions em cada push. Testes unitários teriam me dado mais confiança ao realizar manutenções ou adicionar novas funcionalidades à API e reduziram a quantidade de tempo gasto em testes manuais.
 
 Casos práticos como esse nos ajudam a aprender os valores de qualidade de software além da teoria e são importantissimos para entender e argumentar no dia-a-dia do mercado de trabalho.
+
+<footer>
+  <br><br>
+  <div align="left">
+    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  </div>
+  <div align="center">
+    <a href="#-motion-hub-api"><strong>⬆️ VOLTAR AO TOPO</strong></a>
+  </div>
+  <br>
+</footer>
 
 [^1]: A documentação do projeto se encontra atualmente em inglês. Foi realizada assim para aprimorar minhas habilidades na escrita.
 

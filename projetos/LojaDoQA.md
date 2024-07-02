@@ -1,4 +1,10 @@
 # 🛒 Loja do QA
+
+<div align="left">
+  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <br><br>
+</div>
+
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/1b3d6071-001f-4962-8b95-6d33bb8ec720" width="700">
 </div><br>
@@ -157,6 +163,17 @@ Participar do case foi uma experiência muito enriquecedora. Aprendi não só ha
 Durante o desenvolvimento do projeto, a boa comunicação e colaboração entre a equipe criaram um ambiente de trabalho tranquilo e produtivo. Ideias fluíam livremente e desafios eram superados em conjunto. A maturidade da equipe e as boas relações cultivadas durante o curso permitiram uma interação fluida e respeitosa entre todos os membros. A resolução de problemas se tornou uma atividade colaborativa, beneficiando-se da diversidade de perspectivas e experiências.
 
 No geral, foi uma oportunidade valiosa para aplicar teoria na prática, consolidando hard e soft skills essenciais para o trabalho como QA. As lições aprendidas não só melhoraram nossa capacidade de trabalho em equipe e resolução de problemas, mas também nos prepararam melhor para enfrentar desafios futuros no campo da qualidade de software.
+
+<footer>
+  <br><br>
+  <div align="left">
+    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  </div>
+  <div align="center">
+    <a href="#-loja-do-qa"><strong>⬆️ VOLTAR AO TOPO</strong></a>
+  </div>
+  <br>
+</footer>
 
 [^1]: Por questões de regras do Instituto Joga Junto, alguns materiais não podem ser disponibilizados publicamente.
 ___

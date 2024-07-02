@@ -1,5 +1,10 @@
 # 🐞 BugBank
 
+<div align="left">
+  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <br><br>
+</div>
+
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/8789f6df-6469-4a61-a737-1268caee58fa" width="800">
 </div><br>
@@ -106,6 +111,16 @@ No quesito de melhorias, há espaços para adicionar uma documentação ao códi
 
 Por fim, reconheço que este projeto está em constante evolução, aplicando novos conceitos à medida que os aprendo. Foi uma experiência muito interessante que me permitiu aplicar e evoluir muito minhas habilidades.
 
+<footer>
+  <br><br>
+  <div align="left">
+    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  </div>
+  <div align="center">
+    <a href="#-bugbank"><strong>⬆️ VOLTAR AO TOPO</strong></a>
+  </div>
+  <br>
+</footer>
 ___
 
 Made with ❤️ by [Rodrigo Molter](https://www.linkedin.com/in/rodrigo-molter/).

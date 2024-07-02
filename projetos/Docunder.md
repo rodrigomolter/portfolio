@@ -1,5 +1,10 @@
 # 📘 Docunder
 
+<div align="left">
+  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <br><br>
+</div>
+
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/029b132c-b959-4b66-b766-f5f8a1762c41" width="600">
 </div><br>
@@ -13,7 +18,7 @@ Desenvolvida de forma voluntária, o projeto consiste de setores como agilistas,
 
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/8884e8c0-0f36-4b72-9cee-58af557cffdd" width="600">
-  <br><i>Persona</i>
+  <br><i>Análise de Persona</i>
 </div><br>
 
 # SouJunior
@@ -30,7 +35,7 @@ O frontend é desenvolvido em Next.js e executado em um container dedicado, enqu
 
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/f6b3c070-78a2-4ea3-96bd-2211f594915b" width="600">
-  <br><i>Arquitetura dos containers</i>
+  <br><i>Arquitetura dos containers Docker</i>
 </div><br>
 
 # Desenvolvimento
@@ -40,6 +45,7 @@ Depois de criar o protótipo, os requisitos e as user stories são refinados em 
 
 <div align="center">
   <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/cc8e46fc-f974-4367-a32a-0728f19281f2" width="600">
+  <br><i>Protótipo da tela Home</i>
 </div><br>
 
 Com os requisitos refinados e o protótipo aprovado, a funcionalidade é então apresentada para a equipe de desenvolvimento no início da sprint. Nesse momento, a equipe revisa a funcionalidade, discute o escopo e planeja as tarefas necessárias para a implementação durante o ciclo da sprint.
@@ -52,6 +58,18 @@ Ao final da sprint, a equipe de QA realiza uma validação completa da funcional
 O projeto da Docunder se encontra em constante melhorias na sua forma de organização e processos. Toda sprint é uma oportunidade de melhorias e aprendizados.
 
 O projeto Docunder ainda se encontra em fase de desenvolvimento.
+
+<footer>
+  <br><br>
+  <div align="left">
+    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  </div>
+  <div align="center">
+    <a href="#-docunder"><strong>⬆️ VOLTAR AO TOPO</strong></a>
+  </div>
+  <br>
+</footer>
+
 ___
 
 Made with ❤️ by [Rodrigo Molter](https://www.linkedin.com/in/rodrigo-molter/).
