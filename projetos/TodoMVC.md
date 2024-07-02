@@ -1,7 +1,7 @@
 # ✍ Todo MVC
 
 <div align="left">
-  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   <br><br>
 </div>
 
@@ -74,7 +74,7 @@ Caso queira visualizar o projeto, você pode visualizar o [repositório da minha
 <footer>
   <br><br>
   <div align="left">
-    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+    <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   </div>
   <div align="center">
     <a href="#-todo-mvc"><strong>⬆️ VOLTAR AO TOPO</strong></a>

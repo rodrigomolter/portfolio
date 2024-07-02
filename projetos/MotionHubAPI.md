@@ -1,7 +1,7 @@
 # 🎬 Motion HUB API
 
 <div align="left">
-  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   <br><br>
 </div>
 
@@ -81,7 +81,7 @@ Casos práticos como esse nos ajudam a aprender os valores de qualidade de softw
 <footer>
   <br><br>
   <div align="left">
-    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+    <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   </div>
   <div align="center">
     <a href="#-motion-hub-api"><strong>⬆️ VOLTAR AO TOPO</strong></a>

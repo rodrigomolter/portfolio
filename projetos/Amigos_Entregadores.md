@@ -1,7 +1,7 @@
  # 🏍️ Amigos Entregadores
 
 <div align="left">
-  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   <br><br>
 </div>
 
@@ -156,7 +156,7 @@ No geral, participar do projeto foi uma experiência muito positiva, consolidand
 <footer>
   <br><br>
   <div align="left">
-    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+    <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   </div>
   <div align="center">
     <a href="#️-amigos-entregadores"><strong>⬆️ VOLTAR AO TOPO</strong></a>

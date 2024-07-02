@@ -1,7 +1,7 @@
 # 📘 Docunder
 
 <div align="left">
-  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   <br><br>
 </div>
 
@@ -62,7 +62,7 @@ O projeto Docunder ainda se encontra em fase de desenvolvimento.
 <footer>
   <br><br>
   <div align="left">
-    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+    <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   </div>
   <div align="center">
     <a href="#-docunder"><strong>⬆️ VOLTAR AO TOPO</strong></a>

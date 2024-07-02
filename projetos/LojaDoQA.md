@@ -1,7 +1,7 @@
 # 🛒 Loja do QA
 
 <div align="left">
-  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   <br><br>
 </div>
 
@@ -167,7 +167,7 @@ No geral, foi uma oportunidade valiosa para aplicar teoria na prática, consolid
 <footer>
   <br><br>
   <div align="left">
-    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+    <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   </div>
   <div align="center">
     <a href="#-loja-do-qa"><strong>⬆️ VOLTAR AO TOPO</strong></a>

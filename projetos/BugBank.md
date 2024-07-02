@@ -1,7 +1,7 @@
 # 🐞 BugBank
 
 <div align="left">
-  <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+  <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   <br><br>
 </div>
 
@@ -114,7 +114,7 @@ Por fim, reconheço que este projeto está em constante evolução, aplicando no
 <footer>
   <br><br>
   <div align="left">
-    <a href="/portfolio"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
+    <a href="/"><strong>⬅️ VOLTAR AOS PROJETOS</strong></a>
   </div>
   <div align="center">
     <a href="#-bugbank"><strong>⬆️ VOLTAR AO TOPO</strong></a>
