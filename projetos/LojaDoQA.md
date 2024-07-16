@@ -58,6 +58,7 @@ Antes da criação dos cenários de testes, foi elaborado um fluxuograma detalha
   <br><a href="https://miro.com/app/board/uXjVKJtKCY8=/?share_link_id=6514805450"><i>Fluxuograma - Loja do QA</i></a>
 </div>
 <br>
+
 As principais funcionalidades foram divididas **quatro** fluxos:
 1. **Navegação do Usuário**:<br>
     Este fluxo cobre como os usuários navegam pelo site da Loja do QA. Inclui a entrada inicial no site e a navegação entre páginas. O objetivo é garantir que a navegação seja intuitiva, os links funcionem corretamente e os usuários encontrem facilmente o que procuram.
