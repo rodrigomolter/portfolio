@@ -107,7 +107,7 @@ Como o BugBank não utiliza de um banco de dados tradicional, a aplicação arma
 
 Iniciei o projeto com o objetivo de aprender mais sobre automação de testes, principalmente utilizando python. O uso do padrão Page Objects facilitou a manutenção e a escalabilidade dos testes, embora tenha apresentado desafios iniciais na sua implementação.
 
-No quesito de melhorias, há espaços para adicionar uma documentação ao código com [Docstrings](https://www.programiz.com/python-programming/docstrings). Também seria interessante integrar a geração de relatórios e bug reports para análise e entendimento mais aprofundado dos problemas e utilizar o GitHub Actions para integrar uma pipeline de testes automatizados.
+No quesito de melhorias, há espaços para adicionar uma documentação ao código com [Docstrings](https://www.programiz.com/python-programming/docstrings). Também seria interessante integrar a geração de relatórios e bug reports para análise e entendimento mais aprofundado dos problemas.
 
 Por fim, reconheço que este projeto está em constante evolução, aplicando novos conceitos à medida que os aprendo. Foi uma experiência muito interessante que me permitiu aplicar e evoluir muito minhas habilidades.
 
