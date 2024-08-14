@@ -78,6 +78,7 @@
     <nav>
       <ul>
         <li><a href="#docunder">📘 Docunder</a></li>
+        <li><a href="#backofficeJogajunto">👖 Backoffice JogaJunto</a></li>
         <li><a href="#lojaDoQA">🛒Loja do QA</a></li>
         <li><a href="#amigosEntregadores">🏍️ ONG Amigos Entregadores</a></li>
         <li><a href="#bugBank">🐞Bug Bank</a></li>
@@ -121,6 +122,52 @@
             </picture>
           </a>
           <a href="https://github.com/Organizacao-Docunder">
+            <picture>
+              <source srcset="https://img.shields.io/badge/Github_Repo-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
+              <img alt="GITHUB REPO" src="https://img.shields.io/badge/Github_Repo-white?style=for-the-badge&logo=github&logoColor=black">
+            </picture>
+          </a>
+        </div>
+      </footer>
+    </article>
+  </section>
+
+  <section id="backofficeJogajunto">
+    <header>
+      <h2><a href="/projetos/BackofficeJogajunto.md">👖 Backoffice JogaJunto</a></h2>
+    </header>
+    <article>
+      <div align="center">
+        <img src="https://github.com/user-attachments/assets/49ea62b0-7f65-41df-b10a-c039861025e5" width="600">
+      </div><br>
+      <p>
+        O <a href="https://projetofinal.jogajuntoinstituto.org/">Backoffice JogaJunto</a> é o <strong>projeto final</strong> do módulo AVANÇADO do curso <strong>Bugou? QA TA ON</strong> oferecido pelo <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a>. Trata-se de um sistema de controle de estoque de produtos para os colaboradores do Instituto Joga Junto, no qual é possível realizar o cadastro, pesquisa e filtragem de produtos adicionados.
+        <br><br>
+        Durante o projeto, começamos com o planejamento inicial, onde compreendemos o problema, analisamos os fluxos e requisitos do cliente, exploramos o funcionamento do sistema e mapeamos suas principais funcionalidades. Direcionamos nossa atenção para a definição de cronogramas e divisão de tarefas que serial realizadas nessa sprint.
+        <br>
+        Em seguida focamos na parte da execução prática, envolvendo o detalhamento de cenários e casos de testes, a condução dos testes manuais, a elaboração do bug report e a criação de testes de API e de testes automatizados. Por fim, foi realizado uma análise dos problemas identificados e a apresentação dos resultados para o cliente.
+        <br><br>
+        A automação dos testes é desenvolvida em <code>Python</code>, utilizando de <code>Selenium</code> com o padrão de design Page Objects para organização e encapsulamento das informações das páginas. Os casos de testes, utilizam do framework <code>Behave</code> para o suporte ao desenvolvimento orientado ao comportamento.
+      </p>
+      <footer>
+        <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-white?style=flat">
+        <img alt="SELENIUM" src="https://img.shields.io/badge/SELENIUM-white?style=flat">
+        <img alt="BEHAVE" src="https://img.shields.io/badge/BEHAVE-white?style=flat">
+        <img alt="PAGE OBJECTS" src="https://img.shields.io/badge/PAGE_OBJECTS-white?style=flat">
+        <img alt="POSTMAN" src="https://img.shields.io/badge/POSTMAN-white?style=flat">
+        <img alt="SCRUM" src="https://img.shields.io/badge/SCRUM-white?style=flat">
+        <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
+        <img alt="BUG REPORT" src="https://img.shields.io/badge/BUG_REPORT-white?style=flat">
+        <img alt="GHERKIN" src="https://img.shields.io/badge/GHERKIN-white?style=flat">
+        <br><br>
+        <div align="center">
+          <a href="/projetos/BackofficeJogajunto.md">
+            <picture>
+              <source srcset="https://img.shields.io/badge/%F0%9F%91%96_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
+              <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%91%96_SAIBA_MAIS-white?style=for-the-badge">
+            </picture>
+          </a>
+          <a href="https://github.com/rodrigomolter/backoffice-jogajunto">
             <picture>
               <source srcset="https://img.shields.io/badge/Github_Repo-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
               <img alt="GITHUB REPO" src="https://img.shields.io/badge/Github_Repo-white?style=for-the-badge&logo=github&logoColor=black">
