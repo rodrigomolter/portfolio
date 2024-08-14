@@ -12,7 +12,10 @@
 O [Backoffice JogaJunto](https://projetofinal.jogajuntoinstituto.org/) é o **projeto final** do módulo AVANÇADO do curso **Bugou? QA TA ON** oferecido pelo [Instituto Joga Junto](https://www.jogajuntoinstituto.org/). Trata-se de um sistema de controle de estoque de produtos para os colaboradores do Instituto Joga Junto, no qual é possível realizar o cadastro, pesquisa e filtragem de produtos adicionados.
 
 Durante o projeto, começamos com o planejamento inicial, onde compreendemos o problema, analisamos os fluxos e requisitos do cliente, exploramos o funcionamento do sistema e mapeamos suas principais funcionalidades. Direcionamos nossa atenção para a definição de cronogramas e divisão de tarefas que seriam realizadas nessa sprint.
+
 Em seguida focamos na parte da execução prática, envolvendo o detalhamento de cenários e casos de testes, a condução dos testes manuais, a elaboração do bug report e a criação de testes de API e de testes automatizados. Por fim, foi realizado uma análise dos problemas identificados e a apresentação dos resultados para o cliente.
+
+A automação dos testes é desenvolvida em `Python`, utilizando de `Selenium` com o padrão de design Page Objects para organização e encapsulamento das informações das páginas. Os casos de testes, utilizam do framework `Behave` para o suporte ao desenvolvimento orientado ao comportamento.
 
 Tanto os cenários/casos de teste, quanto o bug report foram escritos em Gherkin.
 
@@ -58,13 +61,13 @@ Foram desenvolvidos um total de **69 casos de testes** divididos entre os fluxos
 <div align="center">
   <img src="https://github.com/user-attachments/assets/c1467927-dec7-46aa-8cde-f9b67462d2a2" width="500">
   <br><i>Casos de Testes por Cenário de Teste</i>
-</div>
+</div><br>
 
 Os casos de teste, escritos em Gherkin, são elaborados a partir da perspectiva do usuário e seu comportamento. Essa abordagem garante que os testes reflitam as necessidades reais dos usuários e ajudem a alinhar as expectativas dos stakeholders com a funcionalidade do sistema.
 
 
 ## BUG REPORT
-Após a execução dos testes, o bug report do Backoffice Joga Junto categoriza e prioriza os problemas identificados em cada cenário de teste. Os bugs são classificados por sua criticidade, proporcionando uma visão clara dos aspectos do sistema que requerem correção imediata para melhorar a experiência do usuário e a eficiência operacional do sistema.
+Após a execução dos testes, o bug report do Backoffice JogaJunto categoriza e prioriza os problemas identificados em cada cenário de teste. Os bugs são classificados por sua criticidade, proporcionando uma visão clara dos aspectos do sistema que requerem correção imediata para melhorar a experiência do usuário e a eficiência operacional do sistema.
 
 Foram reportados um total de **50 bugs**, distribuídos por todo o sistema, cada um com diferentes níveis de criticidade. A maior parte dos bugs foram encontrada dentro do **fluxo de filtragem de produtos**, seguido pelo **fluxo de cadastro de produto**, que é o principal fluxo da aplicação.
 
@@ -100,7 +103,7 @@ Para garantir que as funcionalidades principais do Backoffice JogaJunto fossem t
       <img alt="GITHUB REPO" src="https://img.shields.io/badge/Github_Repo-white?style=for-the-badge&logo=github&logoColor=black">
     </picture>
   </a>
-</div>
+</div><br>
   
 O Selenium foi a ferramenta escolhida para automatizar as interações com o navegador, simulando ações de usuários como cliques, preenchimento de formulários e navegação entre páginas. Integrado ao Behave, que permite escrever testes com base nos casos de testes ja desenvolvidos, e que se baseiam no comportamento do usuário. Com o padrão Page Objects, cada página do sistema foi representada por uma classe, facilitando a manutenção e a reutilização dos testes. Ao concentrar os testes nos happy paths, a equipe assegurou que as funcionalidades essenciais do sistema fossem validadas de ponta a ponta, garantindo que o sistema funcionasse conforme o planejado no uso típico.
 
@@ -118,7 +121,7 @@ Além dos testes de happy path, foram realizados testes de contrato. Testes de c
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2e185a9e-011b-49be-8ae3-34f452f754c6" width="500">
   <br><i>Testes de Contrato</i>
-</div>
+</div><br>
 
 Para complementar os testes automatizados, foi criada uma collection no Postman que cobre todos os fluxos possíveis da API, tanto positivos quanto negativos. Essa collection inclui uma série de solicitações e cenários de teste que exploram diferentes aspectos da API, desde respostas esperadas em situações normais até como a API lida com entradas inválidas ou inesperadas. Utilizando essa abordagem, foi possível testar a robustez e a confiabilidade da API, garantindo que ela funcionasse corretamente em uma ampla gama de condições e atendesse aos requisitos estabelecidos.
 
@@ -135,7 +138,7 @@ Foi criada uma pipeline no GitHub Actions para o Backoffice JogaJunto, com o obj
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f6b91d75-5bf6-47ee-942b-cb67cfab3536" width="500">
   <br><i>Pipeline de CI</i>
-</div>
+</div><br>
 
 A pipeline no GitHub Actions é configurada para rodar os testes toda vez que um push é feito para o repositório. Ela executa os testes de maneira paralela em dois navegadores diferentes: Chrome e Firefox. Isso permite verificar a compatibilidade e o desempenho do sistema em diferentes ambientes de navegação, garantindo que o software funcione corretamente em ambos os casos. Esse processo automatizado ajuda a detectar problemas rapidamente e a manter a qualidade do código ao longo do desenvolvimento.
 

@@ -143,7 +143,7 @@
       <p>
         O <a href="https://projetofinal.jogajuntoinstituto.org/">Backoffice JogaJunto</a> é o <strong>projeto final</strong> do módulo AVANÇADO do curso <strong>Bugou? QA TA ON</strong> oferecido pelo <a href="https://www.jogajuntoinstituto.org">Instituto Joga Junto</a>. Trata-se de um sistema de controle de estoque de produtos para os colaboradores do Instituto Joga Junto, no qual é possível realizar o cadastro, pesquisa e filtragem de produtos adicionados.
         <br><br>
-        Durante o projeto, começamos com o planejamento inicial, onde compreendemos o problema, analisamos os fluxos e requisitos do cliente, exploramos o funcionamento do sistema e mapeamos suas principais funcionalidades. Direcionamos nossa atenção para a definição de cronogramas e divisão de tarefas que serial realizadas nessa sprint.
+        Durante o projeto, começamos com o planejamento inicial, onde compreendemos o problema, analisamos os fluxos e requisitos do cliente, exploramos o funcionamento do sistema e mapeamos suas principais funcionalidades. Direcionamos nossa atenção para a definição de cronogramas e divisão de tarefas que seriam realizadas nessa sprint.
         <br>
         Em seguida focamos na parte da execução prática, envolvendo o detalhamento de cenários e casos de testes, a condução dos testes manuais, a elaboração do bug report e a criação de testes de API e de testes automatizados. Por fim, foi realizado uma análise dos problemas identificados e a apresentação dos resultados para o cliente.
         <br><br>
