@@ -66,7 +66,6 @@
   </div>
 </section>
 
-
 <section id="projetos">
   <header>
     <h1> Projetos </h1>
@@ -84,6 +83,7 @@
         <li><a href="#bugBank">🐞Bug Bank</a></li>
         <li><a href="#motionHUB">🎬 Motion HUB API</a></li>
         <li><a href="#TodoMVC">✍ Todo MVC</a></li>
+        <li><a href="#beedoo">🐝 Desafio Beedoo</a></li>
       </ul>
     </nav>
   </header>
@@ -331,34 +331,73 @@
       <div align="center">
         <img src="https://github.com/rodrigomolter/portfolio/assets/57466763/80154d08-dbb6-4981-961c-ab2b67883371" width="600">
       </div><br>
-    <p>
-       O projeto <strong>TodoMVC</strong> consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio; um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando <code>Cypress</code> junto com uma integração contínua via <code>Github Actions</code> para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para gerar dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
-    </p>
-    <footer>
-      <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JAVASCRIPT-white?style=flat">
-      <img alt="NODEJS" src="https://img.shields.io/badge/NODEJS-white?style=flat">
-      <img alt="ESLINT" src="https://img.shields.io/badge/FASTIFY-white?style=flat">
-      <img alt="FAKERJS" src="https://img.shields.io/badge/FAKERJS-white?style=flat">
-      <img alt="CYPRESS" src="https://img.shields.io/badge/CYPRESS-white?style=flat">
-      <img alt="GITHUB ACTIONS" src="https://img.shields.io/badge/GITHUB_ACTIONS-white?style=flat">
-      <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
-      <br><br>
+      <p>
+        O projeto <strong>TodoMVC</strong> consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação <a href="https://todomvc.com/">TodoMVC</a>. Ele inclui user stories com seus requisitos e regras de negócio; um plano de testes para garantir cobertura das funcionalidades e testes manuais com evidências documentadas. Além disso, implementei automação de testes usando <code>Cypress</code> junto com uma integração contínua via <code>Github Actions</code> para manter a estabilidade e qualidade do código. Para uma experiência mais dinâmica, utilizei FakerJS para gerar dados aleatórios e criei comandos customizáveis no Cypress, facilitando a manutenção e colaboração eficiente.
+      </p>
+      <footer>
+        <img alt="JAVASCRIPT" src="https://img.shields.io/badge/JAVASCRIPT-white?style=flat">
+        <img alt="NODEJS" src="https://img.shields.io/badge/NODEJS-white?style=flat">
+        <img alt="ESLINT" src="https://img.shields.io/badge/FASTIFY-white?style=flat">
+        <img alt="FAKERJS" src="https://img.shields.io/badge/FAKERJS-white?style=flat">
+        <img alt="CYPRESS" src="https://img.shields.io/badge/CYPRESS-white?style=flat">
+        <img alt="GITHUB ACTIONS" src="https://img.shields.io/badge/GITHUB_ACTIONS-white?style=flat">
+        <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
+        <br><br>
+        <div align="center">
+          <a href="/projetos/TodoMVC.md">
+            <picture>
+              <source srcset="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
+              <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-white?style=for-the-badge">
+            </picture>
+          </a>
+          <a href="https://github.com/rodrigomolter/TodoMVC">
+            <picture>
+              <source srcset="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
+              <img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-white?style=for-the-badge&logo=github&logoColor=black">
+            </picture>
+          </a>
+        </div>
+      </footer>
+   </article>
+  </section>
+
+  <section id="beedoo">
+    <header>
+      <h2><a href="https://github.com/rodrigomolter/DESAFIO-BEEDOO">🐝 Desafio Beedoo</a></h2>
+    </header>
+    <article>
       <div align="center">
-        <a href="/projetos/TodoMVC.md">
-          <picture>
-            <source srcset="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
-            <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%E2%9C%8D_SAIBA_MAIS-white?style=for-the-badge">
-          </picture>
-        </a>
-        <a href="https://github.com/rodrigomolter/TodoMVC">
-          <picture>
-            <source srcset="https://img.shields.io/badge/GITHUB_REPO-%23181717?style=for-the-badge&logo=github" media="(prefers-color-scheme: light)">
-            <img alt="GITHUB REPO" src="https://img.shields.io/badge/GITHUB_REPO-white?style=for-the-badge&logo=github&logoColor=black">
-          </picture>
-        </a>
-      </div>
-    </footer>
-  </article>
+        <img src="https://github.com/user-attachments/assets/90227214-deb4-4579-a4e9-33b49065a415" width="600">
+      </div><br>
+      <p>
+        O Desafio Beedoo tem o objetivo de avaliar os conhecimentos e habilidades em teste de software.
+        <br>
+        Consiste na criação de
+        <ul>
+          <li>User Stories,</li>
+          <li>Plano de Teste,</li>
+          <li>Bug Report, </li>
+          <li>Evidenciação dos bugs encontrados.</li>
+        </ul>
+        Foi realizado durante o processo seletivo para a vaga de QA da Beedoo AI Learning.
+      </p>
+      <footer>
+        <img alt="PLANO DE TESTES" src="https://img.shields.io/badge/PLANO_DE_TESTES-white?style=flat">
+        <img alt="BUG REPORT" src="https://img.shields.io/badge/BUG_REPORT-white?style=flat">
+        <img alt="GHERKIN" src="https://img.shields.io/badge/GHERKIN-white?style=flat">
+        <br><br>
+        <div align="center">
+          <a href="https://github.com/rodrigomolter/DESAFIO-BEEDOO">
+            <picture>
+              <source srcset="https://img.shields.io/badge/%F0%9F%90%9D_SAIBA_MAIS-%23181717?style=for-the-badge" media="(prefers-color-scheme: light)">
+              <img alt="SAIBA MAIS" src="https://img.shields.io/badge/%F0%9F%90%9D_SAIBA_MAIS-white?style=for-the-badge">
+            </picture>
+          </a>
+        </div>
+      </footer>
+    </article>
+  </section>
+
 </main>
 <section id="contato">
   <hr>
