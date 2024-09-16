@@ -1,5 +1,6 @@
 "use client"
 import { SocialIcons } from "./social-icons"
+import Particles from "./ui/particles"
 
 export function Footer() {
   return (
@@ -26,6 +27,7 @@ export function Footer() {
         </a>
       </p>
       <SocialIcons size="small" />
+      <Particles />
     </footer>
   )
 }

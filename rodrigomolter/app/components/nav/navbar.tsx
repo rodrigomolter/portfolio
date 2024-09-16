@@ -25,19 +25,14 @@ export const navLinks = [
   },
   {
     label: "projetos",
-    href: "/projects",
+    href: "/#projects",
     mobile: true,
   },
-  // {
-  //   label: "contato",
-  //   href: "/contact",
-  //   mobile: true,
-  // },
 ]
 
 export function Navbar() {
   return (
-    <nav className="navbar sticky top-0 bg-base-200 md:bg-base-100">
+    <nav className="navbar sticky top-0 bg-base-200 md:bg-base-100 z-50">
       <div className="w-full flex md:justify-center justify-between md:items-center md:gap-2">
         {/* desktop */}
         <ul className="menu menu-horizontal items-center gap-6 lg:gap-8 hidden md:flex text-xl">
