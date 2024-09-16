@@ -1,15 +1,15 @@
 "use client"
 import Image from "next/image"
-import { SocialIcons } from "./components/social-icons"
+import { toast } from "sonner"
+import confetti from "canvas-confetti"
+import { FaRocket } from "react-icons/fa6"
+
 import { bio } from "@/data/info"
 import { FakeTerminalWindow } from "./components/terminal/fake-terminal-window"
 import { Prompt } from "./components/terminal/prompt"
-import { toast } from "sonner"
-import { useEffect, useState } from "react"
-import confetti from "canvas-confetti"
-import { useTheme } from "next-themes"
-import Particles from "@/app/components/ui/magicui/particles"
-import { FaRocket } from "react-icons/fa6"
+import { SocialIcons } from "./components/social-icons"
+import { PulsingMouseIcon } from "./components/icons/pulsing-mouse-icon"
+import { ProjectGrid } from "./projects/project-grid"
 
 function handleShareRoom() {
   navigator.clipboard.writeText("rodrigo.molter@gmail.com")
@@ -49,17 +49,10 @@ const handleConfetti = () => {
 }
 
 export default function Home() {
-  const { theme } = useTheme()
-  const [color, setColor] = useState("#ffffff")
-
-  useEffect(() => {
-    setColor(theme === "dracula" ? "#ffffff" : "#000000")
-  }, [theme])
-
   return (
     <div>
       {/* Hero */}
-      <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 pt-12 md:pt-36">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 px-12 md:pt-36 mb-12 md:mb-52">
         <Image
           src="/self.png"
           alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."
@@ -98,12 +91,17 @@ export default function Home() {
           </ul>
           <SocialIcons />
         </div>
+        <PulsingMouseIcon />
       </div>
 
       {/* Projects */}
+      <div id="projects">
+        <ProjectGrid />
+        <ProjectGrid />
+      </div>
 
       {/* About */}
-      <div className="mt-12 md:mt-60">
+      <div className="mt-12">
         <FakeTerminalWindow>
           <Prompt content="cd about" branch={true} />
           <Prompt directory="/about" branch={true} content="cat README.md" />
@@ -117,13 +115,6 @@ export default function Home() {
           </p>
         </FakeTerminalWindow>
       </div>
-      <Particles
-        className="absolute inset-0 pointer-events-none -z-10"
-        quantity={120}
-        ease={80}
-        color={color}
-        refresh
-      />
     </div>
   )
 }
