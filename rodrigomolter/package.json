@@ -1,0 +1,54 @@
+{
+  "name": "rodrigomolter",
+  "description": "Portfolio de Rodrigo Molter, QA Engineer.",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/rodrigomolter/portfolio",
+  "author": "Rodrigo Molter <rodrigo.molter@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigomolter/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigomolter/portfolio/issues"
+  },
+  "keywords": [
+    "Portfolio",
+    "Personal Webiste",
+    "QA",
+    "Quality Assurance"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.3.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.5.4",
+    "lucide-react": "^0.441.0",
+    "next": "14.2.5",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "sonner": "^1.5.0",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "daisyui": "^4.12.10",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
