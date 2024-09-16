@@ -58,6 +58,7 @@ export default function Home() {
 
   return (
     <div>
+      {/* Hero */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 pt-12 md:pt-36">
         <Image
           src="/self.png"
@@ -98,6 +99,10 @@ export default function Home() {
           <SocialIcons />
         </div>
       </div>
+
+      {/* Projects */}
+
+      {/* About */}
       <div className="mt-12 md:mt-60">
         <FakeTerminalWindow>
           <Prompt content="cd about" branch={true} />
@@ -105,7 +110,7 @@ export default function Home() {
           <p>{bio}</p>
           <p>
             Acesse{" "}
-            <a href="/about" className="font-bold underline">
+            <a href="/about" className="link">
               /sobre
             </a>{" "}
             para ver mais.
