@@ -5,13 +5,57 @@ import { bio } from "@/data/info"
 import { FakeTerminalWindow } from "./components/terminal/fake-terminal-window"
 import { Prompt } from "./components/terminal/prompt"
 import { toast } from "sonner"
+import { useEffect, useState } from "react"
+import confetti from "canvas-confetti"
+import { useTheme } from "next-themes"
+import Particles from "@/app/components/ui/magicui/particles"
+import { FaRocket } from "react-icons/fa6"
 
 function handleShareRoom() {
   navigator.clipboard.writeText("rodrigo.molter@gmail.com")
-  toast.info("O link do email foi copiado para área de transferência (CTRL+C).")
+  toast.success("O email foi copiado para área de transferência (CTRL+C).", {
+    icon: <FaRocket />,
+  })
+}
+
+const handleConfetti = () => {
+  const end = Date.now() + 1 * 1000 // 1 second
+  const colors = ["#a786ff", "#fd8bbc", "#eca184", "#f8deb1"]
+
+  const frame = () => {
+    if (Date.now() > end) return
+
+    confetti({
+      particleCount: 2,
+      angle: 60,
+      spread: 55,
+      startVelocity: 60,
+      origin: { x: 0, y: 0.5 },
+      colors: colors,
+    })
+    confetti({
+      particleCount: 2,
+      angle: 120,
+      spread: 55,
+      startVelocity: 60,
+      origin: { x: 1, y: 0.5 },
+      colors: colors,
+    })
+
+    requestAnimationFrame(frame)
+  }
+
+  frame()
 }
 
 export default function Home() {
+  const { theme } = useTheme()
+  const [color, setColor] = useState("#ffffff")
+
+  useEffect(() => {
+    setColor(theme === "dark" ? "#ffffff" : "#000000")
+  }, [theme])
+
   return (
     <div>
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 pt-12 md:pt-36">
@@ -30,7 +74,10 @@ export default function Home() {
             </div>
             <h1 className="text-5xl">
               Sou o{" "}
-              <span className="bg-gradient-to-tl from-indigo-500 to-fuchsia-500 text-transparent bg-clip-text font-bold">
+              <span
+                onClick={handleConfetti}
+                className="bg-gradient-to-tl from-indigo-500 to-fuchsia-500 text-transparent bg-clip-text font-bold"
+              >
                 Rodrigo.
               </span>
             </h1>
@@ -61,9 +108,22 @@ export default function Home() {
           <Prompt content="cd about" branch={true} />
           <Prompt directory="/about" branch={true} content="cat README.md" />
           <p>{bio}</p>
+          <p>
+            Acesse{" "}
+            <a href="/about" className="font-bold underline">
+              /sobre
+            </a>{" "}
+            para ver mais.
+          </p>
         </FakeTerminalWindow>
       </div>
-      <div></div>
+      <Particles
+        className="absolute inset-0 pointer-events-none"
+        quantity={100}
+        ease={80}
+        color={color}
+        refresh
+      />
     </div>
   )
 }

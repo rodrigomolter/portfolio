@@ -28,7 +28,7 @@ export default function RootLayout({
             <main className="flex-grow flex flex-col justify-center items-center">
               {children}
             </main>
-            <Toaster richColors />
+            <Toaster richColors expand />
             <Footer />
             <Analytics />
           </div>

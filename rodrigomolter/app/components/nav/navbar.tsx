@@ -28,11 +28,11 @@ export const navLinks = [
     href: "/projects",
     mobile: true,
   },
-  {
-    label: "contato",
-    href: "/contact",
-    mobile: true,
-  },
+  // {
+  //   label: "contato",
+  //   href: "/contact",
+  //   mobile: true,
+  // },
 ]
 
 export function Navbar() {
