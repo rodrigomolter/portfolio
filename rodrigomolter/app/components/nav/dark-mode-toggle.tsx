@@ -13,7 +13,7 @@ const DarkModeToggle = () => {
   }, [])
 
   const onChangeTheme = () => {
-    setTheme(theme == "light" ? "dark" : "light")
+    setTheme(theme == "light" ? "dracula" : "light")
   }
 
   if (!mounted) return null
@@ -24,7 +24,7 @@ const DarkModeToggle = () => {
         type="checkbox"
         className="theme-controller"
         onChange={onChangeTheme}
-        checked={theme == "dark" ? true : false}
+        checked={theme == "dracula" ? true : false}
       />
       <SunIcon className="swap-on" />
       <MoonIcon className="swap-off" />

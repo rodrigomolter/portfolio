@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="ptBR">
       <body className={`${nunito.className} transition-colors duration-100`}>
-        <ThemeProvider themes={["light", "dark"]} defaultTheme="system">
+        <ThemeProvider themes={["light", "dracula"]} defaultTheme="system">
           <div className="max-w-screen-lg min-h-screen mx-auto flex flex-col justify-center items-center">
             <Navbar />
             <main className="flex-grow flex flex-col justify-center items-center">

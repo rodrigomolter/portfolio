@@ -53,7 +53,7 @@ export default function Home() {
   const [color, setColor] = useState("#ffffff")
 
   useEffect(() => {
-    setColor(theme === "dark" ? "#ffffff" : "#000000")
+    setColor(theme === "dracula" ? "#ffffff" : "#000000")
   }, [theme])
 
   return (
@@ -64,7 +64,7 @@ export default function Home() {
           alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."
           width={1188}
           height={1232}
-          className="bg-gradient-to-br from-indigo-500 to-fuchsia-500 rounded-full w-[300px] md:w-2/6 p-3"
+          className="bg-gradient-to-br from-yellow-500 to-amber-800 rounded-full w-[300px] md:w-2/6 p-3"
         />
         <div>
           <div className="text-center md:text-left mb-4 space-y-1">
@@ -76,7 +76,7 @@ export default function Home() {
               Sou o{" "}
               <span
                 onClick={handleConfetti}
-                className="bg-gradient-to-tl from-indigo-500 to-fuchsia-500 text-transparent bg-clip-text font-bold"
+                className="bg-gradient-to-tl from-amber-600 to-yellow-500 text-transparent bg-clip-text font-bold"
               >
                 Rodrigo.
               </span>
@@ -94,11 +94,6 @@ export default function Home() {
                 <p className="text-xs"> (clique para copiar)</p>
               </button>
             </li>
-            {/* <li>
-              <a href="https://wa.me/+5551998832787" target="_blank">
-                🤝 vamos conversar!
-              </a>
-            </li> */}
           </ul>
           <SocialIcons />
         </div>
@@ -118,8 +113,8 @@ export default function Home() {
         </FakeTerminalWindow>
       </div>
       <Particles
-        className="absolute inset-0 pointer-events-none"
-        quantity={100}
+        className="absolute inset-0 pointer-events-none -z-10"
+        quantity={120}
         ease={80}
         color={color}
         refresh
