@@ -7,9 +7,9 @@ import { FaRocket } from "react-icons/fa6"
 import { bio } from "@/data/info"
 import { FakeTerminalWindow } from "./components/terminal/fake-terminal-window"
 import { Prompt } from "./components/terminal/prompt"
-import { SocialIcons } from "./components/social-icons"
+import { SocialIcons } from "./components/icons/social-icons"
 import { PulsingMouseIcon } from "./components/icons/pulsing-mouse-icon"
-import { ProjectGrid } from "./projects/project-grid"
+import { ProjectGrid } from "./components/project-grid"
 
 function handleShareRoom() {
   navigator.clipboard.writeText("rodrigo.molter@gmail.com")
@@ -96,7 +96,6 @@ export default function Home() {
 
       {/* Projects */}
       <div id="projects">
-        <ProjectGrid />
         <ProjectGrid />
       </div>
 

@@ -1,5 +1,5 @@
 "use client"
-import { SocialIcons } from "./social-icons"
+import { SocialIcons } from "./icons/social-icons"
 import Particles from "./ui/particles"
 
 export function Footer() {

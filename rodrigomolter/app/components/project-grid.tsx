@@ -2,8 +2,8 @@
 
 import Image from "next/image"
 import React from "react"
-import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card"
 import Link from "next/link"
+import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card"
 import docunder from "@/public/projects/docunder.png"
 
 export function ProjectGrid() {
@@ -52,7 +52,7 @@ export function ProjectGrid() {
             translateZ="50"
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
-            Docunder
+            BugBank
           </CardItem>
 
           <CardItem translateZ="100" className="w-full mt-4">

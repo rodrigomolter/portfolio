@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import sadCat from "../public/sadcat.png"
+import sadCat from "@/public/sadcat.png"
 
 export default function Custom404() {
   return (
