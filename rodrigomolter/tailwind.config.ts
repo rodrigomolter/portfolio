@@ -8,11 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        mono: ["Courier New", "Courier", "monospace"],
-      },
       colors: {
-        "terminal-green": "#00FF00",
+        "logo-primary": "#eab308",
+        "logo-secondary": "#92400e",
       },
       keyframes: {
         wave: {
@@ -54,7 +52,7 @@ const config: Config = {
   },
   plugins: [require("daisyui"), require("tailwindcss-animate")],
   daisyui: {
-    themes: ["light", "dracula"],
+    themes: ["winter", "dracula"],
   },
 }
 

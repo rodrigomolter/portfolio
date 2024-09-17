@@ -4,10 +4,8 @@ import { MobileNavDropdown } from "./mobile-nav-menu"
 
 const Logo = () => {
   return (
-    <div className="bg-gradient-to-tl from-amber-600 to-yellow-500 text-transparent bg-clip-text font-bold text-3xl">
+    <div className="bg-gradient-to-tl from-logo-secondary to-logo-primary text-transparent bg-clip-text font-bold text-3xl">
       {"<rodrigomolter />"}
-      {/* <div className="font-mono text-terminal-green">{"$ rm 🐞 -f"} */}
-      {/* <div className="font-mono text-terminal-green">{"$ rodrigomolter"} */}
     </div>
   )
 }

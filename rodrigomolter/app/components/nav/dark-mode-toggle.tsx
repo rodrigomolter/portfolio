@@ -13,7 +13,7 @@ const DarkModeToggle = () => {
   }, [])
 
   const onChangeTheme = () => {
-    setTheme(theme == "light" ? "dracula" : "light")
+    setTheme(theme == "winter" ? "dracula" : "winter")
   }
 
   if (!mounted) return null

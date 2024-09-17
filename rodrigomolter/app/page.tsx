@@ -58,7 +58,7 @@ export default function Home() {
           alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."
           width={1188}
           height={1232}
-          className="bg-gradient-to-br from-yellow-500 to-amber-800 rounded-full w-[300px] md:w-2/6 p-3"
+          className="bg-gradient-to-br from-logo-primary to-logo-secondary rounded-full w-[300px] md:w-2/6 p-3"
         />
         <div>
           <div className="text-center md:text-left mb-4 space-y-1">
