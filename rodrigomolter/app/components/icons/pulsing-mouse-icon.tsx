@@ -5,24 +5,36 @@ import { BsMouse } from "react-icons/bs"
 
 export function PulsingMouseIcon() {
   const [showIcon, setShowIcon] = useState(false)
+  const [hasScrolled, setHasScrolled] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setShowIcon(false)
+        setHasScrolled(true)
+        window.removeEventListener("scroll", handleScroll)
+      }
+    }
+    if (window.scrollY > 0) {
       setShowIcon(false)
-      window.removeEventListener("scroll", handleScroll)
+      setHasScrolled(true)
     }
 
-    window.addEventListener("scroll", handleScroll)
+    if (!hasScrolled) {
+      window.addEventListener("scroll", handleScroll)
+    }
 
     const timer = setTimeout(() => {
-      setShowIcon(true)
+      if (!hasScrolled) {
+        setShowIcon(true)
+      }
     }, 4000) // 4 segundos
 
     return () => {
       clearTimeout(timer)
       window.removeEventListener("scroll", handleScroll)
     }
-  }, [])
+  }, [hasScrolled])
 
   return (
     <div>
