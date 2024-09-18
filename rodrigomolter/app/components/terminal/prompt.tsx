@@ -7,9 +7,9 @@ interface PromptProps {
 export function Prompt({ directory, branch = false, content }: PromptProps) {
   return (
     <p>
-      <span className="text-primary font-semibold">
+      <span className="text-accent font-semibold">
         ~/rodrigomolter/portfolio{directory}
-        <span className="text-accent">{branch && " (main)"}</span> $
+        <span className="text-primary">{branch && " (main)"}</span> $
       </span>{" "}
       {content}
     </p>

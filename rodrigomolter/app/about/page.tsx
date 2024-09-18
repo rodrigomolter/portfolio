@@ -10,6 +10,10 @@ const SkillList = ({ title, items }: { title: string; items: string[] }) => (
     ))}
   </>
 )
+export const metadata = {
+  title: "Sobre o Rodrigo | Rodrigo Molter",
+  description: "Um pouco mais sobre quem é Rodrigo Molter",
+}
 
 export default function About() {
   return (

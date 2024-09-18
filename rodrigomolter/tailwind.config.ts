@@ -52,7 +52,19 @@ const config: Config = {
   },
   plugins: [require("daisyui"), require("tailwindcss-animate")],
   daisyui: {
-    themes: ["winter", "dracula"],
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["winter"],
+          primary: "#c026d3",
+          secondary: "#7e22ce",
+          accent: "#92400e",
+        },
+        dracula: {
+          ...require("daisyui/src/theming/themes")["dracula"],
+        },
+      },
+    ],
   },
 }
 
