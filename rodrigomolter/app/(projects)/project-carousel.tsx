@@ -27,6 +27,7 @@ export function ProjectCarousel() {
             url,
             image,
             smimage,
+            xsimage,
             logo,
             description,
             github,
@@ -42,6 +43,7 @@ export function ProjectCarousel() {
                 <Link href={url}>
                   <div className="relative flex justify-center items-center bg-base-200 h-[70vh] lg:h-[60vh] min-h-[320px] max-h-[1080px] w-auto rounded-3xl mb-4 shadow-lg ">
                     <picture>
+                      <source media="(max-width: 360px)" srcSet={xsimage} />
                       <source media="(max-width: 1024px)" srcSet={smimage} />
                       <Image
                         alt={`Imagem do projeto ${name}.`}

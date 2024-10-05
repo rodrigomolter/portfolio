@@ -4,7 +4,7 @@ import { MobileNavDropdown } from "@/app/components/nav/mobile-nav-menu"
 
 const Logo = () => {
   return (
-    <div className="bg-gradient-to-tl from-logo-primary to-accent text-transparent bg-clip-text font-bold text-2xl md:text-3xl">
+    <div className="bg-gradient-to-tl from-logo-primary to-accent text-transparent bg-clip-text font-bold max-xs:text-2xl text-3xl">
       {"<rodrigomolter />"}
     </div>
   )
