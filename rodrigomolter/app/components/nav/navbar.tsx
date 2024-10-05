@@ -1,6 +1,6 @@
 import Link from "next/link"
-import DarkModeToggle from "./dark-mode-toggle"
-import { MobileNavDropdown } from "./mobile-nav-menu"
+import DarkModeToggle from "@/app/components/nav/dark-mode-toggle"
+import { MobileNavDropdown } from "@/app/components/nav/mobile-nav-menu"
 
 const Logo = () => {
   return (
@@ -17,23 +17,23 @@ export const navLinks = [
     mobile: false,
   },
   {
-    label: "sobre",
-    href: "/about",
+    label: "projetos.",
+    href: "/#projects",
     mobile: true,
   },
   {
-    label: "projetos",
-    href: "/#projects",
+    label: "sobre.",
+    href: "/#about",
     mobile: true,
   },
 ]
 
 export function Navbar() {
   return (
-    <nav className="navbar sticky top-0 bg-base-200 md:bg-base-100 z-50">
-      <div className="w-full flex md:justify-center justify-between md:items-center md:gap-2">
+    <nav className="navbar sticky top-0 bg-base-200 md:bg-base-100 z-50 md:rounded-b-full border-zinc-950/50 border-b-2">
+      <div className="w-full flex justify-between md:justify-center md:items-center">
         {/* desktop */}
-        <ul className="menu menu-horizontal items-center gap-6 lg:gap-8 hidden md:flex text-xl">
+        <ul className="menu menu-horizontal items-center gap-6 lg:gap-8 hidden md:flex text-xl scroll-smooth">
           {navLinks.map((link, index) => (
             <li key={index}>
               <Link href={link.href}>{link.label}</Link>

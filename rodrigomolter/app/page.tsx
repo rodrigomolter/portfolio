@@ -4,15 +4,16 @@ import { toast } from "sonner"
 import confetti from "canvas-confetti"
 import { FaRocket } from "react-icons/fa6"
 
-import { bio } from "@/data/info"
-import { FakeTerminalWindow } from "./components/terminal/fake-terminal-window"
-import { Prompt } from "./components/terminal/prompt"
-import { SocialIcons } from "./components/icons/social-icons"
-import { PulsingMouseIcon } from "./components/icons/pulsing-mouse-icon"
-import { ProjectGrid } from "./components/project-grid"
+import About from "@/app/about/page"
+import { SocialIcons } from "@/app/components/icons/social-icons"
+import { PulsingMouseIcon } from "@/app/components/icons/pulsing-mouse-icon"
+import { ProjectCarousel } from "@/app/(projects)/project-carousel"
 
-function handleShareRoom() {
-  navigator.clipboard.writeText("rodrigo.molter@gmail.com")
+import { myself } from "@/data/info"
+import { GridPattern } from "./components/ui/grid-pattern"
+
+function handleShareEmail() {
+  navigator.clipboard.writeText(myself.email)
   toast.success("O email foi copiado para área de transferência (CTRL+C).", {
     icon: <FaRocket />,
   })
@@ -52,39 +53,41 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 px-12 md:pt-36 mb-12 md:mb-52">
+      <div className="flex flex-col md:flex-row justify-center items-center min-h-[750px] md:min-h-[500px] h-[80vh] max-h-[1080px] gap-4 md:gap-20">
         <Image
           src="/self.png"
           alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."
           width={1188}
           height={1232}
-          className="bg-gradient-to-br from-accent to-logo-primary rounded-full w-[300px] md:w-2/6 p-3"
+          className="bg-gradient-to-br from-accent to-logo-primary rounded-full w-[300px] md:w-2/6 rotate-3"
+          priority={true}
         />
         <div>
           <div className="text-center md:text-left mb-4 space-y-1">
-            <div className="text-5xl">
-              <span className="text-3xl">Olá, </span>
-              <span className="animate-wave inline-block">🤚🏻</span>
+            <div className="text-4xl">
+              <span className="animate-wave inline-block mr-5 text-5xl">
+                🖐🏻
+              </span>
+              Sou o
             </div>
             <h1 className="text-5xl">
-              Sou o{" "}
               <span
                 onClick={handleConfetti}
-                className="bg-gradient-to-tl from-accent to-logo-primary text-transparent bg-clip-text font-bold"
+                className="bg-gradient-to-tl from-accent to-logo-primary text-transparent bg-clip-text font-bold capitalize"
               >
-                Rodrigo.
+                {myself.firstName}.
               </span>
             </h1>
-            <h2 className="text-3xl">QA Engineer.</h2>
+            <h2 className="text-3xl font-bold">{myself.role}.</h2>
           </div>
 
           <ul className="space-y-1 text-xl text-center md:text-left pb-8">
-            <li>🍵 apaixonado por chás</li>
-            <li>🧉 gaúcho, tchê!</li>
-            <li>🦙 AI enthusiast</li>
+            {myself.bulletPoints.map((bulletPoint) => (
+              <li key={bulletPoint}>{bulletPoint}</li>
+            ))}
             <li>
-              <button onClick={handleShareRoom}>
-                📧 rodrigo.molter@gmail.com
+              <button onClick={handleShareEmail}>
+                📧 {myself.email}
                 <p className="text-xs"> (clique para copiar)</p>
               </button>
             </li>
@@ -92,28 +95,23 @@ export default function Home() {
           <SocialIcons />
         </div>
         <PulsingMouseIcon />
+        <GridPattern
+          width={50}
+          height={50}
+          numSquares={60}
+          maxOpacity={0.25}
+          duration={4}
+          repeatDelay={0.5}
+        />
       </div>
 
       {/* Projects */}
-      <div id="projects">
-        <ProjectGrid />
+      <div id="projects" className="flex justify-center ">
+        <ProjectCarousel />
       </div>
 
       {/* About */}
-      <div className="mt-12">
-        <FakeTerminalWindow>
-          <Prompt content="cd about" branch={true} />
-          <Prompt directory="/about" branch={true} content="cat README.md" />
-          <p>{bio}</p>
-          <p>
-            Acesse{" "}
-            <a href="/about" className="link">
-              /sobre
-            </a>{" "}
-            para ver mais.
-          </p>
-        </FakeTerminalWindow>
-      </div>
+      <About />
     </div>
   )
 }
