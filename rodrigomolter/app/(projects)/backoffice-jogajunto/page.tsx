@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import { CitationBlock } from "@/app/components/citation-block"
+import { CitationBlock } from "@/app/(projects)/citation-block"
 import { FakeTerminalWindow } from "@/app/components/terminal/fake-terminal-window"
 import { ImageModal } from "@/app/components/image-modal"
 import { SimilarProjects } from "@/app/(projects)/similar-projects"

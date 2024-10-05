@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa6"
 
 import { ImageModal } from "@/app/components/image-modal"
 import { FakeTerminalWindow } from "@/app/components/terminal/fake-terminal-window"
-import { CitationBlock } from "@/app/components/citation-block"
+import { CitationBlock } from "@/app/(projects)/citation-block"
 import { SimilarProjects } from "@/app/(projects)/similar-projects"
 
 import { projects } from "@/data/info"

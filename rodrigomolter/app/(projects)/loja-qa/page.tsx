@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { CitationBlock } from "@/app/components/citation-block"
+import { CitationBlock } from "@/app/(projects)/citation-block"
 import { ImageModal } from "@/app/components/image-modal"
 import { FakeTerminalWindow } from "@/app/components/terminal/fake-terminal-window"
 import { SimilarProjects } from "@/app/(projects)/similar-projects"

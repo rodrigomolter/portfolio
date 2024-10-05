@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { FaGithub } from "react-icons/fa6"
 
-import { CitationBlock } from "@/app/components/citation-block"
+import { CitationBlock } from "@/app/(projects)/citation-block"
 import { FakeTerminalWindow } from "@/app/components/terminal/fake-terminal-window"
 import { TransferenciaEntreContasFeature } from "./transferencia.feature"
 import { ImageModal } from "@/app/components/image-modal"
