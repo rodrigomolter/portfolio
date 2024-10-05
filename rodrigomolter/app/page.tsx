@@ -2,15 +2,16 @@
 import Image from "next/image"
 import { toast } from "sonner"
 import confetti from "canvas-confetti"
-import { FaRocket } from "react-icons/fa6"
 
-import About from "@/app/about/page"
+import { FaRocket } from "react-icons/fa6"
 import { SocialIcons } from "@/app/components/icons/social-icons"
 import { PulsingMouseIcon } from "@/app/components/icons/pulsing-mouse-icon"
+
+import About from "@/app/about/page"
 import { ProjectCarousel } from "@/app/(projects)/project-carousel"
+import { GridPattern } from "@/app/components/ui/grid-pattern"
 
 import { myself } from "@/data/info"
-import { GridPattern } from "./components/ui/grid-pattern"
 
 function handleShareEmail() {
   navigator.clipboard.writeText(myself.email)

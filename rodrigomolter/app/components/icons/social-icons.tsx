@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope } from "react-icons/fa6"
 
 import { myself } from "@/data/info"
 
-export function SocialIcons({ size = "large" }) {
+export function SocialIcons({ small = false }) {
   return (
     <ul className="flex justify-center text-4xl gap-10 lg:mt-4">
       <li
@@ -22,7 +22,7 @@ export function SocialIcons({ size = "large" }) {
           <FaLinkedin />
         </Link>
       </li>
-      {size === "large" ? (
+      {small ? null : (
         <li
           className="hover:scale-125 hover:text-accent transition-all ease-in-out tooltip"
           data-tip="WhatsApp"
@@ -31,8 +31,8 @@ export function SocialIcons({ size = "large" }) {
             <FaWhatsapp />
           </Link>
         </li>
-      ) : null}
-      {size === "large" ? (
+      )}
+      {small ? null : (
         <li
           className="hover:scale-125 hover:text-accent transition-all ease-in-out tooltip"
           data-tip="Email"
@@ -41,7 +41,7 @@ export function SocialIcons({ size = "large" }) {
             <FaEnvelope />
           </Link>
         </li>
-      ) : null}
+      )}
     </ul>
   )
 }

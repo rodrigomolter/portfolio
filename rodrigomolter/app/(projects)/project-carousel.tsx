@@ -33,7 +33,7 @@ export function ProjectCarousel() {
             linkedin,
             figma,
           }) => (
-            <CarouselItem key={name} className="lg:basis-4/5">
+            <CarouselItem key={name} className="md:basis-4/5">
               <div className="h-auto bg-base-300 flex flex-col rounded-3xl">
                 {/* Video */}
                 <Link href={url}>

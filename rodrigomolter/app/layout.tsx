@@ -7,7 +7,6 @@ import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
 import { Navbar } from "@/app/components/nav/navbar"
 import { Footer } from "@/app/components/footer"
-import Particles from "@/app/components/ui/particles"
 
 import { myself } from "@/data/info"
 
@@ -29,7 +28,6 @@ export default function RootLayout({
         <ThemeProvider themes={["winter", "dracula"]} defaultTheme="system">
           <div className="max-w-screen-lg min-h-screen mx-auto flex flex-col justify-center items-center">
             <Navbar />
-            {/* <Particles /> */}
             <main className="flex-grow flex flex-col justify-center items-center">
               {children}
             </main>

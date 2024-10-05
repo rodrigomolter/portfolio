@@ -34,6 +34,19 @@ export type ProjectParams = {
 }
 
 export const projects: { [project: string]: ProjectParams } = {
+  lojaQA: {
+    name: "Loja do QA",
+    description:
+      "A Loja do QA é uma suite de testes para um e-commerce que segue o padrão de grandes plataformas como Amazon e Casas Bahia.",
+    image: "/projects/loja-qa/lojaqa.png",
+    smimage: "/projects/loja-qa/lojaqa-sm.png",
+    xsimage: "/projects/loja-qa/lojaqa-xs.png",
+    video:
+      "https://images.unsplash.com/photo-1727229785152-39f851d10e28?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    logo: <LojaQALogo />,
+    url: "/loja-qa",
+  },
+
   docunder: {
     name: "Docunder",
     description:
@@ -60,19 +73,6 @@ export const projects: { [project: string]: ProjectParams } = {
     logo: <GenericLogo title="📋" className="bg-yellow-400" />,
     url: "/backoffice-jogajunto",
     github: "https://github.com/rodrigomolter/backoffice-jogajunto",
-  },
-
-  lojaQA: {
-    name: "Loja do QA",
-    description:
-      "A Loja do QA é uma suite de testes para um e-commerce que segue o padrão de grandes plataformas como Amazon e Casas Bahia.",
-    image: "/projects/loja-qa/lojaqa.png",
-    smimage: "/projects/loja-qa/lojaqa-sm.png",
-    xsimage: "/projects/loja-qa/lojaqa-xs.png",
-    video:
-      "https://images.unsplash.com/photo-1727229785152-39f851d10e28?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    logo: <LojaQALogo />,
-    url: "/loja-qa",
   },
 
   amigosEntregadores: {

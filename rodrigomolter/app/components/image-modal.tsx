@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import { useRef } from "react"
-import { cn } from "../lib/utils"
+import { cn } from "@/app/lib/utils"
 
 export function ImageModal({
   imageSrc,

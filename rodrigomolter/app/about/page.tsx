@@ -74,7 +74,7 @@ export default function About() {
                   Além de tecnologia, sou apaixonado por{" "}
                   <a
                     className="link"
-                    href="https://www.chasamaya.com.br/"
+                    href="https://www.youtube.com/watch?v=LL75xQGXhOM"
                     target="_blank"
                   >
                     chás e infusões
