@@ -14,7 +14,7 @@ import { projects } from "@/data/info"
 export function ProjectCarousel() {
   return (
     <Carousel
-      className="max-w-md md:max-w-xl lg:max-w-5xl "
+      className="max-w-md md:max-w-2xl lg:max-w-screen-lg 2xl:max-w-full 2xl:w-[90vw]"
       opts={{
         align: "center",
         loop: true,
@@ -33,11 +33,14 @@ export function ProjectCarousel() {
             linkedin,
             figma,
           }) => (
-            <CarouselItem key={name} className="md:basis-4/5">
+            <CarouselItem
+              key={name}
+              className="md:basis-8/12 xl:basis-7/12 2xl:basis-5/12"
+            >
               <div className="h-auto bg-base-300 flex flex-col rounded-3xl">
                 {/* Video */}
                 <Link href={url}>
-                  <div className="relative flex justify-center items-center bg-base-200 h-[70vh] min-h-[480px] max-h-[650px] w-auto rounded-3xl mb-4 shadow-lg ">
+                  <div className="relative flex justify-center items-center bg-base-200 h-[70vh] lg:h-[60vh] min-h-[320px] max-h-[1080px] w-auto rounded-3xl mb-4 shadow-lg ">
                     <picture>
                       <source media="(max-width: 1024px)" srcSet={smimage} />
                       <Image
@@ -52,7 +55,7 @@ export function ProjectCarousel() {
                 </Link>
 
                 {/* Bottom */}
-                <div className="gap-6 mx-4 lg:mx-6 flex flex-row items-center justify-between">
+                <div className="gap-6 mx-4 lg:mx-6 lg:h-40 flex flex-row items-center justify-between">
                   <Link href={url}>
                     <div className="flex flex-row gap-4 items-center py-6">
                       <div className="rounded-full flex flex-row justify-start items-center w-16 h-16 lg:w-20 lg:h-20 flex-shrink-0">

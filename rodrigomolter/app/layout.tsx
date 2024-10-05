@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`${nunito.className} transition-colors duration-100`}>
         <ThemeProvider themes={["winter", "dracula"]} defaultTheme="system">
-          <div className="max-w-screen-lg min-h-screen mx-auto flex flex-col justify-center items-center">
+          <div className="max-w-screen-lg xl:max-w-screen-2xl min-h-screen mx-auto flex flex-col justify-center items-center">
             <Navbar />
             <main className="flex-grow flex flex-col justify-center items-center">
               {children}

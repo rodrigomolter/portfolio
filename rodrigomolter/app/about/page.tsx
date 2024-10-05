@@ -9,7 +9,7 @@ import { ImageTerminalWindow } from "@/app/components/terminal/image-terminal-wi
 
 export default function About() {
   return (
-    <div id="about" className="mt-12">
+    <div id="about" className="mx-4 mt-12">
       <FakeTerminalWindow>
         <main>
           <section className="text-lg md:px-6">
@@ -24,7 +24,7 @@ export default function About() {
                     alt="Foto minha no Abusado do Skyglass de Canela."
                     width={1080}
                     height={1080}
-                    className="rounded-b-xl bg-base-200"
+                    className="rounded-b-xl bg-base-200 max-h-[500px] w-auto"
                   />
                 </ImageTerminalWindow>
               </div>
@@ -65,7 +65,7 @@ export default function About() {
                     width={1080}
                     height={1080}
                     unoptimized
-                    className="rounded-b-xl"
+                    className="rounded-b-xl max-h-[500px] w-auto"
                   />
                 </ImageTerminalWindow>
               </div>

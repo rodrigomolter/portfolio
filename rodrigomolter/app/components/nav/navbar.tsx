@@ -30,10 +30,10 @@ export const navLinks = [
 
 export function Navbar() {
   return (
-    <nav className="navbar sticky top-0 bg-base-200 md:bg-base-100 z-50 md:rounded-b-full border-zinc-950/50 border-b-2 max-w-screen-lg">
+    <nav className="navbar md:p-1 sticky top-0 bg-base-200 md:bg-base-100 z-50 md:rounded-b-full border-zinc-950/50 border-b-2 max-w-screen-lg">
       <div className="w-full flex justify-between md:justify-center md:items-center">
         {/* desktop */}
-        <ul className="menu menu-horizontal items-center gap-6 lg:gap-8 hidden md:flex text-xl scroll-smooth">
+        <ul className="menu menu-horizontal md:p-0 items-center gap-6 lg:gap-8 hidden md:flex text-xl scroll-smooth">
           {navLinks.map((link, index) => (
             <li key={index}>
               <Link href={link.href}>{link.label}</Link>
