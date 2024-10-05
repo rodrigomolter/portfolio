@@ -32,7 +32,7 @@ export function ImageModal({
     <div className="pt-6">
       <div className="flex flex-col items-center justify-center">
         <button onClick={handleOpenModal}>
-          <div className="h-auto w-[80vw] md:w-[60vw] max-w-[700px]">
+          <div className="h-auto w-[80vw] md:w-[60vw] max-w-screen-md">
             <Image
               alt={`Imagem de ${caption}`}
               src={imageSrc}

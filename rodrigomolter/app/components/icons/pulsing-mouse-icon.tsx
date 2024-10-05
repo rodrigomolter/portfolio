@@ -5,42 +5,42 @@ import { BsMouse } from "react-icons/bs"
 
 export function PulsingMouseIcon() {
   const [showIcon, setShowIcon] = useState(false)
-  const [hasScrolled, setHasScrolled] = useState(false)
+  const DELAY = 4000 // 4 seconds
+
+  //fix for first load without moving scroll
+  setTimeout(() => {
+    setShowIcon(true)
+  }, DELAY)
 
   useEffect(() => {
+    let timer: any
+
     const handleScroll = () => {
+      clearTimeout(timer)
+
       if (window.scrollY > 0) {
         setShowIcon(false)
-        setHasScrolled(true)
-        window.removeEventListener("scroll", handleScroll)
+      } else {
+        timer = setTimeout(() => {
+          setShowIcon(true)
+        }, DELAY)
       }
     }
-    if (window.scrollY > 0) {
-      setShowIcon(false)
-      setHasScrolled(true)
-    }
 
-    if (!hasScrolled) {
-      window.addEventListener("scroll", handleScroll)
-    }
-
-    const timer = setTimeout(() => {
-      if (!hasScrolled) {
-        setShowIcon(true)
-      }
-    }, 4000) // 4 segundos
+    window.addEventListener("scroll", handleScroll)
 
     return () => {
       clearTimeout(timer)
       window.removeEventListener("scroll", handleScroll)
     }
-  }, [hasScrolled])
+  }, [])
 
   return (
     <div>
       {showIcon && (
-        <div className="">
-          <BsMouse className=" absolute hidden md:flex bottom-40 left-1/2 text-3xl animate-bounce" />
+        <div className="absolute hidden md:flex items-center bottom-20 left-1/2">
+          <BsMouse className="text-3xl animate-bounce" />
+          <p className="text-xl animate-bounce">Scroll</p>
         </div>
       )}
     </div>

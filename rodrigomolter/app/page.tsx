@@ -52,15 +52,15 @@ const handleConfetti = () => {
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center">
       {/* Hero */}
-      <div className="flex flex-col md:flex-row justify-center items-center min-h-[750px] md:min-h-[500px] h-[80vh] max-h-[1080px] gap-4 md:gap-20">
+      <div className="flex flex-col md:flex-row justify-center items-center h-[90vh] min-h-[750px] md:min-h-[500px] max-h-[1080px] gap-4 md:gap-20">
         <Image
           src="/self.png"
           alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."
           width={1188}
           height={1232}
-          className="bg-gradient-to-br from-accent to-logo-primary rounded-full w-[300px] md:w-2/6 rotate-3"
+          className="bg-gradient-to-br from-accent to-logo-primary rounded-full w-[300px] rotate-3"
           priority={true}
         />
         <div>
@@ -107,7 +107,7 @@ export default function Home() {
       </div>
 
       {/* Projects */}
-      <div id="projects" className="flex justify-center ">
+      <div id="projects">
         <ProjectCarousel />
       </div>
 
