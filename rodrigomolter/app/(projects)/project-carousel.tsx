@@ -14,7 +14,7 @@ import { projects } from "@/data/info"
 export function ProjectCarousel() {
   return (
     <Carousel
-      className="max-w-md md:max-w-2xl lg:max-w-screen-lg 2xl:max-w-full 2xl:w-[90vw]"
+      className="max-w-[98vw] md:max-w-2xl lg:max-w-screen-lg 2xl:max-w-full 2xl:w-[90vw]"
       opts={{
         align: "center",
         loop: true,
