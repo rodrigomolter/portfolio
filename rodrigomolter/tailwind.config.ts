@@ -43,11 +43,6 @@ const config: Config = {
       animation: {
         wave: "wave 2s ease-in-out infinite",
       },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
-      },
     },
   },
   plugins: [require("daisyui"), require("tailwindcss-animate")],

@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 html {
-    @apply transition-colors duration-200;
+  @apply transition-colors duration-200;
+}
+
+#projects,
+#about {
+  scroll-margin-top: 110px;
 }

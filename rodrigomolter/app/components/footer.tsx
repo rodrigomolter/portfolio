@@ -1,6 +1,4 @@
-"use client"
-import { SocialIcons } from "./icons/social-icons"
-import Particles from "./ui/particles"
+import { SocialIcons } from "@/app/components/icons/social-icons"
 
 export function Footer() {
   return (
@@ -27,7 +25,6 @@ export function Footer() {
         </a>
       </p>
       <SocialIcons size="small" />
-      <Particles />
     </footer>
   )
 }

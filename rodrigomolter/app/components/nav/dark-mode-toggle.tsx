@@ -1,8 +1,9 @@
 "use client"
 import { useEffect, useState } from "react"
 import { useTheme } from "next-themes"
-import { MoonIcon } from "../icons/moon-icon"
-import { SunIcon } from "../icons/sun-icon"
+
+import { MoonIcon } from "@/app/components/icons/moon-icon"
+import { SunIcon } from "@/app/components/icons/sun-icon"
 
 const DarkModeToggle = () => {
   const [mounted, setMounted] = useState(false)

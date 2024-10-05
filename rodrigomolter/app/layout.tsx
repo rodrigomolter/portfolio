@@ -1,17 +1,21 @@
 import type { Metadata } from "next"
-import { Nunito } from "next/font/google"
-import "./globals.css"
-import { Navbar } from "./components/nav/navbar"
-import { Footer } from "./components/footer"
 import { ThemeProvider } from "next-themes"
-import { Analytics } from "@vercel/analytics/react"
+import { Nunito } from "next/font/google"
 import { Toaster } from "sonner"
+import { Analytics } from "@vercel/analytics/react"
+
+import "./globals.css"
+import { Navbar } from "@/app/components/nav/navbar"
+import { Footer } from "@/app/components/footer"
+import Particles from "@/app/components/ui/particles"
+
+import { myself } from "@/data/info"
 
 const nunito = Nunito({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Rodrigo Molter | Portfolio",
-  description: "Portfolio de Rodrigo Molter, QA Engineer apaixonado por chás.",
+  title: `${myself.fullName} | Portfolio`,
+  description: myself.description,
 }
 
 export default function RootLayout({
@@ -20,11 +24,12 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="ptBR">
+    <html lang="pt-BR">
       <body className={`${nunito.className} transition-colors duration-100`}>
         <ThemeProvider themes={["winter", "dracula"]} defaultTheme="system">
           <div className="max-w-screen-lg min-h-screen mx-auto flex flex-col justify-center items-center">
             <Navbar />
+            {/* <Particles /> */}
             <main className="flex-grow flex flex-col justify-center items-center">
               {children}
             </main>
