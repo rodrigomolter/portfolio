@@ -54,18 +54,18 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Hero */}
-      <div className="flex flex-col md:flex-row justify-center items-center h-[90vh] min-h-[620px] md:min-h-[500px] max-h-[1080px] gap-4 md:gap-20">
+      <div className="flex flex-col md:flex-row justify-start sm:justify-center items-center h-[90vh] min-h-[620px] md:min-h-[500px] max-h-[1080px] gap-4 md:gap-20 mt-6">
         <Image
           src="/self.png"
           alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."
           width={1188}
           height={1232}
-          className="bg-gradient-to-br from-accent to-logo-primary rounded-full max-xs:w-[150px] w-[300px] rotate-3"
+          className="bg-gradient-to-br from-accent to-logo-primary rounded-full w-[150px] sm:w-[250px] lg:w-[350px] rotate-3"
           priority={true}
         />
         <div>
           <div className="text-center md:text-left mb-4 space-y-1">
-            <div className="text-4xl">
+            <div className="hidden sm:flex text-4xl">
               <span className="animate-wave inline-block mr-5 text-5xl">
                 🖐🏻
               </span>
