@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Hero */}
-      <div className="flex flex-col md:flex-row justify-start sm:justify-center items-center h-[90vh] min-h-[620px] md:min-h-[500px] max-h-[1080px] gap-4 md:gap-20 mt-6">
+      <div className="flex flex-col md:flex-row justify-start sm:justify-center items-center h-[90vh] min-h-[540px] md:min-h-[500px] max-h-[1080px] gap-4 md:gap-20 mt-6">
         <Image
           src="/self.png"
           alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."

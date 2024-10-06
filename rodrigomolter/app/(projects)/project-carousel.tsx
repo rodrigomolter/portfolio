@@ -59,7 +59,7 @@ export function ProjectCarousel() {
                 {/* Bottom */}
                 <div className="gap-6 mx-4 lg:mx-6 lg:h-40 flex flex-row items-center justify-between">
                   <Link href={url}>
-                    <div className="flex flex-row gap-4 items-center py-6">
+                    <div className="flex flex-row gap-4 items-center py-4 sm:py-6">
                       <div className="rounded-full flex flex-row justify-start items-center w-16 h-16 lg:w-20 lg:h-20 flex-shrink-0">
                         {logo}
                       </div>

@@ -28,7 +28,7 @@ export default function AmigosEntregadores() {
                 height={500}
                 className="h-[30vh] w-auto rounded-full"
               />
-              <nav className="gap-8 flex just text-sm md:text-lg mt-4">
+              <nav className="gap-8 flex justify-center text-sm md:text-lg mt-4">
                 <Link
                   href="https://docs.google.com/spreadsheets/d/1Q5EwyA6DXy30FTJNvyXudfLve0mSw88e-joxRvchfbQ/edit?gid=1226932340#gid=1226932340"
                   target="_blank"
@@ -271,7 +271,7 @@ export default function AmigosEntregadores() {
                 <span className="italic text-accent">planning poker</span> para
                 a classificação da complexidade.
               </p>
-              <div className="overflow-x-auto pt-4">
+              <div className="hidden md:flex flex-col pt-4">
                 <table className="table table-xs md:table-md lg:table-lg">
                   <thead>
                     <tr className="text-accent bg-base-200">

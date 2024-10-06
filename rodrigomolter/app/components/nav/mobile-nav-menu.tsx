@@ -51,7 +51,7 @@ export function MobileNavDropdown() {
   }, [])
 
   return (
-    <div className="dropdown dropdown-start md:hidden">
+    <div className="z-50 dropdown dropdown-start md:hidden">
       <HamburgerDropdownIcon />
       <ul
         tabIndex={0}

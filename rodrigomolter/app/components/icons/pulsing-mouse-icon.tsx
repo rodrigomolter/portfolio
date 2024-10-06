@@ -7,13 +7,11 @@ export function PulsingMouseIcon() {
   const [showIcon, setShowIcon] = useState(false)
   const DELAY = 4000 // 4 seconds
 
-  //fix for first load without moving scroll
-  setTimeout(() => {
-    setShowIcon(true)
-  }, DELAY)
-
   useEffect(() => {
-    let timer: any
+    //fix for first load without moving scroll
+    let timer = setTimeout(() => {
+      setShowIcon(true)
+    }, DELAY)
 
     const handleScroll = () => {
       clearTimeout(timer)

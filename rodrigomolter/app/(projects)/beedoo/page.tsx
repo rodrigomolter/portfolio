@@ -106,10 +106,10 @@ export default function Beedoo() {
                 <p className="font-bold text-xl text-accent">
                   I. Cadastrar novo usuário
                 </p>
-                <ol className="flex flex-col gap-4 px-12 list-decimal marker:text-purple-500 marker:font-bold">
+                <ol className="flex flex-col gap-4 px-4 md:px-12 list-decimal marker:text-purple-500 marker:font-bold">
                   <li>
                     <p className="font-bold text-secondary">User Storie:</p>
-                    <p className="pl-4">
+                    <p className="pl-1 md:pl-4">
                       <span className="font-semibold">Como </span>usuário do
                       Beedoo QA Challenge
                       <br />
@@ -124,7 +124,7 @@ export default function Beedoo() {
                     <p className="font-bold text-secondary">
                       Regras de Negócio
                     </p>
-                    <ul className="pl-4 space-y-3">
+                    <ul className="pl-1 md:pl-4 space-y-3">
                       <li className="flex flex-row gap-2">
                         <p className="font-bold text-primary">RN001. </p>
                         <p>
@@ -192,7 +192,7 @@ export default function Beedoo() {
                     <p className="font-bold text-secondary">
                       Critérios de Aceite
                     </p>
-                    <p className="pl-4">
+                    <p className="pl-1 md:pl-4">
                       <span className="font-semibold">Dado</span> que o usuário
                       esta na na página de cadastro de curso
                       <br />
@@ -216,10 +216,10 @@ export default function Beedoo() {
                 <p className="font-bold text-xl text-accent">
                   II. Listar cursos disponíveis
                 </p>
-                <ol className="flex flex-col gap-4 px-12 list-decimal marker:text-purple-500 marker:font-bold">
+                <ol className="flex flex-col gap-4 px-4 md:px-12 list-decimal marker:text-purple-500 marker:font-bold">
                   <li>
                     <p className="font-bold text-secondary">User Storie:</p>
-                    <p className="pl-4">
+                    <p className="pl-1 md:pl-4">
                       <span className="font-semibold">Como</span> usuário do
                       Beedoo QA Challenge
                       <br />
@@ -234,7 +234,7 @@ export default function Beedoo() {
                     <p className="font-bold text-secondary">
                       Regras de Negócio
                     </p>
-                    <ul className="pl-4 space-y-3">
+                    <ul className="pl-1 md:pl-4 space-y-3">
                       <li className="flex flex-row gap-2">
                         <p className="font-bold text-primary">RN001. </p>
                         <p>
@@ -256,7 +256,7 @@ export default function Beedoo() {
                     <p className="font-bold text-secondary">
                       Critérios de Aceite
                     </p>
-                    <p className="pl-4">
+                    <p className="pl-1 md:pl-4">
                       <span className="font-semibold">Dado</span> que o usuário
                       esta na página de listagem de cursos
                       <br />
@@ -271,10 +271,10 @@ export default function Beedoo() {
                 <p className="font-bold text-xl text-accent">
                   III. Excluir Curso
                 </p>
-                <ol className="flex flex-col gap-4 px-12 list-decimal marker:text-purple-500 marker:font-bold">
+                <ol className="flex flex-col gap-4 px-4 md:px-12 list-decimal marker:text-purple-500 marker:font-bold">
                   <li>
                     <p className="font-bold text-secondary">User Storie:</p>
-                    <p className="pl-4">
+                    <p className="pl-1 md:pl-4">
                       <span className="font-semibold">Como</span> usuário do
                       Beedoo QA Challenge
                       <br />
@@ -289,7 +289,7 @@ export default function Beedoo() {
                     <p className="font-bold text-secondary">
                       Regras de Negócio
                     </p>
-                    <ul className="pl-4 space-y-3">
+                    <ul className="pl-1 md:pl-4 space-y-3">
                       <li className="flex flex-row gap-2">
                         <p className="font-bold text-primary">RN001. </p>
                         <p>
@@ -311,7 +311,7 @@ export default function Beedoo() {
                     <p className="font-bold text-secondary">
                       Critérios de Aceite
                     </p>
-                    <p className="pl-4">
+                    <p className="pl-1 md:pl-4">
                       <span className="font-semibold">Dado</span> que o usuário
                       esta na página de listagem de cursos,
                       <br />
