@@ -36,7 +36,7 @@ export function PulsingMouseIcon() {
   return (
     <div>
       {showIcon && (
-        <div className="absolute hidden md:flex items-center bottom-20 right-40">
+        <div className="absolute hidden md:flex items-center bottom-20 right-10 xl:right-40">
           {/* <BsMouse className="text-3xl animate-bounce" /> */}
           <p className="text-xl animate-bounce font-mono">Scroll</p>
         </div>

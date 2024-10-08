@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Hero */}
-      <div className="flex flex-col md:flex-row justify-start sm:justify-center items-center h-[90vh] min-h-[540px] md:min-h-[500px] max-h-[1080px] gap-4 md:gap-20 mt-6 md:mx-12">
+      <div className="flex flex-col md:flex-row justify-start sm:justify-center items-center h-[90vh] min-h-[540px] max-h-[1080px] gap-4 lg:gap-20 mt-6 md:mt-0 md:mx-12">
         <Image
           src="/self.png"
           alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."
@@ -64,7 +64,7 @@ export default function Home() {
           priority={true}
         />
         <div className="flex flex-col text-center md:text-left">
-          <div className="mb-4 space-y-10 mx-6 text-3xl sm:text-4xl">
+          <div className="mb-4 space-y-10 text-3xl sm:text-4xl mx-2 md:mx-0">
             <span className="inline-block animate-wave">🖐🏻</span> Olá, sou o{" "}
             <span
               onClick={handleConfetti}
@@ -74,15 +74,14 @@ export default function Home() {
             </span>
             .
             <p className="md:flex text-xl md:text-2xl">
-              Sou um QA Engineer atento aos detalhes{" "}
-              <br className="xs:max-md:hidden" />e um amante de chá 🍵
+              Sou um QA Engineer atento aos detalhes e um amante de chá 🍵
             </p>
           </div>
 
-          <div className="flex flex-col justify-center items-center gap-2 my-6 sm:my-8">
+          <div className="flex flex-col justify-center items-center gap-2 my-6 mx-2">
             <button
               onClick={handleShareEmail}
-              className="p-4 border-accent border-2 text-xl md:text-2xl font-semibold rounded-full bg-base-200 hover:scale-110 hover:text-accent hover:bg-base-300 transition-all ease-in-out"
+              className="p-4 border-accent border-2 text-xl lg:text-2xl font-semibold rounded-full bg-base-200 hover:scale-110 hover:text-accent hover:bg-base-300 transition-all ease-in-out"
             >
               📧 {myself.email}
             </button>
