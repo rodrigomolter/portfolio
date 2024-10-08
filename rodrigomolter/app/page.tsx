@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Hero */}
-      <div className="flex flex-col md:flex-row justify-start sm:justify-center items-center h-[90vh] min-h-[540px] md:min-h-[500px] max-h-[1080px] gap-4 md:gap-20 mt-6">
+      <div className="flex flex-col md:flex-row justify-start sm:justify-center items-center h-[90vh] min-h-[540px] md:min-h-[500px] max-h-[1080px] gap-4 md:gap-20 mt-6 md:mx-12">
         <Image
           src="/self.png"
           alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."
@@ -63,47 +63,35 @@ export default function Home() {
           className="bg-gradient-to-br from-accent to-logo-primary rounded-full w-[150px] sm:w-[250px] lg:w-[350px] rotate-3"
           priority={true}
         />
-        <div>
-          <div className="text-center md:text-left mb-4 space-y-1">
-            <div className="hidden sm:flex text-4xl">
-              <span className="animate-wave inline-block mr-5 text-5xl">
-                🖐🏻
-              </span>
-              Sou o
-            </div>
-            <h1 className="text-5xl">
-              <span
-                onClick={handleConfetti}
-                className="bg-gradient-to-tl from-accent to-logo-primary text-transparent bg-clip-text font-bold capitalize"
-              >
-                {myself.firstName}.
-              </span>
-            </h1>
-            <h2 className="text-3xl font-bold">{myself.role}.</h2>
+        <div className="flex flex-col text-center md:text-left">
+          <div className="mb-4 space-y-10 mx-6 text-3xl sm:text-4xl">
+            <span className="inline-block animate-wave">🖐🏻</span> Olá, sou o{" "}
+            <span
+              onClick={handleConfetti}
+              className="bg-gradient-to-tl from-accent to-logo-primary text-transparent bg-clip-text font-bold capitalize"
+            >
+              {myself.firstName}
+            </span>
+            .
+            <p className="md:flex text-xl md:text-2xl">
+              Sou um QA Engineer atento aos detalhes{" "}
+              <br className="xs:max-md:hidden" />e um amante de chá 🍵
+            </p>
           </div>
 
-          <ul className="space-y-1 text-xl text-center md:text-left pb-8">
-            {myself.bulletPoints.map((bulletPoint) => (
-              <li key={bulletPoint}>{bulletPoint}</li>
-            ))}
-            <li>
-              <button onClick={handleShareEmail}>
-                📧 {myself.email}
-                <p className="text-xs"> (clique para copiar)</p>
-              </button>
-            </li>
-          </ul>
+          <div className="flex flex-col justify-center items-center gap-2 my-6 sm:my-8">
+            <button
+              onClick={handleShareEmail}
+              className="p-4 border-accent border-2 text-xl md:text-2xl font-semibold rounded-full bg-base-200 hover:scale-110 hover:text-accent hover:bg-base-300 transition-all ease-in-out"
+            >
+              📧 {myself.email}
+            </button>
+            <p className="text-xs"> (clique para copiar)</p>
+          </div>
           <SocialIcons />
         </div>
+
         <PulsingMouseIcon />
-        <GridPattern
-          width={50}
-          height={50}
-          numSquares={60}
-          maxOpacity={0.25}
-          duration={4}
-          repeatDelay={0.5}
-        />
       </div>
 
       {/* Projects */}
