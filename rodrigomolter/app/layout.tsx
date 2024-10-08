@@ -24,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" />
       <body className={`${nunito.className} transition-colors duration-100`}>
         <ThemeProvider themes={["winter", "dracula"]} defaultTheme="dracula">
           <div className="max-w-screen-lg xl:max-w-screen-2xl min-h-screen mx-auto flex flex-col justify-center items-center">
