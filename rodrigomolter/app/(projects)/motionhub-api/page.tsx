@@ -22,7 +22,7 @@ export default function MotionHubAPI() {
             <header className="flex flex-col items-center justify-center my-8">
               <Image
                 alt="Logo MotionHub API"
-                src="/projects/motionhub-api/hub.png"
+                src="/projects/motionhub-api/HUB.png"
                 width={1080}
                 height={120}
                 className="px-4 w-[80vw] md:w-[60vw] xl:w-[40vw] h-auto"
