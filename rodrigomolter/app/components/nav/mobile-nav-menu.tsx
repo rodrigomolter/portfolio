@@ -1,12 +1,10 @@
 "use client"
-import React, { useEffect } from "react"
 import Link from "next/link"
 import { navLinks } from "@/app/components/nav/navbar"
 
 const HamburgerDropdownIcon = () => {
   return (
     <label className="btn btn-circle swap swap-rotate">
-      {/* this hidden checkbox controls the state */}
       <input type="checkbox" />
 
       {/* hamburger icon */}
@@ -35,27 +33,12 @@ const HamburgerDropdownIcon = () => {
 }
 
 export function MobileNavDropdown() {
-  useEffect(() => {
-    let details = document.querySelector("details")
-    const handleClick = ({ target }: MouseEvent) => {
-      if (!details?.contains(target as Node)) {
-        details?.removeAttribute("open")
-      }
-    }
-
-    document.addEventListener("click", (e) => handleClick(e))
-
-    return () => {
-      document.removeEventListener("click", (e) => handleClick(e))
-    }
-  }, [])
-
   return (
-    <div className="z-50 dropdown dropdown-start md:hidden">
+    <div className="z-50 dropdown dropdown-end dropdown-bottom md:hidden">
       <HamburgerDropdownIcon />
       <ul
         tabIndex={0}
-        className="dropdown-content menu z-[1] bg-base-200 p-4 rounded-box shadow gap-6 text-lg"
+        className="dropdown-content menu bg-base-200 p-4 rounded-box shadow gap-6 text-lg"
       >
         {navLinks
           .filter((link) => link.mobile)

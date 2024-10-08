@@ -1,21 +1,11 @@
 import Link from "next/link"
 import DarkModeToggle from "@/app/components/nav/dark-mode-toggle"
 import { MobileNavDropdown } from "@/app/components/nav/mobile-nav-menu"
+import { Inter } from "next/font/google"
 
-const Logo = () => {
-  return (
-    <div className="bg-gradient-to-tl from-logo-primary to-accent text-transparent bg-clip-text font-bold text-2xl sm:text-3xl">
-      {"<rodrigomolter />"}
-    </div>
-  )
-}
+const inter = Inter({ subsets: ["latin"] })
 
 export const navLinks = [
-  {
-    label: <Logo />,
-    href: "/",
-    mobile: false,
-  },
   {
     label: "projetos.",
     href: "/#projects",
@@ -30,27 +20,28 @@ export const navLinks = [
 
 export function Navbar() {
   return (
-    <nav className="navbar md:p-1 sticky top-0 bg-base-200 md:bg-base-100 z-50 md:rounded-b-full border-zinc-950/50 border-b-2 max-w-screen-lg">
-      <div className="w-full flex justify-between md:justify-center md:items-center">
-        {/* desktop */}
-        <ul className="menu menu-horizontal md:p-0 items-center gap-6 lg:gap-8 hidden md:flex text-xl scroll-smooth">
+    <nav className="navbar sticky top-0 w-screen lg:w-[calc(100vw-20px)] flex justify-center bg-base-100 z-50">
+      <div className="flex justify-between items-center w-full max-w-screen-2xl p-2 p2 md:px-12 lg:px-40">
+        <Link href="/">
+          <p className={`${inter.className} font-bold text-2xl sm:text-3xl`}>
+            Rodrigo <br />
+            Molter
+          </p>
+        </Link>
+
+        <ul className="menu menu-horizontal justify-end items-center gap-2 lg:gap-12 text-xl scroll-smooth">
           {navLinks.map((link, index) => (
-            <li key={index}>
+            <li key={index} className="hidden md:flex">
               <Link href={link.href}>{link.label}</Link>
             </li>
           ))}
-          {/* mobile */}
           <li>
             <DarkModeToggle />
           </li>
+          <li>
+            <MobileNavDropdown />
+          </li>
         </ul>
-        <MobileNavDropdown />
-        <Link href="/" className="md:hidden">
-          <Logo />
-        </Link>
-        <div className="md:hidden">
-          <DarkModeToggle />
-        </div>
       </div>
     </nav>
   )
