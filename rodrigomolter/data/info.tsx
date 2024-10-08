@@ -15,7 +15,7 @@ export const myself = {
   github: "https://github.com/rodrigomolter/",
   linkedin: "https://www.linkedin.com/in/rodrigo-molter/",
   whatsapp: "https://wa.me/+5551998832787",
-  description: "Portfolio de Rodrigo Molter, QA Engineer apaixonado por chás.",
+  description: "Sou um QA Engineer atento aos detalhes e um amante de chá 🍵",
   bulletPoints: ["🐞 além do bug", "🦙 AI enthusiast", "🍵 tea lover"],
 }
 
@@ -33,6 +33,9 @@ export type ProjectParams = {
   figma?: string
 }
 
+const genericVideo =
+  "https://images.unsplash.com/photo-1719937050446-a121748d4ba0?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
 export const projects: { [project: string]: ProjectParams } = {
   lojaQA: {
     name: "Loja do QA",
@@ -41,8 +44,7 @@ export const projects: { [project: string]: ProjectParams } = {
     image: "/projects/loja-qa/lojaqa.png",
     smimage: "/projects/loja-qa/lojaqa-sm.png",
     xsimage: "/projects/loja-qa/lojaqa-xs.png",
-    video:
-      "https://images.unsplash.com/photo-1727229785152-39f851d10e28?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    video: genericVideo,
     logo: <LojaQALogo />,
     url: "/loja-qa",
   },
@@ -68,8 +70,7 @@ export const projects: { [project: string]: ProjectParams } = {
     image: "/projects/backoffice-jogajunto/backoffice-jogajunto.png",
     smimage: "/projects/backoffice-jogajunto/backoffice-jogajunto-sm.png",
     xsimage: "/projects/backoffice-jogajunto/backoffice-jogajunto-xs.png",
-    video:
-      "https://images.unsplash.com/photo-1719937206590-6cb10b099e0f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    video: genericVideo,
     logo: <GenericLogo title="📋" className="bg-yellow-400" />,
     url: "/backoffice-jogajunto",
     github: "https://github.com/rodrigomolter/backoffice-jogajunto",
@@ -82,8 +83,7 @@ export const projects: { [project: string]: ProjectParams } = {
     image: "/projects/amigos-entregadores/amigos-entregadores.png",
     smimage: "/projects/amigos-entregadores/amigos-entregadores-sm.png",
     xsimage: "/projects/amigos-entregadores/amigos-entregadores-xs.png",
-    video:
-      "https://images.unsplash.com/photo-1727336885161-cfd96a134c85?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    video: genericVideo,
     logo: <AmigosEntregadoresLogo />,
     url: "/amigos-entregadores",
     figma:
@@ -97,8 +97,7 @@ export const projects: { [project: string]: ProjectParams } = {
     image: "/projects/bugbank/bugbank.png",
     smimage: "/projects/bugbank/bugbank-sm.png",
     xsimage: "/projects/bugbank/bugbank-xs.png",
-    video:
-      "https://images.unsplash.com/photo-1726103076524-33a93fe1d11f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    video: genericVideo,
     logo: <BugbankLogo />,
     url: "/bugbank",
     github: "https://github.com/rodrigomolter/bugbank-selenium",
@@ -111,8 +110,7 @@ export const projects: { [project: string]: ProjectParams } = {
     image: "/projects/motionhub-api/motionhub.png",
     smimage: "/projects/motionhub-api/motionhub-sm.png",
     xsimage: "/projects/motionhub-api/motionhub-xs.png",
-    video:
-      "https://images.unsplash.com/photo-1727129543404-93791599e154?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    video: genericVideo,
     logo: <MotionHUBLogo />,
     url: "/motionhub-api",
     github: "https://github.com/rodrigomolter/MotionHub-API",
@@ -125,8 +123,7 @@ export const projects: { [project: string]: ProjectParams } = {
     image: "/projects/todo-mvc/todo-mvc.png",
     smimage: "/projects/todo-mvc/todo-mvc-sm.png",
     xsimage: "/projects/todo-mvc/todo-mvc-xs.png",
-    video:
-      "https://images.unsplash.com/photo-1719937050446-a121748d4ba0?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    video: genericVideo,
     logo: <TodoMVCLogo />,
     url: "/todo-mvc",
     github: "https://github.com/rodrigomolter/TodoMVC",
@@ -139,8 +136,7 @@ export const projects: { [project: string]: ProjectParams } = {
     image: "/projects/beedoo/beedoo.png",
     smimage: "/projects/beedoo/beedoo-sm.png",
     xsimage: "/projects/beedoo/beedoo-xs.png",
-    video:
-      "https://images.unsplash.com/photo-1719937050446-a121748d4ba0?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    video: genericVideo,
     logo: <BeedooLogo />,
     url: "/beedoo",
     github: "https://github.com/rodrigomolter/DESAFIO-BEEDOO",
