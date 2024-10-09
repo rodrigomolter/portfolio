@@ -21,26 +21,21 @@ export const navLinks = [
 export function Navbar() {
   return (
     <nav className="navbar sticky top-0 w-screen lg:w-[calc(100vw-20px)] flex justify-center bg-base-100 z-50">
-      <div className="flex justify-between items-center w-full max-w-screen-2xl p-2 p2 md:px-12 lg:px-40">
+      <div className="flex justify-between items-center w-full max-w-screen-2xl p-2 md:px-12 lg:px-40">
         <Link href="/">
-          <p className={`${inter.className} font-bold text-2xl sm:text-3xl`}>
+          <p className={`${inter.className} font-bold text-xl sm:text-3xl`}>
             Rodrigo <br />
             Molter
           </p>
         </Link>
 
-        <ul className="menu menu-horizontal justify-end items-center gap-2 lg:gap-12 text-xl scroll-smooth">
+        <ul className="flex flex-row gap-x-8 justify-end items-center text-xl scroll-smooth">
           {navLinks.map((link, index) => (
-            <li key={index} className="hidden md:flex">
+            <li key={index}>
               <Link href={link.href}>{link.label}</Link>
             </li>
           ))}
-          <li>
-            <DarkModeToggle />
-          </li>
-          <li>
-            <MobileNavDropdown />
-          </li>
+          <li className="hidden md:flex">{<DarkModeToggle />}</li>
         </ul>
       </div>
     </nav>
