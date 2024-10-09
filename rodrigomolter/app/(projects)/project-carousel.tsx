@@ -14,7 +14,7 @@ import { projects } from "@/data/info"
 export function ProjectCarousel() {
   return (
     <Carousel
-      className="max-w-[98vw] md:max-w-[700px] lg:max-w-[1000px] 2xl:max-w-full 2xl:w-[90vw]"
+      className="max-w-[98vw]"
       opts={{
         align: "center",
         loop: true,
@@ -34,44 +34,43 @@ export function ProjectCarousel() {
             linkedin,
             figma,
           }) => (
-            <CarouselItem
-              key={name}
-              className="md:basis-8/12 xl:basis-7/12 2xl:basis-5/12"
-            >
-              <div className="h-auto bg-base-300 flex flex-col rounded-3xl">
+            <CarouselItem key={name} className="basis-auto">
+              <div className="w-[270px] sm:w-[360px] lg:w-[600px] h-auto bg-base-300 flex flex-col rounded-3xl">
                 {/* Video */}
                 <Link href={url}>
-                  <div className="relative flex justify-center items-center bg-base-200 h-[70vh] lg:h-[60vh] min-h-[320px] max-h-[1080px] w-auto rounded-3xl mb-4 shadow-lg ">
+                  <div className="flex justify-center items-center bg-base-200 w-auto rounded-3xl mb-4 shadow-lg ">
                     <picture>
                       <source media="(max-width: 360px)" srcSet={xsimage} />
-                      <source media="(max-width: 1024px)" srcSet={smimage} />
+                      <source media="(max-width: 768px)" srcSet={smimage} />
                       <Image
                         alt={`Imagem do projeto ${name}.`}
                         src={image}
-                        fill
-                        style={{ objectFit: "cover" }}
-                        className="rounded-t-3xl"
+                        width={800}
+                        height={600}
+                        className="rounded-t-3xl w-[360px] lg:w-[800px] h-auto"
                       />
                     </picture>
                   </div>
                 </Link>
 
                 {/* Bottom */}
-                <div className="gap-6 mx-4 lg:mx-6 lg:h-40 flex flex-row items-center justify-between">
+                <div className="gap-6 mx-4 lg:mx-6 h-24 sm:h-28 lg:h-40 flex flex-row items-center justify-between">
                   <Link href={url}>
                     <div className="flex flex-row gap-4 items-center py-4 sm:py-6">
-                      <div className="rounded-full flex flex-row justify-start items-center w-16 h-16 lg:w-20 lg:h-20 flex-shrink-0">
+                      <div className="flex flex-row justify-start items-center w-16 h-16 lg:w-20 lg:h-20 flex-shrink-0 rounded-full">
                         {logo}
                       </div>
                       <div>
-                        <h1 className="text-3xl font-semibold">{name}</h1>
+                        <h1 className="text-2xl sm:text-3xl font-semibold">
+                          {name}
+                        </h1>
                         <p className="hidden lg:flex pt-2">{description}</p>
                       </div>
                     </div>
                   </Link>
 
                   {/* Socials */}
-                  <div className="text-4xl lg:text-5xl mr-6 flex justify-end items-center gap-6 lg:gap-12">
+                  <div className="hidden sm:flex text-4xl lg:text-5xl mr-6 justify-end items-center gap-6 lg:gap-12">
                     {linkedin ? (
                       <Link
                         href={linkedin}
@@ -109,8 +108,8 @@ export function ProjectCarousel() {
           )
         )}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      {/* <CarouselPrevious /> */}
+      {/* <CarouselNext /> */}
     </Carousel>
   )
 }
