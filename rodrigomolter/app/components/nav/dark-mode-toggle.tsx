@@ -20,7 +20,7 @@ const DarkModeToggle = () => {
   if (!mounted) return null
 
   return (
-    <label className="btn btn-ghost swap swap-rotate">
+    <label className="swap swap-rotate">
       <input
         type="checkbox"
         className="theme-controller"

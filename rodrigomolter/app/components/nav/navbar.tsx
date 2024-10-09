@@ -29,13 +29,17 @@ export function Navbar() {
           </p>
         </Link>
 
-        <ul className="flex flex-row gap-x-8 justify-end items-center text-xl scroll-smooth">
+        <ul className="flex flex-row gap-x-8 lg:gap-x-12 justify-end items-center text-xl scroll-smooth">
           {navLinks.map((link, index) => (
             <li key={index}>
-              <Link href={link.href}>{link.label}</Link>
+              <Link href={link.href} className="hover:text-accent">
+                {link.label}
+              </Link>
             </li>
           ))}
-          <li className="hidden md:flex">{<DarkModeToggle />}</li>
+          <li className="hidden sm:flex hover:text-accent">
+            {<DarkModeToggle />}
+          </li>
         </ul>
       </div>
     </nav>
