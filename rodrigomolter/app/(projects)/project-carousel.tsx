@@ -14,6 +14,7 @@ import { projects } from "@/data/info"
 export function ProjectCarousel() {
   return (
     <Carousel
+      id="projects"
       className="max-w-[98vw]"
       opts={{
         align: "center",

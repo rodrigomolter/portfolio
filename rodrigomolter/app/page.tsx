@@ -1,9 +1,10 @@
 "use client"
 import Image from "next/image"
+import Link from "next/link"
 import confetti from "canvas-confetti"
 
-import { SocialIcons } from "@/app/components/icons/social-icons"
 import { PulsingMouseIcon } from "@/app/components/icons/pulsing-mouse-icon"
+import { Spotlight } from "@/app/components/ui/spotlight"
 import { ProjectCarousel } from "@/app/(projects)/project-carousel"
 
 import About from "@/app/about/page"
@@ -45,50 +46,47 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Hero */}
-      <div className="flex flex-col-reverse md:flex-row justify-end sm:justify-center items-center h-[85vh] min-h-[540px] max-h-[1080px] gap-4 lg:gap-20 md:mt-0 md:mx-12">
-        <div className="flex flex-col text-center md:text-left">
-          <div className="mb-4 space-y-10 text-3xl sm:text-4xl mx-2 md:mx-0">
-            <label className="swap animate-wave swap-flip text-4xl">
-              <input type="checkbox" />
-
-              <span className="inline swap-off translate-y-1">🖐🏻</span>
-              <span className="inline swap-on translate-y-1">🤙🏻</span>
-            </label>
-            Olá, sou o{" "}
-            <span onClick={handleConfetti} className="font-bold capitalize">
-              {myself.firstName}
-            </span>
-            .<p className="md:flex text-xl md:text-2xl">{myself.description}</p>
-          </div>
-
-          <div className="flex flex-col justify-center items-center gap-2 my-6 mx-2">
-            <button
-              onClick={handleShareEmail}
-              className="p-4 border-accent border-2 text-xl lg:text-2xl font-semibold rounded-full bg-base-200 hover:scale-110 hover:text-accent hover:bg-base-300 transition-all ease-in-out"
-            >
-              📧 {myself.email}
-            </button>
-            <p className="text-xs"> (clique para copiar)</p>
-          </div>
-          <SocialIcons />
-        </div>
+      <div className="flex flex-col justify-start sm:justify-center md:justify-start items-center h-[70vh] 2xl:h-[60vh] min-h-[500px] lg:min-h-[600px] max-h-[800px]  2xl:max-h-[700px] mx-4 lg:mx-10 gap-4">
         <Image
           src="/self.png"
           alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."
           width={1188}
           height={1232}
-          className="bg-gradient-to-br from-accent to-logo-primary rounded-full w-[150px] sm:w-[250px] lg:w-[350px] rotate-3 xl:-translate-y-10"
+          className="bg-gradient-to-br from-accent to-logo-primary rounded-full w-[150px] sm:w-[200px] rotate-3"
           priority={true}
         />
-        <a href="#projects">
-          <PulsingMouseIcon />
-        </a>
+        <div className="flex justify-start items-center text-3xl font-suisse-book">
+          <p>
+            Olá, sou o{" "}
+            <span
+              onClick={handleConfetti}
+              className="font-bold capitalize text-accent"
+            >
+              {myself.firstName}
+            </span>
+          </p>
+          <label className="swap animate-wave swap-flip">
+            <input type="checkbox" />
+            <span className="swap-on">🤙🏻</span>
+            <span className="swap-off">🖐🏻</span>
+          </label>
+        </div>
+        <Spotlight
+          className="top-40 sm:top-60 md:top-10 xl:top-0 2xl:-top-20 3xl:-top-80 4xl:-top-1/3 -left-5 xl:left-20 4xl:left-1/4 z-50"
+          fill="white"
+        />
+        <div className="flex justify-center md:w-2/3 text-center mt-6 xl:mt-12">
+          <p className="text-3xl sm:text-4xl md:text-5xl font-suisse-book">
+            {myself.description}
+          </p>
+        </div>
       </div>
+      <Link href="#projects">
+        <PulsingMouseIcon />
+      </Link>
 
       {/* Projects */}
-      <div id="projects">
-        <ProjectCarousel />
-      </div>
+      <ProjectCarousel />
 
       {/* About */}
       <About />

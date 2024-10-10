@@ -11,6 +11,8 @@ const config: Config = {
       screens: {
         xs: "100px",
         sm: "412px",
+        "3xl": "2560px",
+        "4xl": "3840px",
       },
       fontFamily: {
         "suisse-book": ["Suisse Intl Book", "sans-serif"],
@@ -55,10 +57,21 @@ const config: Config = {
           "0%": { "background-position": "0%" },
           "100%": { "background-position": "200%" },
         },
+        spotlight: {
+          "0%": {
+            opacity: 0,
+            transform: "translate(-72%, -62%) scale(0.5)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translate(-50%,-40%) scale(1)",
+          },
+        },
       },
       animation: {
         wave: "wave 2s ease-in-out infinite",
         rainbow: "rainbow var(--speed, 2s) infinite linear",
+        spotlight: "spotlight 2s ease .75s 1 forwards",
       },
     },
   },

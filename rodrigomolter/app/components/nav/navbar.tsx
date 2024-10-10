@@ -25,7 +25,7 @@ export const navLinks = [
 
 export function Navbar() {
   return (
-    <nav className="navbar sticky top-0 w-screen lg:w-[calc(100vw-20px)] flex justify-center bg-base-100 z-50">
+    <nav className="navbar sticky top-0 w-screen lg:w-[calc(100vw-20px)] flex justify-center bg-base-100 z-40">
       <div className="flex justify-between items-center w-full max-w-screen-2xl p-2 md:px-12 lg:px-40">
         <Link href="/">
           <p className={`${inter.className} font-bold text-xl sm:text-3xl`}>
