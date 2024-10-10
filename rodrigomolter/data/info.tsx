@@ -117,19 +117,6 @@ export const projects: { [project: string]: ProjectParams } = {
     github: "https://github.com/rodrigomolter/MotionHub-API",
   },
 
-  todoMVC: {
-    name: "Todo MVC",
-    description:
-      "O projeto consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação de lista de tarefas TodoMVC",
-    image: "/projects/todo-mvc/todo-mvc.png",
-    smimage: "/projects/todo-mvc/todo-mvc-sm.png",
-    xsimage: "/projects/todo-mvc/todo-mvc-xs.png",
-    video: genericVideo,
-    logo: <TodoMVCLogo />,
-    url: "/todo-mvc",
-    github: "https://github.com/rodrigomolter/TodoMVC",
-  },
-
   beedoo: {
     name: "Desafio Beedoo",
     description:
@@ -141,5 +128,18 @@ export const projects: { [project: string]: ProjectParams } = {
     logo: <BeedooLogo />,
     url: "/beedoo",
     github: "https://github.com/rodrigomolter/DESAFIO-BEEDOO",
+  },
+
+  todoMVC: {
+    name: "Todo MVC",
+    description:
+      "O projeto consiste no desenvolvimento de uma suíte de testes manuais e automatizados para a aplicação de lista de tarefas TodoMVC",
+    image: "/projects/todo-mvc/todo-mvc.png",
+    smimage: "/projects/todo-mvc/todo-mvc-sm.png",
+    xsimage: "/projects/todo-mvc/todo-mvc-xs.png",
+    video: genericVideo,
+    logo: <TodoMVCLogo />,
+    url: "/todo-mvc",
+    github: "https://github.com/rodrigomolter/TodoMVC",
   },
 }
