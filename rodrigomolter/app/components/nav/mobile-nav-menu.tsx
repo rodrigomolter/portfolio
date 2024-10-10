@@ -1,13 +1,19 @@
 "use client"
 import Link from "next/link"
 import { navLinks } from "@/app/components/nav/navbar"
+import { useState, useEffect } from "react"
 
-const HamburgerDropdownIcon = () => {
+const HamburgerDropdownIcon = ({
+  isOpen,
+  toggleMenu,
+}: {
+  isOpen: boolean
+  toggleMenu: () => void
+}) => {
   return (
     <label className="btn btn-circle swap swap-rotate">
-      <input type="checkbox" />
-
-      {/* hamburger icon */}
+      <input type="checkbox" checked={isOpen} onChange={toggleMenu} />
+      {/* Ícone de hambúrguer */}
       <svg
         className="swap-off fill-current"
         xmlns="http://www.w3.org/2000/svg"
@@ -17,8 +23,7 @@ const HamburgerDropdownIcon = () => {
       >
         <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
       </svg>
-
-      {/* close icon */}
+      {/* Ícone de fechar */}
       <svg
         className="swap-on fill-current"
         xmlns="http://www.w3.org/2000/svg"
@@ -33,21 +38,47 @@ const HamburgerDropdownIcon = () => {
 }
 
 export function MobileNavDropdown() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const menu = document.getElementById("hamburguer-menu")
+      if (menu && !menu.contains(event.target as Node)) {
+        setIsOpen(false)
+      }
+    }
+
+    if (isOpen) {
+      document.addEventListener("click", handleClickOutside)
+    }
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside)
+    }
+  }, [isOpen])
+
   return (
-    <div className="z-50 dropdown dropdown-end dropdown-bottom md:hidden">
-      <HamburgerDropdownIcon />
-      <ul
-        tabIndex={0}
-        className="dropdown-content menu bg-base-200 p-4 rounded-box shadow gap-6 text-lg"
-      >
-        {navLinks
-          .filter((link) => link.mobile)
-          .map((link, index) => (
-            <li key={index}>
-              <Link href={link.href}>{link.label}</Link>
-            </li>
-          ))}
-      </ul>
+    <div className="relative z-50 md:hidden">
+      <HamburgerDropdownIcon
+        isOpen={isOpen}
+        toggleMenu={() => setIsOpen((prev) => !prev)}
+      />
+      {isOpen && (
+        <ul
+          tabIndex={0}
+          className="absolute right-0 mt-2 w-48 bg-base-200 p-4 rounded-box shadow gap-6 text-lg"
+        >
+          {navLinks
+            .filter((link) => link.mobile)
+            .map((link, index) => (
+              <li key={index}>
+                <Link href={link.href} onClick={() => setIsOpen(false)}>
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+        </ul>
+      )}
     </div>
   )
 }

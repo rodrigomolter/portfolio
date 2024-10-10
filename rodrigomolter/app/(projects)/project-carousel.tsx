@@ -36,7 +36,7 @@ export function ProjectCarousel() {
           }) => (
             <CarouselItem key={name} className="basis-auto">
               <div className="w-[270px] sm:w-[360px] lg:w-[600px] h-auto bg-base-300 flex flex-col rounded-3xl">
-                {/* Video */}
+                {/* Image */}
                 <Link href={url}>
                   <div className="flex justify-center items-center bg-base-200 w-auto rounded-3xl mb-4 shadow-lg ">
                     <picture>
