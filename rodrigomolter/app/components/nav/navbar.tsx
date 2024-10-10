@@ -45,7 +45,7 @@ export function Navbar() {
               </Link>
             </li>
           ))}
-          <li className="hidden sm:flex hover:text-accent">
+          <li className="hover:text-accent">
             <DarkModeToggle />
           </li>
           <li>
