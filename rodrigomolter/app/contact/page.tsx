@@ -50,8 +50,8 @@ export default function Contact() {
       id="contact"
       className="w-[calc(100vw-20px)] bg-base-300 h-[85vh] sm:h-[90vh] mt-20"
     >
-      <div className="flex flex-col justify-center items-center h-full gap-20 sm:gap-28 3xl:gap-32 mx-2">
-        <p className="text-6xl sm:text-7xl 3xl:text-8xl text-center font-suisse-book">
+      <div className="flex flex-col justify-center items-center h-full gap-20 sm:gap-28 3xl:gap-32 mx-2 font-suisse-book">
+        <p className="text-6xl sm:text-7xl 3xl:text-8xl text-center">
           Vamos conversar!
         </p>
         <div className="flex flex-col justify-center items-center gap-2">
