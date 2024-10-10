@@ -2,13 +2,14 @@
 import Image from "next/image"
 import confetti from "canvas-confetti"
 
+import { SocialIcons } from "@/app/components/icons/social-icons"
 import { PulsingMouseIcon } from "@/app/components/icons/pulsing-mouse-icon"
-
-import About from "@/app/about/page"
 import { ProjectCarousel } from "@/app/(projects)/project-carousel"
 
+import About from "@/app/about/page"
+import Contact from "@/app/contact/page"
+
 import { myself } from "@/data/info"
-import Contact from "./contact/page"
 
 const handleConfetti = () => {
   const end = Date.now() + 1 * 500 // 0.5 second
