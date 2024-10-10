@@ -14,7 +14,7 @@ export default function About() {
         <main>
           <section className="text-lg md:px-6">
             <h1 className="text-accent text-3xl md:text-4xl font-bold mb-8 mt-2">
-              Sobre mim
+              Sobre mim.
             </h1>
             <div className="flex flex-col md:flex-row-reverse items-center gap-8">
               <div className="md:w-2/5 flex items-center">

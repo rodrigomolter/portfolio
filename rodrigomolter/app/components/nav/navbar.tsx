@@ -16,6 +16,11 @@ export const navLinks = [
     href: "/#about",
     mobile: true,
   },
+  {
+    label: "contato.",
+    href: "/#contact",
+    mobile: true,
+  },
 ]
 
 export function Navbar() {
@@ -32,13 +37,19 @@ export function Navbar() {
         <ul className="flex flex-row gap-x-8 lg:gap-x-12 justify-end items-center text-xl scroll-smooth">
           {navLinks.map((link, index) => (
             <li key={index}>
-              <Link href={link.href} className="hover:text-accent">
+              <Link
+                href={link.href}
+                className="hidden md:flex hover:text-accent"
+              >
                 {link.label}
               </Link>
             </li>
           ))}
           <li className="hidden sm:flex hover:text-accent">
-            {<DarkModeToggle />}
+            <DarkModeToggle />
+          </li>
+          <li>
+            <MobileNavDropdown />
           </li>
         </ul>
       </div>

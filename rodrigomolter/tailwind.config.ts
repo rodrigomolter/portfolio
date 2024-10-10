@@ -12,9 +12,17 @@ const config: Config = {
         xs: "100px",
         sm: "412px",
       },
+      fontFamily: {
+        "suisse-book": ["Suisse Intl Book", "sans-serif"],
+      },
       colors: {
         "logo-primary": "#eab308",
         "logo-secondary": "#92400e",
+        "color-1": "hsl(var(--color-1))",
+        "color-2": "hsl(var(--color-2))",
+        "color-3": "hsl(var(--color-3))",
+        "color-4": "hsl(var(--color-4))",
+        "color-5": "hsl(var(--color-5))",
       },
       keyframes: {
         wave: {
@@ -43,9 +51,14 @@ const config: Config = {
             transform: "rotate(0.0deg)",
           },
         },
+        rainbow: {
+          "0%": { "background-position": "0%" },
+          "100%": { "background-position": "200%" },
+        },
       },
       animation: {
         wave: "wave 2s ease-in-out infinite",
+        rainbow: "rainbow var(--speed, 2s) infinite linear",
       },
     },
   },

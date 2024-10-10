@@ -1,23 +1,14 @@
 "use client"
 import Image from "next/image"
-import { toast } from "sonner"
 import confetti from "canvas-confetti"
 
-import { FaRocket } from "react-icons/fa6"
-import { SocialIcons } from "@/app/components/icons/social-icons"
 import { PulsingMouseIcon } from "@/app/components/icons/pulsing-mouse-icon"
 
 import About from "@/app/about/page"
 import { ProjectCarousel } from "@/app/(projects)/project-carousel"
-import { GridPattern } from "@/app/components/ui/grid-pattern"
 
 import { myself } from "@/data/info"
-
-function handleShareEmail() {
-  navigator.clipboard.writeText(myself.email)
-  toast.success("O email foi copiado para área de transferência (CTRL+C) 🎉.")
-  handleConfetti()
-}
+import Contact from "./contact/page"
 
 const handleConfetti = () => {
   const end = Date.now() + 1 * 500 // 0.5 second
@@ -100,6 +91,9 @@ export default function Home() {
 
       {/* About */}
       <About />
+
+      {/* Contact */}
+      <Contact />
     </div>
   )
 }

@@ -197,13 +197,9 @@ export default function Docunder() {
               <p>
                 Quer saber mais sobre o andamento da Docunder e mais a fundo
                 sobre o que tenho agregado para a equipe?{" "}
-                <a
-                  target="_blank"
-                  href={myself.whatsapp}
-                  className="font-bold text-accent link"
-                >
+                <Link href="/#contact" className="font-bold text-accent link">
                   Vamos marcar uma conversa!
-                </a>
+                </Link>
               </p>
             </article>
           </section>

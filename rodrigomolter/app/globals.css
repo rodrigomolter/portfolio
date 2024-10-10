@@ -2,11 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-1: 0 100% 63%;
+  --color-2: 270 100% 63%;
+  --color-3: 210 100% 63%;
+  --color-4: 195 100% 63%;
+  --color-5: 90 100% 63%;
+}
+
 html {
   @apply transition-colors duration-200;
 }
 
+@font-face {
+  font-family: "Suisse Intl Book";
+  src: url(/fonts/SuisseIntl-Book-WebTrial.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
 #projects,
-#about {
+#about,
+#contact {
   scroll-margin-top: 110px;
 }

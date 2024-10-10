@@ -8,7 +8,6 @@ export function PulsingMouseIcon() {
   const DELAY = 4000 // 4 seconds
 
   useEffect(() => {
-    //fix for first load without moving scroll
     let timer = setTimeout(() => {
       setShowIcon(true)
     }, DELAY)
@@ -38,7 +37,7 @@ export function PulsingMouseIcon() {
       {showIcon && (
         <div className="absolute hidden md:flex items-center bottom-20 right-10 xl:right-40">
           {/* <BsMouse className="text-3xl animate-bounce" /> */}
-          <p className="text-xl animate-bounce font-mono">Scroll</p>
+          <p className="text-xl animate-bounce font-mono">scroll.</p>
         </div>
       )}
     </div>

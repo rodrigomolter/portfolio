@@ -5,7 +5,7 @@ import { myself } from "@/data/info"
 
 export function SocialIcons({ small = false }) {
   return (
-    <ul className="flex justify-center text-4xl gap-10 lg:mt-4">
+    <ul className="flex justify-center text-4xl sm:text-5xl gap-10 lg:mt-4">
       <li
         className="hover:scale-125 hover:text-accent transition-all ease-in-out tooltip"
         data-tip="GitHub"
