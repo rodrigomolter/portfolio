@@ -6,11 +6,13 @@ import confetti from "canvas-confetti"
 import { PulsingMouseIcon } from "@/app/components/icons/pulsing-mouse-icon"
 import { Spotlight } from "@/app/components/ui/spotlight"
 import { ProjectCarousel } from "@/app/(projects)/project-carousel"
+import SparklesText from "@/app/components/ui/sparkle-text"
 
 import About from "@/app/about/page"
 import Contact from "@/app/contact/page"
 
 import { myself } from "@/data/info"
+import { CoolMode } from "./components/ui/cool-mode"
 
 const handleConfetti = () => {
   const end = Date.now() + 1 * 500 // 0.5 second
@@ -56,29 +58,30 @@ export default function Home() {
           priority={true}
         />
         <div className="flex justify-start items-center text-3xl font-suisse-book">
-          <p>
-            Olá, sou o{" "}
-            <span
-              onClick={handleConfetti}
-              className="font-bold capitalize text-accent"
-            >
-              {myself.firstName}
-            </span>
-          </p>
+          <span>Olá </span>
           <label className="swap animate-wave swap-flip">
             <input type="checkbox" />
             <span className="swap-on">🤙🏻</span>
             <span className="swap-off">🖐🏻</span>
           </label>
+          <span>, sou o {myself.firstName}</span>
         </div>
         <Spotlight
           className="top-44 sm:top-64 md:top-10 xl:top-0 2xl:-top-20 3xl:-top-80 4xl:-top-1/3 -left-8 sm:-left-24 lg:-left-1 xl:left-20 4xl:left-1/4"
           fill="oklch(var(--bc))"
         />
-        <div className="flex justify-center md:w-2/3 text-center mt-6 xl:mt-12">
-          <p className="text-3xl sm:text-4xl md:text-5xl font-suisse-book">
-            {myself.description}
-          </p>
+        <div className="flex flex-row justify-center md:w-2/3">
+          <span className="text-center mt-6 xl:mt-12 text-3xl sm:text-4xl md:text-5xl font-suisse-book">
+            <CoolMode options={{ particle: "/beetle.png" }}>
+              <a>
+                <SparklesText
+                  text={myself.role}
+                  className="text-3xl sm:text-4xl md:text-5xl text-accent"
+                />
+              </a>
+            </CoolMode>
+            <span> {myself.description}</span>
+          </span>
         </div>
       </div>
       <Link href="#projects">

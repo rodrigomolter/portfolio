@@ -16,7 +16,7 @@ export const myself = {
   linkedin: "https://www.linkedin.com/in/rodrigo-molter/",
   whatsapp: "https://wa.me/+5551998832787",
   description:
-    "QA Engineer focado em assegurar que confiança e qualidade caminhem lado a lado.",
+    "focado em assegurar que confiança e qualidade caminhem lado a lado.",
   bulletPoints: ["🐞 além do bug", "🦙 AI enthusiast", "🍵 tea lover"],
 }
 
