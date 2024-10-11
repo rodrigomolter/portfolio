@@ -18,7 +18,11 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Hero */}
-      <BlurFade className="lg:z-20">
+      <Spotlight
+        className="top-44 sm:top-64 md:top-10 xl:top-0 2xl:-top-20 3xl:-top-80 4xl:-top-1/3 -left-8 sm:-left-24 lg:-left-1 xl:left-20 4xl:left-1/4"
+        fill="oklch(var(--bc))"
+      />
+      <BlurFade>
         <div className="flex flex-col justify-start sm:justify-center md:justify-start items-center h-[70vh] 2xl:h-[60vh] min-h-[500px] lg:min-h-[600px] max-h-[800px]  2xl:max-h-[700px] m-4 lg:mx-10 gap-4">
           <Image
             src="/self.png"
@@ -51,10 +55,6 @@ export default function Home() {
             </label>
             <span>, sou o {myself.firstName}.</span>
           </div>
-          <Spotlight
-            className="top-44 sm:top-64 md:top-10 xl:top-0 2xl:-top-20 3xl:-top-80 4xl:-top-1/3 -left-8 sm:-left-24 lg:-left-1 xl:left-20 4xl:left-1/4"
-            fill="oklch(var(--bc))"
-          />
           <div className="flex flex-row justify-center md:w-2/3">
             <span className="text-center mt-6 xl:mt-12 text-3xl sm:text-4xl md:text-5xl font-roboto font-bold">
               <CoolMode options={{ particle: "/emojis/beetle.png" }}>
