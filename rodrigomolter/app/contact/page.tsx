@@ -53,14 +53,25 @@ export default function Contact() {
     >
       <div className="flex flex-col justify-center items-center h-full gap-16 sm:gap-28 3xl:gap-32 mx-2 font-suisse-book">
         <p className="flex flex-col justify-center items-center text-6xl sm:text-7xl 3xl:text-8xl text-center ">
-          <Image
-            src="/emojis/raising-hand.png"
-            alt="Homem com a mão levantada"
-            height={100}
-            width={100}
-            className="mr-1 -translate-y-4"
-            unoptimized
-          />
+          <label className="swap swap-flip">
+            <input type="checkbox" />
+            <Image
+              src="/emojis/raising-hand.png"
+              alt="Homem acenando."
+              height={125}
+              width={125}
+              className="swap-on"
+              unoptimized
+            />
+            <Image
+              src="/emojis/man-computer.png"
+              alt="Homem no computador."
+              height={125}
+              width={125}
+              className="swap-off"
+              unoptimized
+            />
+          </label>
           Vamos conversar!
         </p>
         <div className="flex flex-col justify-center items-center gap-2">
