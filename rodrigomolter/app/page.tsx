@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
-import confetti from "canvas-confetti"
 
 import { PulsingMouseIcon } from "@/app/components/icons/pulsing-mouse-icon"
 import { Spotlight } from "@/app/components/ui/spotlight"
@@ -19,7 +18,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Hero */}
-      <BlurFade className="z-50">
+      <BlurFade className="lg:z-20">
         <div className="flex flex-col justify-start sm:justify-center md:justify-start items-center h-[70vh] 2xl:h-[60vh] min-h-[500px] lg:min-h-[600px] max-h-[800px]  2xl:max-h-[700px] m-4 lg:mx-10 gap-4">
           <Image
             src="/self.png"

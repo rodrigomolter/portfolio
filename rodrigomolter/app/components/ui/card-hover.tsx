@@ -36,7 +36,7 @@ export function CardHover({
           )}
         >
           <div className="absolute inset-x-0 h-[2px] w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-accent to-transparent" />
-          <div className="z-30 p-6 bg-zinc-800/60 backdrop-blur-md h-28">
+          <div className="z-10 p-6 bg-zinc-800/60 backdrop-blur-md h-28">
             <h1 className="font-bold text-3xl text-gray-50">{title}</h1>
           </div>
         </div>

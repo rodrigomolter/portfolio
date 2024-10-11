@@ -58,7 +58,7 @@ export function MobileNavDropdown() {
   }, [isOpen])
 
   return (
-    <div className="relative z-40 md:hidden">
+    <div className="relative z-30 md:hidden">
       <HamburgerDropdownIcon
         isOpen={isOpen}
         toggleMenu={() => setIsOpen((prev) => !prev)}

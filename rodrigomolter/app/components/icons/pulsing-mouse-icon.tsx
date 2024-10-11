@@ -5,7 +5,7 @@ import { BsMouse } from "react-icons/bs"
 
 export function PulsingMouseIcon() {
   const [showIcon, setShowIcon] = useState(false)
-  const DELAY = 4000 // 4 seconds
+  const DELAY = 5000 // 4 seconds
 
   useEffect(() => {
     let timer = setTimeout(() => {
