@@ -30,7 +30,16 @@ export default function About() {
               </div>
               <div className="px-4 md:w-2/3 space-y-4">
                 <p>
-                  Oi, aceita um chá? 🍵 <br />
+                  Oi, aceita um chá?{" "}
+                  <Image
+                    src="/emojis/tea.png"
+                    alt="Chá"
+                    height={30}
+                    width={30}
+                    className="inline -translate-y-2"
+                    unoptimized
+                  />
+                  <br />
                 </p>
                 <p>
                   Me chamo Rodrigo, moro no{" "}
@@ -41,7 +50,15 @@ export default function About() {
                   >
                     Rio Grande do Sul
                   </a>{" "}
-                  🧉 e atuo com QA voluntário na{" "}
+                  <Image
+                    src="/emojis/mate.png"
+                    alt="Chimarrão"
+                    height={25}
+                    width={25}
+                    className="inline -translate-y-1"
+                    unoptimized
+                  />{" "}
+                  e atuo com QA voluntário na{" "}
                   <a href="/docunder" target="_blank" className="link">
                     Docunder
                   </a>

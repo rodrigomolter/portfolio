@@ -30,10 +30,24 @@ export default function Home() {
           />
           <div className="flex justify-start items-center text-3xl font-suisse-book">
             <span>Olá </span>
-            <label className="swap animate-wave swap-flip">
+            <label className="swap swap-flip">
               <input type="checkbox" />
-              <span className="swap-on">🤙🏻</span>
-              <span className="swap-off">🖐🏻</span>
+              <Image
+                src="/emojis/horns.png"
+                alt="Waving Hand"
+                height={50}
+                width={50}
+                className="swap-on"
+                unoptimized
+              />
+              <Image
+                src="/emojis/waving.png"
+                alt="Waving Hand"
+                height={50}
+                width={50}
+                className="swap-off -translate-y-2"
+                unoptimized
+              />
             </label>
             <span>, sou o {myself.firstName}.</span>
           </div>
@@ -43,7 +57,7 @@ export default function Home() {
           />
           <div className="flex flex-row justify-center md:w-2/3">
             <span className="text-center mt-6 xl:mt-12 text-3xl sm:text-4xl md:text-5xl font-suisse-book">
-              <CoolMode options={{ particle: "/beetle.png" }}>
+              <CoolMode options={{ particle: "/emojis/beetle.png" }}>
                 <a>
                   <SparklesText
                     text={myself.role}

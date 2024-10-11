@@ -4,13 +4,11 @@ import Link from "next/link"
 
 export function CardHover({
   title,
-  description,
   src,
   image,
   video = "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWlodTF3MjJ3NnJiY3Rlc2J0ZmE0c28yeWoxc3gxY2VtZzA5ejF1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/syEfLvksYQnmM/giphy.gif",
 }: {
   title: string
-  description: string
   src: string
   image: string
   video?: string

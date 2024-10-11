@@ -5,8 +5,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/app/components/ui/carousel"
 
 import { projects } from "@/data/info"
@@ -109,8 +107,6 @@ export function ProjectCarousel() {
           )
         )}
       </CarouselContent>
-      {/* <CarouselPrevious /> */}
-      {/* <CarouselNext /> */}
     </Carousel>
   )
 }
