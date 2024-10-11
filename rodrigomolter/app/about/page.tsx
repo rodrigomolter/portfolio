@@ -13,7 +13,7 @@ export default function About() {
       <FakeTerminalWindow>
         <main>
           <section className="text-lg md:px-6">
-            <h1 className="text-accent text-3xl md:text-4xl font-bold mb-8 mt-2">
+            <h1 className="text-accent text-3xl md:text-4xl font-roboto mb-8 mt-2">
               Sobre mim.
             </h1>
             <div className="flex flex-col md:flex-row-reverse items-center gap-8">
@@ -46,7 +46,7 @@ export default function About() {
                   <a
                     href="https://www.youtube.com/shorts/Y80_IYTARyg"
                     target="_blank"
-                    className="link"
+                    className="link hover:text-accent"
                   >
                     Rio Grande do Sul
                   </a>{" "}
@@ -59,7 +59,11 @@ export default function About() {
                     unoptimized
                   />{" "}
                   e atuo com QA voluntário na{" "}
-                  <a href="/docunder" target="_blank" className="link">
+                  <a
+                    href="/docunder"
+                    target="_blank"
+                    className="link hover:text-accent"
+                  >
                     Docunder
                   </a>
                   , contribuindo com a execução de testes manuais, automatizados
@@ -90,7 +94,7 @@ export default function About() {
                 <p>
                   Além de tecnologia, sou apaixonado por{" "}
                   <a
-                    className="link"
+                    className="link hover:text-accent"
                     href="https://www.youtube.com/watch?v=LL75xQGXhOM"
                     target="_blank"
                   >

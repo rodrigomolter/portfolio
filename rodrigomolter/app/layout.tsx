@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { ThemeProvider } from "next-themes"
-import { Nunito } from "next/font/google"
+import { Nunito, Roboto } from "next/font/google"
 import { Toaster } from "sonner"
 import { Analytics } from "@vercel/analytics/react"
 
@@ -11,6 +11,13 @@ import { Footer } from "@/app/components/footer"
 import { myself } from "@/data/info"
 
 const nunito = Nunito({ subsets: ["latin"] })
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto",
+  weight: ["500", "700"],
+})
 
 export const metadata: Metadata = {
   title: `${myself.fullName} | Portfolio`,
@@ -25,7 +32,9 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" />
-      <body className={`${nunito.className} transition-colors duration-100`}>
+      <body
+        className={`${nunito.className} ${roboto.variable} transition-colors duration-100`}
+      >
         <ThemeProvider themes={["winter", "dracula"]} defaultTheme="dracula">
           <div className="max-w-screen-lg xl:max-w-screen-2xl min-h-screen mx-auto flex flex-col justify-center items-center">
             <Navbar />

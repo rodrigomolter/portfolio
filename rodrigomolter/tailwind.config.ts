@@ -15,7 +15,7 @@ const config: Config = {
         "4xl": "3840px",
       },
       fontFamily: {
-        "suisse-book": ["Suisse Intl Book", "sans-serif"],
+        roboto: ["var(--font-roboto)"],
       },
       colors: {
         "logo-primary": "#eab308",

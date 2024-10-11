@@ -51,8 +51,8 @@ export default function Contact() {
       id="contact"
       className="w-[calc(100vw-20px)] bg-base-300 h-[85vh] sm:h-[90vh] mt-20"
     >
-      <div className="flex flex-col justify-center items-center h-full gap-16 sm:gap-28 3xl:gap-32 mx-2 font-suisse-book">
-        <p className="flex flex-col justify-center items-center text-6xl sm:text-7xl 3xl:text-8xl text-center ">
+      <div className="flex flex-col justify-center items-center h-full gap-16 sm:gap-28 3xl:gap-32 mx-2 font-roboto">
+        <p className="flex flex-col justify-center items-center text-6xl sm:text-7xl 3xl:text-8xl text-center font-bold">
           <label className="swap swap-flip">
             <input type="checkbox" />
             <Image

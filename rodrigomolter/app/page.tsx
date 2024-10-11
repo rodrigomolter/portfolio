@@ -28,7 +28,7 @@ export default function Home() {
             className="bg-gradient-to-br from-accent to-logo-primary rounded-full w-[150px] sm:w-[200px] rotate-3"
             priority={true}
           />
-          <div className="flex justify-start items-center text-3xl font-suisse-book">
+          <div className="flex justify-start items-center text-3xl font-roboto">
             <span>Olá </span>
             <label className="swap swap-flip">
               <input type="checkbox" />
@@ -56,7 +56,7 @@ export default function Home() {
             fill="oklch(var(--bc))"
           />
           <div className="flex flex-row justify-center md:w-2/3">
-            <span className="text-center mt-6 xl:mt-12 text-3xl sm:text-4xl md:text-5xl font-suisse-book">
+            <span className="text-center mt-6 xl:mt-12 text-3xl sm:text-4xl md:text-5xl font-roboto font-bold">
               <CoolMode options={{ particle: "/emojis/beetle.png" }}>
                 <a>
                   <SparklesText

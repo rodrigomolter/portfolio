@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function Footer() {
   return (
-    <footer className="px-6 w-full text-center my-8 opacity-80">
+    <footer className="px-6 w-full text-center my-8 opacity-80 font-roboto">
       <div className="divider" />
       <div className="mb-6">
         <span>Made with </span>
@@ -18,7 +18,7 @@ export function Footer() {
         <span> by </span>
         <a
           href="https://www.linkedin.com/in/rodrigo-molter/"
-          className="link"
+          className="link hover:text-accent"
           target="_blank"
         >
           Rodrigo Molter

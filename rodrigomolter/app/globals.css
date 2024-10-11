@@ -14,13 +14,6 @@ html {
   @apply transition-colors duration-200;
 }
 
-@font-face {
-  font-family: "Suisse Intl Book";
-  src: url(/fonts/SuisseIntl-Book-WebTrial.woff2);
-  font-weight: normal;
-  font-style: normal;
-}
-
 #projects,
 #about,
 #contact {

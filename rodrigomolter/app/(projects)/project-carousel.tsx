@@ -60,7 +60,7 @@ export function ProjectCarousel() {
                         {logo}
                       </div>
                       <div>
-                        <h1 className="text-2xl sm:text-3xl font-semibold">
+                        <h1 className="text-2xl sm:text-3xl font-roboto">
                           {name}
                         </h1>
                         <p className="hidden lg:flex pt-2">{description}</p>
