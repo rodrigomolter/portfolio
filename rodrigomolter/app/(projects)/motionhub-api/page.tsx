@@ -16,7 +16,7 @@ export const metadata = {
   openGraph: {
     title: `${thisProject.name} | ${myself.fullName}`,
     description: thisProject.description,
-    url: parseURL(),
+    url: parseURL(thisProject.url),
     siteName: `${myself.fullName} | Portfolio`,
     images: [
       {
