@@ -21,7 +21,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: `${myself.fullName} | Portfolio`,
-  description: myself.description,
+  description: `${myself.fullName} é um ${myself.role} ${myself.description}`,
 }
 
 export default function RootLayout({
@@ -31,7 +31,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" />
       <body
         className={`${nunito.className} ${roboto.variable} transition-colors duration-100`}
       >
