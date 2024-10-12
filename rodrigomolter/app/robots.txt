@@ -1,0 +1,28 @@
+User-Agent: *
+Allow: /
+
+User-agent: GPTBot
+Disallow: /contact
+
+User-agent: ChatGPT-User
+Disallow: /contact
+
+User-agent: Google-Extended
+Disallow: /contact
+
+User-agent: CCBot
+Disallow: /contact
+
+User-agent: PerplexityBot
+Disallow: /contact
+
+User-agent: anthropic-ai
+Disallow: /contact
+‍User-agent: Claude-Web
+Disallow: /contact
+User-agent: ClaudeBot
+Disallow: /contact
+
+
+
+Sitemap: https://rodrigomolter.com/sitemap.xml
