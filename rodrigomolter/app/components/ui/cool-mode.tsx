@@ -1,3 +1,5 @@
+"use client"
+
 import React, { ReactNode, RefObject, useEffect, useRef } from "react"
 
 export interface BaseParticle {

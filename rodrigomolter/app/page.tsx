@@ -1,4 +1,3 @@
-"use client"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -8,11 +7,31 @@ import { ProjectCarousel } from "@/app/(projects)/project-carousel"
 import SparklesText from "@/app/components/ui/sparkle-text"
 import { CoolMode } from "@/app/components/ui/cool-mode"
 import { BlurFade } from "@/app/components/ui/blur-fade"
+import { parseURL } from "@/app/lib/utils"
 
 import About from "@/app/about/page"
 import Contact from "@/app/contact/page"
 
 import { myself } from "@/data/info"
+
+export const metadata = {
+  title: `${myself.fullName} | Portfolio`,
+  description: `${myself.fullName} é um ${myself.role} ${myself.description}`,
+  openGraph: {
+    title: `${myself.fullName} | Portfolio`,
+    description: `${myself.fullName} é um ${myself.role} ${myself.description}`,
+    url: parseURL(),
+    siteName: `${myself.fullName} | Portfolio`,
+    images: [
+      {
+        url: parseURL("/banner.png"),
+        width: 1200,
+        heigth: 600,
+        alt: `${myself.fullName} | Portfolio`,
+      },
+    ],
+  },
+}
 
 export default function Home() {
   return (
