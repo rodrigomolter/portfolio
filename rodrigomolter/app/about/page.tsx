@@ -12,7 +12,7 @@ export default function About() {
     <div id="about" className="mx-4 mt-12">
       <FakeTerminalWindow>
         <main>
-          <section className="text-lg md:px-6">
+          <section className="text-lg md:px-6 leading-relaxed">
             <h1 className="text-accent text-3xl md:text-4xl font-roboto mb-8 mt-2">
               Sobre mim.
             </h1>
