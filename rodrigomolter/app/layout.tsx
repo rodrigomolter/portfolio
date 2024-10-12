@@ -47,7 +47,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${nunito.className} ${roboto.variable} transition-colors duration-100`}
+        className={`${nunito.className} ${roboto.variable} transition-colors duration-100 `}
       >
         <ThemeProvider themes={["winter", "dracula"]} defaultTheme="dracula">
           <div className="max-w-screen-lg xl:max-w-screen-2xl min-h-screen mx-auto flex flex-col justify-center items-center">

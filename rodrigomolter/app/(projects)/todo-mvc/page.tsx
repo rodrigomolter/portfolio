@@ -40,8 +40,8 @@ export default function TodoMVC() {
               <Image
                 alt="TodoMVC"
                 src="/projects/todo-mvc/todo-mvc-logo.svg"
-                width={1080}
-                height={120}
+                width={500}
+                height={85}
                 className="mx-4 w-[80vw] md:w-[60vw] xl:w-[40vw] h-auto bg-zinc-100 p-8"
               />
               <nav className="text-4xl pt-6">
