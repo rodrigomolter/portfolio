@@ -1,41 +1,10 @@
 "use client"
-import Link from "next/link"
-import { navLinks } from "@/app/components/nav/navbar"
 import { useState, useEffect } from "react"
+import Link from "next/link"
 
-const HamburgerDropdownIcon = ({
-  isOpen,
-  toggleMenu,
-}: {
-  isOpen: boolean
-  toggleMenu: () => void
-}) => {
-  return (
-    <label className="btn btn-circle swap swap-rotate">
-      <input type="checkbox" checked={isOpen} onChange={toggleMenu} />
-      {/* Ícone de hambúrguer */}
-      <svg
-        className="swap-off fill-current"
-        xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
-        viewBox="0 0 512 512"
-      >
-        <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-      </svg>
-      {/* Ícone de fechar */}
-      <svg
-        className="swap-on fill-current"
-        xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
-        viewBox="0 0 512 512"
-      >
-        <polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
-      </svg>
-    </label>
-  )
-}
+import { navLinks } from "@/app/components/nav/navbar"
+import { SocialIcons } from "@/app/components/icons/social-icons"
+import { HamburgerDropdownIcon } from "@/app/components/icons/hamburguer-dropdown-icon"
 
 export function MobileNavDropdown() {
   const [isOpen, setIsOpen] = useState(false)
@@ -58,26 +27,31 @@ export function MobileNavDropdown() {
   }, [isOpen])
 
   return (
-    <div className="relative z-30 md:hidden">
+    <div className="relative z-20 md:hidden">
       <HamburgerDropdownIcon
         isOpen={isOpen}
-        toggleMenu={() => setIsOpen((prev) => !prev)}
+        toggleMenu={() => setIsOpen((isOpen) => !isOpen)}
       />
       {isOpen && (
-        <ul
-          tabIndex={0}
-          className="absolute right-0 mt-2 w-48 bg-base-200 p-4 rounded-box shadow gap-6 text-lg"
-        >
-          {navLinks
-            .filter((link) => link.mobile)
-            .map((link, index) => (
-              <li key={index}>
-                <Link href={link.href} onClick={() => setIsOpen(false)}>
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-        </ul>
+        <div className="absolute flex flex-col items-center -right-4 top-14 w-[100vw] h-[90vh] sm:h-[95vh] bg-base-300 rounded-xl">
+          <ul
+            tabIndex={0}
+            className="absolute flex flex-col bottom-1/2 text-center gap-8 text-3xl font-roboto uppercase"
+          >
+            {navLinks
+              .filter((link) => link.mobile)
+              .map((link, index) => (
+                <li key={index}>
+                  <Link href={link.href} onClick={() => setIsOpen(false)}>
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+          </ul>
+          <div className="absolute bottom-20">
+            <SocialIcons />
+          </div>
+        </div>
       )}
     </div>
   )
