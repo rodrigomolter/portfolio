@@ -31,7 +31,7 @@ export function Navbar() {
           </div>
         </Link>
 
-        <ul className="flex flex-row gap-x-8 lg:gap-x-12 justify-end items-center text-xl scroll-smooth">
+        <ul className="flex flex-row gap-x-8 lg:gap-x-12 justify-end items-center text-xl">
           {navLinks.map((link, index) => (
             <li key={index}>
               <Link
