@@ -6,12 +6,28 @@ import { ImageModal } from "@/app/components/image-modal"
 import { FakeTerminalWindow } from "@/app/components/terminal/fake-terminal-window"
 import { CitationBlock } from "@/app/(projects)/citation-block"
 import { SimilarProjects } from "@/app/(projects)/similar-projects"
+import { parseURL } from "@/app/lib/utils"
 
-import { projects } from "@/data/info"
+import { myself, projects } from "@/data/info"
 
+const thisProject = projects.todoMVC
 export const metadata = {
-  title: "✍ Todo MVC | Rodrigo Molter",
-  description: projects.todoMVC.description,
+  title: `${thisProject.name} | ${myself.fullName}`,
+  description: thisProject.description,
+  openGraph: {
+    title: `${thisProject.name} | ${myself.fullName}`,
+    description: thisProject.description,
+    url: parseURL(),
+    siteName: `${myself.fullName} | Portfolio`,
+    images: [
+      {
+        url: parseURL(thisProject.image),
+        width: 1200,
+        heigth: 900,
+        alt: `Projeto ${thisProject.name}`,
+      },
+    ],
+  },
 }
 
 export default function TodoMVC() {

@@ -2,11 +2,6 @@ import Image from "next/image"
 import { FakeTerminalWindow } from "@/app/components/terminal/fake-terminal-window"
 import { ImageTerminalWindow } from "@/app/components/terminal/image-terminal-window"
 
-// export const metadata = {
-//   title: "Sobre o Rodrigo | Rodrigo Molter",
-//   description: "Um pouco mais sobre quem é Rodrigo Molter",
-// }
-
 export default function About() {
   return (
     <div id="about" className="mx-4 mt-12">

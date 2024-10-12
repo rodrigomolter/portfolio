@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
 import { Navbar } from "@/app/components/nav/navbar"
 import { Footer } from "@/app/components/footer"
+import { parseURL } from "@/app/lib/utils"
 
 import { myself } from "@/data/info"
 
@@ -19,9 +20,23 @@ const roboto = Roboto({
   weight: ["500", "700"],
 })
 
-export const metadata: Metadata = {
+export const metadata = {
   title: `${myself.fullName} | Portfolio`,
   description: `${myself.fullName} é um ${myself.role} ${myself.description}`,
+  openGraph: {
+    title: `${myself.fullName} | Portfolio`,
+    description: `${myself.fullName} é um ${myself.role} ${myself.description}`,
+    url: parseURL(),
+    siteName: `${myself.fullName} | Portfolio`,
+    images: [
+      {
+        url: parseURL("/banner.png"),
+        width: 1200,
+        heigth: 600,
+        alt: `${myself.fullName} | Portfolio`,
+      },
+    ],
+  },
 }
 
 export default function RootLayout({

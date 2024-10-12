@@ -5,13 +5,30 @@ import { FakeTerminalWindow } from "@/app/components/terminal/fake-terminal-wind
 import { ImageModal } from "@/app/components/image-modal"
 import { SimilarProjects } from "@/app/(projects)/similar-projects"
 
-import { projects } from "@/data/info"
 import bugsPorCenario from "@/public/projects/beedoo/beedoo-bugs-cenario.svg"
 import casosPorCenario from "@/public/projects/beedoo/beedoo-casos-testes-cenario.svg"
+import { parseURL } from "@/app/lib/utils"
 
+import { myself, projects } from "@/data/info"
+
+const thisProject = projects.beedoo
 export const metadata = {
-  title: "🐝 Desafio Beedoo | Rodrigo Molter",
-  description: projects.beedoo.description,
+  title: `${thisProject.name} | ${myself.fullName}`,
+  description: thisProject.description,
+  openGraph: {
+    title: `${thisProject.name} | ${myself.fullName}`,
+    description: thisProject.description,
+    url: parseURL(),
+    siteName: `${myself.fullName} | Portfolio`,
+    images: [
+      {
+        url: parseURL(thisProject.image),
+        width: 1200,
+        heigth: 900,
+        alt: `Projeto ${thisProject.name}`,
+      },
+    ],
+  },
 }
 
 export default function Beedoo() {

@@ -4,13 +4,30 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6"
 import { FakeTerminalWindow } from "@/app/components/terminal/fake-terminal-window"
 import { ImageModal } from "@/app/components/image-modal"
 import { SimilarProjects } from "@/app/(projects)/similar-projects"
+import { parseURL } from "@/app/lib/utils"
 
-import { myself, projects } from "@/data/info"
 import DocunderLogo from "@/app/components/logo/docunder-logo"
 
+import { myself, projects } from "@/data/info"
+
+const thisProject = projects.docunder
 export const metadata = {
-  title: "📘 Docunder | Rodrigo Molter",
-  description: projects.docunder.description,
+  title: `${thisProject.name} | ${myself.fullName}`,
+  description: thisProject.description,
+  openGraph: {
+    title: `${thisProject.name} | ${myself.fullName}`,
+    description: thisProject.description,
+    url: parseURL(),
+    siteName: `${myself.fullName} | Portfolio`,
+    images: [
+      {
+        url: parseURL(thisProject.image),
+        width: 1200,
+        heigth: 900,
+        alt: `Projeto ${thisProject.name}`,
+      },
+    ],
+  },
 }
 
 export default function Docunder() {

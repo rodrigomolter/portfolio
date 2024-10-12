@@ -5,13 +5,29 @@ import { CitationBlock } from "@/app/(projects)/citation-block"
 import { FakeTerminalWindow } from "@/app/components/terminal/fake-terminal-window"
 import { ImageModal } from "@/app/components/image-modal"
 import { SimilarProjects } from "@/app/(projects)/similar-projects"
+import { parseURL } from "@/app/lib/utils"
 
-import { projects } from "@/data/info"
 import GuardioesQualidadeLogo from "@/app/components/logo/guardioes-qualidade-logo"
+import { myself, projects } from "@/data/info"
 
+const thisProject = projects.amigosEntregadores
 export const metadata = {
-  title: "🏍️ Amigos Entregadores | Rodrigo Molter",
-  description: projects.amigosEntregadores.description,
+  title: `${thisProject.name} | ${myself.fullName}`,
+  description: thisProject.description,
+  openGraph: {
+    title: `${thisProject.name} | ${myself.fullName}`,
+    description: thisProject.description,
+    url: parseURL(),
+    siteName: `${myself.fullName} | Portfolio`,
+    images: [
+      {
+        url: parseURL(thisProject.image),
+        width: 1200,
+        heigth: 900,
+        alt: `Projeto ${thisProject.name}`,
+      },
+    ],
+  },
 }
 
 export default function AmigosEntregadores() {
