@@ -27,13 +27,13 @@ export function MobileNavDropdown() {
   }, [isOpen])
 
   return (
-    <div className="relative z-20 md:hidden">
+    <div className="relative z-1 md:hidden ">
       <HamburgerDropdownIcon
         isOpen={isOpen}
         toggleMenu={() => setIsOpen((isOpen) => !isOpen)}
       />
       {isOpen && (
-        <div className="absolute flex flex-col items-center -right-4 top-14 w-[100vw] h-[90vh] sm:h-[95vh] bg-base-300 rounded-xl">
+        <div className="absolute flex flex-col items-center -right-4 top-14 w-[100vw] h-[90vh] sm:h-[95vh] bg-base-300 rounded-xl text-base-content">
           <ul
             tabIndex={0}
             className="absolute flex flex-col bottom-1/2 text-center gap-8 text-3xl font-roboto uppercase"
@@ -41,7 +41,10 @@ export function MobileNavDropdown() {
             {navLinks
               .filter((link) => link.mobile)
               .map((link, index) => (
-                <li key={index}>
+                <li
+                  key={index}
+                  className="active:scale-90 transition-all ease-in-out"
+                >
                   <Link href={link.href} onClick={() => setIsOpen(false)}>
                     {link.label}
                   </Link>

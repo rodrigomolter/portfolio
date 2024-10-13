@@ -23,7 +23,7 @@ export const navLinks = [
 
 export function Navbar() {
   return (
-    <nav className="navbar sticky top-0 pb-0 w-screen lg:w-[calc(100vw-20px)] flex justify-center z-20 mix-blend-difference text-zinc-50 backdrop-blur-0">
+    <nav className="navbar sticky top-0 pb-0 w-screen lg:w-[calc(100vw-20px)] flex justify-center z-20 mix-blend-difference text-zinc-50 backdrop-blur-none">
       <div className="flex justify-between items-center w-full max-w-screen-2xl px-2 pt-4 md:px-12 lg:px-40">
         <Link href="/">
           <RodrigoMolterLogo />
@@ -34,13 +34,13 @@ export function Navbar() {
             <li key={index}>
               <Link
                 href={link.href}
-                className="hidden md:flex p-2 hover:scale-125 transition-all ease-in-out"
+                className="hidden md:flex p-2 hover:scale-125 active:scale-90 transition-all ease-in-out "
               >
                 {link.label}
               </Link>
             </li>
           ))}
-          <li className="p-2 hover:scale-125 transition-all ease-in-out">
+          <li className="p-2 hover:scale-125 active:scale-90 transition-all ease-in-out">
             <DarkModeToggle />
           </li>
           <li>
