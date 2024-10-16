@@ -19,11 +19,6 @@ export function RainbowButton({
 
   if (!mounted) return null
 
-  const logoPath =
-    theme === "dracula"
-      ? "/projects/logo-guardioes-branco.png"
-      : "/projects/logo-guardioes-preto.png"
-
   return (
     <button
       className={cn(

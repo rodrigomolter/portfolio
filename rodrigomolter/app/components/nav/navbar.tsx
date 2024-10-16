@@ -1,7 +1,7 @@
 import Link from "next/link"
 import DarkModeToggle from "@/app/components/nav/dark-mode-toggle"
 import { MobileNavDropdown } from "@/app/components/nav/mobile-nav-menu"
-import { RodrigoMolterLogo } from "../logo/rodrigomolter-logo"
+import { RodrigoMolterLogo } from "@/app/components/logo/rodrigomolter-logo"
 
 export const navLinks = [
   {
@@ -23,8 +23,8 @@ export const navLinks = [
 
 export function Navbar() {
   return (
-    <nav className="navbar sticky top-0 pb-0 w-screen lg:w-[calc(100vw-20px)] flex justify-center z-20 mix-blend-difference text-zinc-50 backdrop-blur-none">
-      <div className="flex justify-between items-center w-full max-w-screen-2xl px-2 pt-4 md:px-12 lg:px-40">
+    <nav className="navbar flex sticky top-0 w-screen lg:w-[calc(100vw-20px)] h-auto justify-center z-10 bg-base-100">
+      <div className="flex justify-between items-center w-full max-w-screen-2xl p-2 md:px-12 lg:px-40">
         <Link href="/">
           <RodrigoMolterLogo />
         </Link>

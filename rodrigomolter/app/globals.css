@@ -13,28 +13,8 @@ html {
   @apply transition-colors duration-200 scroll-smooth;
 }
 
-#projects {
+#projects,
+#contact,
+#about {
   scroll-margin-top: 110px;
-}
-
-@media (max-width: 425px) {
-  #contact {
-    scroll-margin-top: 45px;
-  }
-  #about {
-    scroll-margin-top: 90px;
-  }
-}
-
-@media (max-width: 1024px) {
-  #contact,
-  #about {
-    scroll-margin-top: 110px;
-  }
-}
-
-@media (max-width: 1280px) {
-  #about {
-    scroll-margin-top: 110px;
-  }
 }
