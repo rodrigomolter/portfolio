@@ -45,11 +45,11 @@ export default function Home() {
         <div className="flex flex-col justify-start sm:justify-center md:justify-start items-center h-[70vh] 2xl:h-[60vh] min-h-[500px] md:min-h-[600px] max-h-[800px] 2xl:max-h-[700px] m-4 lg:mx-10 gap-4">
           <Image
             src="/self.png"
-            alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto. A foto possui um fundo cinza."
+            alt="Foto de Rodrigo Molter sorrindo enquanto olha para a câmera. Rodrigo é um homem, com rosto oval e possui barba. Utiliza uma camisa bordo e um casaco preto."
             width={1188}
             height={1232}
             className="bg-gradient-to-br from-accent to-logo-primary rounded-full w-[150px] sm:w-[200px] rotate-3"
-            priority={true}
+            priority
           />
           <div className="flex justify-start items-center text-3xl font-roboto">
             <span>Olá </span>
@@ -62,6 +62,7 @@ export default function Home() {
                 width={50}
                 className="swap-on"
                 unoptimized
+                priority
               />
               <Image
                 src="/emojis/waving.png"

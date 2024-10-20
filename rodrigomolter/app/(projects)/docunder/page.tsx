@@ -23,7 +23,7 @@ export const metadata = {
       {
         url: parseURL(thisProject.image),
         width: 1200,
-        heigth: 900,
+        heigth: 600,
         alt: `Projeto ${thisProject.name}`,
       },
     ],
