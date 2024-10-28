@@ -10,6 +10,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: "https://socials.rodrigomolter.com",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
       url: `${url}/about`,
       lastModified: new Date(),
       changeFrequency: "monthly",
