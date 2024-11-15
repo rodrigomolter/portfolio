@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/cv",
+      "destination": "https://docs.google.com/document/d/1VNWhuJpPg5LXlH3sCnOibG1KdjNl1HK6DakLA1mKooY/edit?usp=sharing",
+      "permanent": true
+    }
+  ]
+}
